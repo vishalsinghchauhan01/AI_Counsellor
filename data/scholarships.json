@@ -1,0 +1,76 @@
+{
+  "scholarships": [
+    {
+      "name": "National Scholarship Portal (NSP) — Pre-Matric Scholarship",
+      "type": "Central Government",
+      "category": "SC / ST / OBC / Minority / PwD",
+      "amount": "Up to INR 1,000/month",
+      "eligibility": "Students of Class 9-10 from SC/ST/OBC/Minority/PwD families with income below INR 2.5 lakh/year",
+      "apply_at": "https://scholarships.gov.in",
+      "deadline": "October-November every year"
+    },
+    {
+      "name": "National Scholarship Portal (NSP) — Post-Matric Scholarship",
+      "type": "Central Government",
+      "category": "SC / ST / OBC / Minority",
+      "amount": "Up to INR 25,000/year",
+      "eligibility": "Students of Class 11 and above including college students from SC/ST/OBC/Minority families. Family income below INR 2.5 lakh/year.",
+      "apply_at": "https://scholarships.gov.in",
+      "deadline": "October-November every year"
+    },
+    {
+      "name": "Uttarakhand State Merit Scholarship",
+      "type": "State Government",
+      "category": "General / All",
+      "amount": "INR 3,000 to 10,000/year",
+      "eligibility": "Uttarakhand domicile students who scored 60%+ in Class 12. For UG courses.",
+      "apply_at": "https://escholarship.uk.gov.in",
+      "deadline": "September-October every year"
+    },
+    {
+      "name": "AICTE — Pragati Scholarship for Girls",
+      "type": "Central Government (AICTE)",
+      "category": "Girls / Women",
+      "amount": "INR 50,000/year",
+      "eligibility": "Girl students in AICTE-approved technical diploma or degree programs. Family income below INR 8 lakh/year. Only 2 girls per family can avail.",
+      "apply_at": "https://www.aicte-india.org/schemes/students-development-schemes/Pragati",
+      "deadline": "November-December every year"
+    },
+    {
+      "name": "AICTE — Saksham Scholarship for Differently Abled",
+      "type": "Central Government (AICTE)",
+      "category": "PwD / Differently Abled",
+      "amount": "INR 50,000/year",
+      "eligibility": "Differently abled students (40%+ disability) in AICTE-approved technical programs. Family income below INR 8 lakh/year.",
+      "apply_at": "https://www.aicte-india.org",
+      "deadline": "November-December every year"
+    },
+    {
+      "name": "IIT Roorkee — Institute Scholarship",
+      "type": "Institution (IIT Roorkee)",
+      "category": "Merit / Means",
+      "amount": "Full tuition fee waiver + INR 1,000/month",
+      "eligibility": "IIT Roorkee students with JEE rank. Merit scholarships for top performers each semester.",
+      "apply_at": "https://www.iitr.ac.in",
+      "deadline": "At time of admission"
+    },
+    {
+      "name": "Uttarakhand CM Scholarships — Medhaavi Chhatra Protsahan",
+      "type": "State Government",
+      "category": "Meritorious students from Uttarakhand",
+      "amount": "INR 50,000 to 1,00,000",
+      "eligibility": "Uttarakhand domicile students scoring 80%+ in Class 12 and getting admission in top colleges.",
+      "apply_at": "https://uk.gov.in",
+      "deadline": "Within 3 months of admission"
+    },
+    {
+      "name": "HDFC Bank Parivartan's ECS (Educational Crisis Scholarship)",
+      "type": "Private / Corporate",
+      "category": "Economic difficulty / Any",
+      "amount": "Up to INR 75,000/year",
+      "eligibility": "Students from economically backward families who are in 11th/12th or college. Family income below INR 2.5 lakh/year.",
+      "apply_at": "https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f",
+      "deadline": "August-September every year"
+    }
+  ]
+}
