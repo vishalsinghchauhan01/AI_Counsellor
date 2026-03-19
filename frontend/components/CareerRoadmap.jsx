@@ -11,7 +11,7 @@ export default function CareerRoadmap({ steps = [] }) {
         <ol className="space-y-2">
           {steps.map((step, i) => (
             <li key={i} className="flex gap-2 text-sm">
-              <span className="flex-shrink-0 w-6 h-6 rounded-full bg-orange-100 text-orange-700 flex items-center justify-center text-xs font-medium">
+              <span className="flex-shrink-0 w-6 h-6 rounded-full bg-primary-100 text-primary-700 flex items-center justify-center text-xs font-medium">
                 {i + 1}
               </span>
               <span className="text-gray-700">{step}</span>

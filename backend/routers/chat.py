@@ -41,8 +41,23 @@ class OnboardingRequest(BaseModel):
 @router.post("/chat")
 async def chat(req: ChatRequest):
     try:
+        # Build a context-aware query for RAG retrieval.
+        # For follow-up messages like "and what about its fees?" we prepend
+        # the last few turns so the embedding captures the real topic.
+        rag_query = req.message
+        if req.history:
+            recent = req.history[-4:]  # last 2 exchanges (user+assistant)
+            summary_parts = []
+            for msg in recent:
+                if msg.role == "user":
+                    summary_parts.append(msg.content)
+                else:
+                    # Only take first 200 chars of assistant reply (enough for topic)
+                    summary_parts.append(msg.content[:200])
+            rag_query = " | ".join(summary_parts) + " | " + req.message
+
         # Retrieve relevant context from database (PostgreSQL/pgvector)
-        context = retrieve_context(req.message, top_k=5)
+        context = retrieve_context(rag_query, top_k=5)
 
         # Build user profile string
         profile_str = "Not collected yet."

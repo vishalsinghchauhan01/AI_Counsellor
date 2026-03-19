@@ -49,19 +49,20 @@ export async function getOnboardingMessage() {
 export async function speechToText(audioBlob) {
   const formData = new FormData()
   formData.append('audio', audioBlob, 'audio.webm')
-  const res = await axios.post(`${API_URL}/api/voice/stt`, formData, {
-    headers: { 'Content-Type': 'multipart/form-data' },
-  })
+  const res = await axios.post(`${API_URL}/api/voice/stt`, formData)
   return res.data.text
 }
 
 export async function textToSpeech(text) {
-  const res = await axios.post(
-    `${API_URL}/api/voice/tts`,
-    { text },
-    { responseType: 'blob' }
-  )
-  return res.data // returns audio blob
+  // Use fetch instead of axios for true streaming — audio starts playing
+  // as soon as the first bytes arrive instead of waiting for the full file
+  const res = await fetch(`${API_URL}/api/voice/tts`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ text }),
+  })
+  if (!res.ok) throw new Error('TTS failed')
+  return await res.blob()
 }
 
 export async function searchColleges(params) {

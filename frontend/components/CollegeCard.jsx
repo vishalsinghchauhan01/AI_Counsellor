@@ -44,7 +44,7 @@ export default function CollegeCard({ college }) {
             href={college.website.startsWith('http') ? college.website : `https://${college.website}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center text-xs font-medium text-orange-600 hover:text-orange-700"
+            className="inline-flex items-center text-xs font-medium text-primary-600 hover:text-primary-700"
           >
             Visit Website →
           </a>

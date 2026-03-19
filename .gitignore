@@ -36,3 +36,15 @@ Thumbs.db
 .cache/
 tmp/
 temp/
+
+# Scraper
+scraper/cache/
+scraper/logs/
+scraper/data/hashes.json
+backend/scraper/run_reports/
+
+# Data backups (auto-generated)
+data/backups/
+
+# Test scripts
+backend/test_*.py

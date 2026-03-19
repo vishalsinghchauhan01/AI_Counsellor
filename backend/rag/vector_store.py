@@ -10,8 +10,8 @@ from dotenv import load_dotenv
 _load_env = Path(__file__).resolve().parent.parent / ".env"
 load_dotenv(_load_env)
 
-DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://postgres:postgres@localhost:5432/uttarapath")
-TABLE_NAME = "uttarapath_vectors"
+DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://postgres:postgres@localhost:5432/ai_counsellor")
+TABLE_NAME = "ai_counsellor_vectors"
 VECTOR_DIM = 1536
 
 
@@ -71,6 +71,18 @@ def ensure_index():
                 print("Index created for faster search.")
             except Exception:
                 conn.rollback()
+    finally:
+        conn.close()
+
+
+def clear_all():
+    """Delete all rows from the vectors table for clean re-ingestion."""
+    conn = get_conn()
+    try:
+        with conn.cursor() as cur:
+            cur.execute(f"DELETE FROM {TABLE_NAME};")
+        conn.commit()
+        print(f"Cleared all vectors from {TABLE_NAME}.")
     finally:
         conn.close()
 

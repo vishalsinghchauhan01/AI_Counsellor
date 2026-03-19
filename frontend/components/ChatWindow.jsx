@@ -1,5 +1,6 @@
 'use client'
 import React, { useEffect, useRef, useState } from 'react'
+import { Target } from 'lucide-react'
 import MessageBubble from './MessageBubble'
 import CollegeCard from './CollegeCard'
 import CareerRoadmap from './CareerRoadmap'
@@ -86,33 +87,37 @@ export default function ChatWindow({
   }
 
   return (
-    <div className="flex flex-col flex-1 overflow-hidden">
-      <div className="flex-1 overflow-y-auto px-3 py-4 space-y-4">
-        {messages.map((msg, i) => (
-          <div key={i}>
-            <MessageBubble message={msg} onSpeak={onSpeak} />
-            {msg.role === 'assistant' && msg.content && (
-              <>
-                <CollegeCardsForMessage
-                  content={msg.content}
-                  collegesCache={collegesCache}
-                  setCollegesCache={setCollegesCache}
-                  resolveCollegesForMessage={resolveCollegesForMessage}
-                />
-                <CareerRoadmap steps={extractRoadmapSteps(msg.content)} />
-              </>
-            )}
-          </div>
-        ))}
-        {isLoading && (
-          <div className="flex gap-2">
-            <div className="w-8 h-8 rounded-full bg-orange-500 flex items-center justify-center text-white text-sm font-bold">
-              U
+    <div className="flex flex-col flex-1 overflow-hidden bg-gradient-to-b from-gray-50/80 to-[var(--background)]">
+      <div className="flex-1 overflow-y-auto px-3 sm:px-4 py-4 space-y-5 max-w-3xl mx-auto w-full">
+        {messages.map((msg, i) => {
+          // Skip the empty assistant placeholder — the loading dots below handle it
+          if (msg.role === 'assistant' && !msg.content) return null
+          return (
+            <div key={i}>
+              <MessageBubble message={msg} onSpeak={onSpeak} />
+              {msg.role === 'assistant' && msg.content && (
+                <>
+                  <CollegeCardsForMessage
+                    content={msg.content}
+                    collegesCache={collegesCache}
+                    setCollegesCache={setCollegesCache}
+                    resolveCollegesForMessage={resolveCollegesForMessage}
+                  />
+                  <CareerRoadmap steps={extractRoadmapSteps(msg.content)} />
+                </>
+              )}
             </div>
-            <div className="bg-white border border-gray-100 shadow-sm rounded-2xl rounded-tl-md px-4 py-3 flex gap-1">
-              <span className="w-2 h-2 rounded-full bg-orange-400 animate-bounce" style={{ animationDelay: '0ms' }} />
-              <span className="w-2 h-2 rounded-full bg-orange-400 animate-bounce" style={{ animationDelay: '150ms' }} />
-              <span className="w-2 h-2 rounded-full bg-orange-400 animate-bounce" style={{ animationDelay: '300ms' }} />
+          )
+        })}
+        {isLoading && (
+          <div className="flex gap-3">
+            <div className="w-9 h-9 rounded-xl bg-primary-500 flex items-center justify-center text-white shadow-soft flex-shrink-0">
+              <Target className="w-4 h-4" strokeWidth={2.5} />
+            </div>
+            <div className="bg-white border border-[var(--border)] shadow-soft rounded-2xl rounded-tl-md px-5 py-3.5 flex gap-1.5 items-center">
+              <span className="w-2 h-2 rounded-full bg-primary-400 animate-bounce" style={{ animationDelay: '0ms' }} />
+              <span className="w-2 h-2 rounded-full bg-primary-400 animate-bounce" style={{ animationDelay: '150ms' }} />
+              <span className="w-2 h-2 rounded-full bg-primary-400 animate-bounce" style={{ animationDelay: '300ms' }} />
             </div>
           </div>
         )}

@@ -53,7 +53,7 @@ export const useStore = create(
         set({ messages: [], sessionId: `session_${Date.now()}` }),
     }),
     {
-      name: 'uttarapath-storage',
+      name: 'ai-counsellor-storage',
       partialize: (state) => ({
         userProfile: state.userProfile,
         isOnboarded: state.isOnboarded,

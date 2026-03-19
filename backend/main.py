@@ -1,11 +1,38 @@
+import logging
+from contextlib import asynccontextmanager
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from dotenv import load_dotenv
-from routers import chat, voice, colleges, user
+from routers import chat, voice, colleges, user, admin
+from scraper.scheduler import start_scheduler, stop_scheduler
 
 load_dotenv()
 
-app = FastAPI(title="AI Counsellor API", version="1.0.0")
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(name)s] %(levelname)s: %(message)s",
+)
+
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    # Initialize PostgreSQL structured data tables
+    from db.schema import init_tables, seed_from_json, is_table_empty
+    from pathlib import Path
+
+    init_tables()
+
+    # Seed from JSON if tables are empty (first-run migration)
+    data_dir = Path(__file__).resolve().parent.parent / "data"
+    if is_table_empty("colleges"):
+        seed_from_json(data_dir)
+
+    start_scheduler()
+    yield
+    stop_scheduler()
+
+
+app = FastAPI(title="AI Counsellor API", version="1.0.0", lifespan=lifespan)
 
 app.add_middleware(
     CORSMiddleware,
@@ -19,6 +46,7 @@ app.include_router(chat.router, prefix="/api", tags=["chat"])
 app.include_router(voice.router, prefix="/api/voice", tags=["voice"])
 app.include_router(colleges.router, prefix="/api/colleges", tags=["colleges"])
 app.include_router(user.router, prefix="/api/user", tags=["user"])
+app.include_router(admin.router, prefix="/api/admin", tags=["admin"])
 
 
 @app.get("/")

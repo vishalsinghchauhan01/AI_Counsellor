@@ -56,10 +56,10 @@ export default function VoiceButton({ onRecordingComplete, disabled = false, cla
       type="button"
       onClick={isRecording ? stopRecording : startRecording}
       disabled={disabled}
-      className={`rounded-full p-2 transition-all focus:outline-none focus:ring-2 focus:ring-orange-400 ${
+      className={`rounded-full p-2 transition-all focus:outline-none focus:ring-2 focus:ring-primary-400 ${
         isRecording
           ? 'bg-red-500 text-white animate-pulse'
-          : 'bg-gray-100 text-gray-700 hover:bg-orange-100 hover:text-orange-600'
+          : 'bg-gray-100 text-gray-700 hover:bg-primary-100 hover:text-primary-600'
       } ${className}`}
       aria-label={isRecording ? 'Stop recording' : 'Start voice input'}
     >
