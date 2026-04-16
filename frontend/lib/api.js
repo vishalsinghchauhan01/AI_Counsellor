@@ -3,7 +3,7 @@ import axios from 'axios'
 const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000'
 
 export async function sendChatMessage(message, history, userProfile, onChunk, onDone, options = {}) {
-  const { signal } = options
+  const { signal, onSources } = options
   const response = await fetch(`${API_URL}/api/chat`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
@@ -35,6 +35,7 @@ export async function sendChatMessage(message, history, userProfile, onChunk, on
         try {
           const parsed = JSON.parse(data)
           if (parsed.content) onChunk(parsed.content)
+          if (parsed.sources && onSources) onSources(parsed.sources)
         } catch (e) {}
       }
     }

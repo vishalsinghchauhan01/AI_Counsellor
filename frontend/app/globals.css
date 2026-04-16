@@ -10,7 +10,7 @@
   --surface: #ffffff;
   --border: #e5e7eb;
   --muted: #6b7280;
-  /* Reserved for ad containers — keeps layout stable when you add ads */
+  /* Reserved for ad containers */
   --ad-slot-bg: #f3f4f6;
   --ad-slot-border: #e5e7eb;
 }
@@ -33,7 +33,41 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* Placeholder for future ad units — use class .ad-slot when you integrate ads */
+/* ── Animations ────────────────────────────────────────────────── */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.animate-in {
+  animation: fadeIn 0.25s ease-out;
+}
+
+.animate-slide-up {
+  animation: slideUp 0.3s ease-out;
+}
+
+/* ── Scrollbar ─────────────────────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9ca3af;
+}
+
+/* ── Ad slots ──────────────────────────────────────────────────── */
 .ad-slot {
   min-height: 50px;
   background: var(--ad-slot-bg);

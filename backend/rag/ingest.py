@@ -36,36 +36,51 @@ def embed_text(text: str) -> list:
 
 
 def college_to_text(college: dict) -> str:
-    """Convert a college dict to a searchable text string"""
+    """Convert a college/university dict to a searchable text string."""
+    # Support both old (college_name) and new (university_name) keys
+    name = college.get('university_name') or college.get('college_name', 'Unknown')
+    abbreviation = college.get('abbreviation', '')
+    aliases = ", ".join(college.get("also_known_as", []) or [])
     courses = ", ".join(college.get("courses_offered", []) or [])
-    fees_parts = [f"{k}: INR {v:,} (total)" for k, v in (college.get("fees", {}) or {}).items() if v]
+    fees_parts = []
+    for k, v in (college.get("fees", {}) or {}).items():
+        if isinstance(v, dict):
+            annual = v.get("annual") or 0
+            total = v.get("total") or 0
+            years = v.get("duration_years") or 0
+            fees_parts.append(f"{k}: INR {annual:,}/year, INR {total:,} total ({years} years)")
+        elif v:
+            fees_parts.append(f"{k}: INR {v:,}/year")
     fees = "; ".join(fees_parts)
     facilities = ", ".join(college.get("facilities", []) or [])
-    exams = ", ".join(college.get("entrance_exam", []) or [])
+    exams = ", ".join(college.get("entrance_exams") or college.get("entrance_exam", []) or [])
 
     avg_pkg = college.get('average_package') or 0
     high_pkg = college.get('highest_package') or 0
     placement = college.get('placement_rate') or 0
+    established = college.get('established') or ''
+    hostel = "Yes" if college.get('hostel_available') else "No"
+    hostel_fee = college.get('hostel_fee_annual')
+    hostel_str = f"{hostel}" + (f" (INR {hostel_fee:,}/year)" if hostel_fee else "")
 
     return f"""
-College: {college.get('college_name', 'Unknown')}
-City: {college.get('city') or ''}
+University: {name}
+Abbreviation: {abbreviation}
+Also Known As: {aliases}
+City: {college.get('city') or ''}, District: {college.get('district') or ''}
 Type: {college.get('institution_type') or ''} — {college.get('institution_subtype') or ''}
-Ownership: {college.get('ownership') or ''}
+Established: {established}
+NIRF Ranking: {college.get('nirf_ranking') or 'Not ranked'}
+NAAC Grade: {college.get('naac_grade') or 'Not available'}
 Courses Offered: {courses}
 Fees: {fees}
-Ranking: {college.get('ranking') or ''}
 Placement Rate: {placement}%
 Average Package: INR {avg_pkg:,}/year
 Highest Package: INR {high_pkg:,}/year
 Entrance Exams Required: {exams}
-Admission Process: {college.get('admission_process') or ''}
+Hostel Available: {hostel_str}
 Facilities: {facilities}
 Website: {college.get('website') or ''}
-Phone: {college.get('phone_number') or ''}
-Email: {college.get('email') or ''}
-Admission Open: {college.get('admission_open_date') or ''}
-Application Deadline: {college.get('application_deadline') or ''}
 """.strip()
 
 
@@ -171,13 +186,26 @@ def _load_data_from_db():
 def _load_data_from_json():
     """Fallback: load data from JSON files."""
     data = {"colleges": [], "careers": [], "exams": [], "scholarships": []}
-    file_map = {
-        "colleges": ("uttarakhand_colleges_db.json", "colleges"),
+
+    # Universities (new curated dataset) — fall back to old colleges_db
+    uni_path = get_data_path("uttarakhand_universities.json")
+    old_path = get_data_path("uttarakhand_colleges_db.json")
+    try:
+        if uni_path.exists():
+            with open(uni_path, "r", encoding="utf-8") as f:
+                data["colleges"] = json.load(f).get("universities", [])
+        elif old_path.exists():
+            with open(old_path, "r", encoding="utf-8") as f:
+                data["colleges"] = json.load(f).get("colleges", [])
+    except Exception:
+        pass
+
+    other_files = {
         "careers": ("career_paths.json", "careers"),
         "exams": ("entrance_exams.json", "exams"),
         "scholarships": ("scholarships.json", "scholarships"),
     }
-    for key, (fname, json_key) in file_map.items():
+    for key, (fname, json_key) in other_files.items():
         path = get_data_path(fname)
         try:
             with open(path, "r", encoding="utf-8") as f:
@@ -213,21 +241,22 @@ def ingest_all_data():
         all_exams = json_data["exams"]
         all_scholarships = json_data["scholarships"]
 
-    # Ingest colleges
-    print(f"Ingesting {len(all_colleges)} colleges...")
+    # Ingest universities/colleges
+    print(f"Ingesting {len(all_colleges)} universities...")
     for college in all_colleges:
+        name = college.get("university_name") or college.get("college_name", "Unknown")
         text = college_to_text(college)
         chunks = chunk_text(text)
         for i, chunk in enumerate(chunks):
             embedding = embed_text(chunk)
-            safe_id = f"college-{ascii_only_id(college['college_name'], 40)}-{i}"
+            safe_id = f"college-{ascii_only_id(name, 40)}-{i}"
             vectors.append({
                 "id": safe_id,
                 "values": embedding,
                 "metadata": {
                     "text": chunk,
                     "source_type": "college",
-                    "college_name": college["college_name"],
+                    "college_name": name,
                     "city": college.get("city", ""),
                     "institution_type": college.get("institution_type", ""),
                 }

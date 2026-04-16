@@ -9,10 +9,12 @@ export default function CollegeCard({ college }) {
   const variant = type.includes('government') ? 'government' : 'private'
   const courses = (college.courses_offered || []).slice(0, 3)
   const fees = college.fees || {}
-  const feeValues = Object.values(fees)
+  const annualFees = Object.values(fees)
+    .map((v) => (typeof v === 'object' && v !== null ? v.annual : v))
+    .filter((v) => typeof v === 'number' && v > 0)
   const feeRange =
-    feeValues.length > 0
-      ? `₹${Math.min(...feeValues).toLocaleString('en-IN')} - ₹${Math.max(...feeValues).toLocaleString('en-IN')}/yr`
+    annualFees.length > 0
+      ? `₹${Math.min(...annualFees).toLocaleString('en-IN')} - ₹${Math.max(...annualFees).toLocaleString('en-IN')}/yr`
       : '—'
 
   return (
@@ -36,8 +38,12 @@ export default function CollegeCard({ college }) {
         <p className="text-xs text-gray-600 mb-2">
           <span className="font-medium">Fees:</span> {feeRange}
         </p>
-        {college.ranking && (
-          <p className="text-xs text-gray-500 mb-3">{college.ranking}</p>
+        {(college.nirf_ranking || college.naac_grade) && (
+          <p className="text-xs text-gray-500 mb-3">
+            {college.nirf_ranking ? `NIRF: ${college.nirf_ranking}` : ''}
+            {college.nirf_ranking && college.naac_grade ? ' | ' : ''}
+            {college.naac_grade ? `NAAC: ${college.naac_grade}` : ''}
+          </p>
         )}
         {college.website && (
           <a

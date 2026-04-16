@@ -1,47 +1,67 @@
 """
-Admin API endpoints for manual scrape triggers and status monitoring.
+Admin API endpoints for reseeding data and status monitoring.
 """
 from fastapi import APIRouter, HTTPException, BackgroundTasks
 
 router = APIRouter()
 
-# In-memory scrape status
-_status = {"running": False, "last_result": None}
+_status = {"reseeding": False, "last_reseed": None}
 
 
-async def _run_pipeline():
-    """Run the pipeline and update status."""
-    from scraper.pipeline import run_full_pipeline
-    try:
-        result = await run_full_pipeline()
-        _status["last_result"] = result
-    except Exception as e:
-        _status["last_result"] = {"status": "error", "message": str(e)}
-    finally:
-        _status["running"] = False
+@router.post("/reseed")
+async def reseed_from_json(background_tasks: BackgroundTasks):
+    """
+    Force re-seed all data from JSON files into PostgreSQL + re-ingest vectors.
+    Use this after updating the JSON files in /data/ to refresh the database
+    without needing to restart the server.
+    """
+    if _status.get("reseeding"):
+        raise HTTPException(status_code=409, detail="A reseed is already running")
+    _status["reseeding"] = True
 
+    async def _run_reseed():
+        try:
+            from db.schema import seed_from_json
+            from rag.ingest import ingest_all_data
+            from rag.vector_store import get_conn
+            from pathlib import Path
 
-@router.post("/scrape")
-async def trigger_scrape(background_tasks: BackgroundTasks):
-    """Manually trigger a full scrape pipeline. Runs in background."""
-    if _status["running"]:
-        raise HTTPException(status_code=409, detail="A scrape is already running")
-    _status["running"] = True
-    background_tasks.add_task(_run_pipeline)
-    return {"status": "started", "message": "Scrape pipeline started in background"}
+            # Drop and recreate colleges table for clean state
+            conn = get_conn()
+            try:
+                with conn.cursor() as cur:
+                    cur.execute("DROP TABLE IF EXISTS colleges CASCADE;")
+                conn.commit()
+            finally:
+                conn.close()
 
+            from db.schema import init_tables
+            init_tables()
 
-@router.get("/scrape/status")
-async def get_scrape_status():
-    """Check current scrape status and last result."""
+            # Seed from JSON
+            data_dir = Path(__file__).resolve().parent.parent.parent / "data"
+            seed_from_json(data_dir)
+
+            # Re-ingest vectors
+            ingest_all_data()
+
+            _status["last_reseed"] = {"status": "success"}
+        except Exception as e:
+            _status["last_reseed"] = {"status": "error", "message": str(e)}
+        finally:
+            _status["reseeding"] = False
+
+    background_tasks.add_task(_run_reseed)
     return {
-        "running": _status["running"],
-        "last_result": _status["last_result"],
+        "status": "started",
+        "message": "Re-seeding from JSON + re-ingesting vectors in background. Check /api/admin/reseed/status for progress.",
     }
 
 
-@router.get("/scrape/history")
-async def get_scrape_history():
-    """Return past scrape run reports."""
-    from scraper.pipeline import load_run_reports
-    return {"reports": load_run_reports()}
+@router.get("/reseed/status")
+async def get_reseed_status():
+    """Check reseed progress."""
+    return {
+        "reseeding": _status.get("reseeding", False),
+        "last_result": _status.get("last_reseed"),
+    }

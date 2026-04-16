@@ -2,9 +2,10 @@ import logging
 from contextlib import asynccontextmanager
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from slowapi import _rate_limit_exceeded_handler
+from slowapi.errors import RateLimitExceeded
 from dotenv import load_dotenv
 from routers import chat, voice, colleges, user, admin
-from scraper.scheduler import start_scheduler, stop_scheduler
 
 load_dotenv()
 
@@ -27,12 +28,14 @@ async def lifespan(app: FastAPI):
     if is_table_empty("colleges"):
         seed_from_json(data_dir)
 
-    start_scheduler()
     yield
-    stop_scheduler()
 
 
 app = FastAPI(title="AI Counsellor API", version="1.0.0", lifespan=lifespan)
+
+# Rate limiting — uses the limiter instance from chat router
+app.state.limiter = chat.limiter
+app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
 
 app.add_middleware(
     CORSMiddleware,

@@ -1,580 +1,2088 @@
 {
   "exams": [
     {
-      "exam_name": "JKBOSE 10th Exam Pattern 2025: Marking Scheme, Questions Typologies and Important Books",
-      "full_name": "",
-      "conducting_body": "",
-      "for_courses": [],
-      "for_colleges": "",
-      "frequency": "",
-      "eligibility": "",
+      "exam_name": "JEE Main",
+      "full_name": "Joint Entrance Examination Main",
+      "conducting_body": "National Testing Agency (NTA)",
+      "for_courses": [
+        "B.Tech",
+        "B.E.",
+        "B.Arch",
+        "B.Planning"
+      ],
+      "for_colleges": "NITs, IIITs, GFTIs (Government Funded Technical Institutes), and many state/private engineering colleges across India",
+      "frequency": "Twice a year (January & April sessions)",
+      "eligibility": "12th pass or appearing with PCM. No age limit. Maximum 3 consecutive years of attempts from year of passing 12th.",
+      "exam_mode": "Online (CBT - Computer Based Test)",
+      "total_marks": 300,
+      "duration_hours": 3.0,
+      "subjects": [
+        "Physics (25 questions)",
+        "Chemistry (25 questions)",
+        "Mathematics (25 questions)",
+        "Each section: 20 MCQs + 5 Numerical Value questions",
+        "+4 for correct, -1 for wrong MCQ, no negative for numerical"
+      ],
+      "official_website": "https://jeemain.nta.nic.in",
+      "uttarakhand_colleges_using": [
+        "NIT Uttarakhand (Srinagar)",
+        "UPES Dehradun",
+        "Graphic Era Deemed University",
+        "DIT University Dehradun",
+        "College of Engineering Roorkee (COER)",
+        "BTKIT Dwarahat",
+        "Uttaranchal University",
+        "GEU Hill University"
+      ],
+      "preparation_tips": "Start in Class 11. Master NCERT textbooks first, then move to HC Verma (Physics), MS Chouhan (Chemistry), RD Sharma & Cengage (Maths). Practice previous year papers. Take mock tests regularly. Focus on time management — 3 hours for 75 questions. January attempt for practice, April for best score."
+    },
+    {
+      "exam_name": "JEE Advanced",
+      "full_name": "Joint Entrance Examination Advanced",
+      "conducting_body": "One of the 7 IITs (rotational basis) under JAB (Joint Admission Board)",
+      "for_courses": [
+        "B.Tech",
+        "B.S.",
+        "B.Arch",
+        "Dual Degree (B.Tech + M.Tech)",
+        "Integrated M.Tech",
+        "Integrated M.Sc"
+      ],
+      "for_colleges": "23 IITs across India (IIT Bombay, Delhi, Madras, Kanpur, Kharagpur, Roorkee, etc.)",
+      "frequency": "Once a year (May/June)",
+      "eligibility": "Must be in top 2,50,000 qualifiers of JEE Main. Age limit: born on or after October 1, 2001 (General). Maximum 2 attempts in consecutive years. Must have scored 75% in 12th (65% for SC/ST).",
+      "exam_mode": "Online (CBT)",
+      "total_marks": 360,
+      "duration_hours": 3.0,
+      "subjects": [
+        "Paper 1 (3 hours): Physics, Chemistry, Mathematics",
+        "Paper 2 (3 hours): Physics, Chemistry, Mathematics",
+        "Mix of MCQ (single correct, multiple correct), Numerical, and Matrix Match questions",
+        "Partial marking in some questions"
+      ],
+      "official_website": "https://jeeadv.ac.in",
+      "uttarakhand_colleges_using": [
+        "IIT Roorkee"
+      ],
+      "preparation_tips": "JEE Advanced requires deeper conceptual understanding than JEE Main. Focus on Irodov & DC Pandey (Physics), JD Lee & Pankaj Singh (Chemistry), Arihant & Vikas Gupta (Maths). Solve previous 20 years' papers. Join a good coaching or follow structured online courses. IIT Roorkee is the dream college for Uttarakhand students — ranks around 1500-5000 can get admission."
+    },
+    {
+      "exam_name": "NEET UG",
+      "full_name": "National Eligibility cum Entrance Test (Undergraduate)",
+      "conducting_body": "National Testing Agency (NTA)",
+      "for_courses": [
+        "MBBS",
+        "BDS",
+        "BAMS",
+        "BHMS",
+        "BVSc",
+        "B.Sc Nursing (AIIMS)",
+        "BUMS",
+        "BNYS"
+      ],
+      "for_colleges": "All government & private medical/dental colleges in India including AIIMS and JIPMER (merged into NEET)",
+      "frequency": "Once a year (May)",
+      "eligibility": "12th pass or appearing with PCB (Physics, Chemistry, Biology). Minimum 50% in PCB aggregate (40% for SC/ST/OBC). Minimum age 17 years. No upper age limit (as per Supreme Court ruling).",
+      "exam_mode": "Offline (Pen & Paper, OMR Sheet)",
+      "total_marks": 720,
+      "duration_hours": 3.33,
+      "subjects": [
+        "Physics (45 questions from 50)",
+        "Chemistry (45 questions from 50)",
+        "Biology - Botany (45 questions from 50)",
+        "Biology - Zoology (45 questions from 50)",
+        "Total: 180 questions from 200 (choose best 45 from each section of 50)",
+        "+4 for correct, -1 for wrong"
+      ],
+      "official_website": "https://neet.nta.nic.in",
+      "uttarakhand_colleges_using": [
+        "AIIMS Rishikesh",
+        "Government Medical College Haldwani",
+        "Veer Chandra Singh Garhwali Government Medical College Srinagar",
+        "HIMS Dehradun",
+        "SGRR Medical College Dehradun",
+        "Seema Dental College Rishikesh",
+        "Graphic Era Medical College"
+      ],
+      "preparation_tips": "NCERT is the Bible for NEET — read every line including examples and diagrams. Biology carries 360/720 marks, so master it thoroughly. Use MTG, Trueman's for Biology; DC Pandey for Physics; VK Jaiswal/MS Chouhan for Chemistry. Practice 10+ years of previous papers. For Uttarakhand state quota (85%), a score of 450-500 can get government medical college admission."
+    },
+    {
+      "exam_name": "NEET PG",
+      "full_name": "National Eligibility cum Entrance Test (Postgraduate)",
+      "conducting_body": "National Board of Examinations (NBE)",
+      "for_courses": [
+        "MD",
+        "MS",
+        "PG Diploma in Medical Specializations"
+      ],
+      "for_colleges": "All government and private medical colleges offering MD/MS across India",
+      "frequency": "Once a year (March)",
+      "eligibility": "MBBS degree from a recognized university with completion of internship. Must have permanent/provisional registration with State Medical Council or MCI.",
+      "exam_mode": "Online (CBT)",
+      "total_marks": 800,
+      "duration_hours": 3.5,
+      "subjects": [
+        "200 MCQs covering all MBBS subjects",
+        "Pre-clinical: Anatomy, Physiology, Biochemistry",
+        "Para-clinical: Pathology, Pharmacology, Microbiology, Forensic Medicine",
+        "Clinical: Medicine, Surgery, OBG, Pediatrics, Orthopedics, ENT, Ophthalmology, etc."
+      ],
+      "official_website": "https://natboard.edu.in",
+      "uttarakhand_colleges_using": [
+        "AIIMS Rishikesh",
+        "Government Medical College Haldwani",
+        "VCSG Medical College Srinagar",
+        "HIMS Dehradun"
+      ],
+      "preparation_tips": "Start preparation during internship. Use Marrow, PrepLadder, or DAMS for structured study. Focus on high-yield subjects: Medicine, Surgery, OBG, PSM. Revise frequently — NEET PG tests breadth over depth. A score of 450+ opens most government seats. Uttarakhand state quota benefits local MBBS graduates."
+    },
+    {
+      "exam_name": "CAT",
+      "full_name": "Common Admission Test",
+      "conducting_body": "Indian Institutes of Management (IIMs) on rotational basis",
+      "for_courses": [
+        "MBA",
+        "PGDM",
+        "Executive MBA",
+        "Fellow Programme in Management (FPM)"
+      ],
+      "for_colleges": "20 IIMs, FMS Delhi, MDI Gurgaon, SPJIMR Mumbai, IIT Bombay (SJMSOM), IIT Delhi (DMS), and 1200+ B-Schools accepting CAT scores",
+      "frequency": "Once a year (November/December)",
+      "eligibility": "Bachelor's degree with minimum 50% marks (45% for SC/ST/PwD) from a recognized university. Final year students can also apply. No age limit.",
+      "exam_mode": "Online (CBT)",
+      "total_marks": 198,
+      "duration_hours": 2.0,
+      "subjects": [
+        "VARC - Verbal Ability & Reading Comprehension (24 questions)",
+        "DILR - Data Interpretation & Logical Reasoning (20 questions)",
+        "QA - Quantitative Ability (22 questions)",
+        "Total: 66 questions in 120 minutes (40 mins per section)",
+        "+3 for correct MCQ, -1 for wrong MCQ, no negative for TITA (non-MCQ)"
+      ],
+      "official_website": "https://iimcat.ac.in",
+      "uttarakhand_colleges_using": [
+        "IIM Kashipur",
+        "UPES Dehradun (MBA)",
+        "DIT University Dehradun",
+        "Graphic Era University"
+      ],
+      "preparation_tips": "Start 6-8 months before exam. For QA: Arun Sharma, for VARC: read newspapers daily (The Hindu, Economist), for DILR: practice sets from CAT previous years. Take 50+ mock tests (IMS, TIME, Career Launcher). IIM Kashipur is in Uttarakhand — 90+ percentile needed. 99+ percentile for top IIMs. Work experience of 1-3 years improves profile significantly."
+    },
+    {
+      "exam_name": "GATE",
+      "full_name": "Graduate Aptitude Test in Engineering",
+      "conducting_body": "IISc Bangalore and 7 IITs jointly (under GATE Committee)",
+      "for_courses": [
+        "M.Tech",
+        "M.E.",
+        "M.S. (by Research)",
+        "PhD",
+        "PSU Recruitment"
+      ],
+      "for_colleges": "All IITs, NITs, IISc, and other top engineering institutes. Also used by 100+ PSUs (ONGC, IOCL, NTPC, BHEL, PGCIL, etc.) for recruitment.",
+      "frequency": "Once a year (February)",
+      "eligibility": "B.Tech/B.E. final year or graduated. Also open to B.Sc, B.Arch, B.Pharm graduates for specific papers. No age limit.",
+      "exam_mode": "Online (CBT)",
+      "total_marks": 100,
+      "duration_hours": 3.0,
+      "subjects": [
+        "30 subject-specific papers available (CS, ME, CE, EE, EC, CH, etc.)",
+        "General Aptitude (15 marks): Verbal + Numerical",
+        "Engineering Mathematics (13 marks)",
+        "Core Subject (72 marks)",
+        "Mix of MCQ (+1/-0.33 or +2/-0.67) and NAT (Numerical Answer Type, no negative)"
+      ],
+      "official_website": "https://gate.iitb.ac.in",
+      "uttarakhand_colleges_using": [
+        "IIT Roorkee (M.Tech)",
+        "NIT Uttarakhand (M.Tech)",
+        "UPES Dehradun",
+        "Graphic Era University"
+      ],
+      "preparation_tips": "Start 6 months before exam. Use Made Easy / ACE Academy study material. For CS: practice programming, algorithms, DBMS, OS, Networks. For core branches: focus on standard textbooks (Signals by Oppenheim, Strength of Materials by Gere, etc.). GATE score valid for 3 years. A top 1000 rank can get IIT Roorkee M.Tech. PSU cutoffs vary — GATE score of 600+ (out of 1000) is competitive for top PSUs."
+    },
+    {
+      "exam_name": "CLAT",
+      "full_name": "Common Law Admission Test",
+      "conducting_body": "Consortium of National Law Universities (NLUs)",
+      "for_courses": [
+        "BA LLB (5-year Integrated)",
+        "BBA LLB",
+        "B.Com LLB",
+        "LLM (1-year)"
+      ],
+      "for_colleges": "22 National Law Universities (NLU Delhi, NLSIU Bangalore, NALSAR Hyderabad, NLU Jodhpur, etc.) and 60+ affiliated law colleges",
+      "frequency": "Once a year (December)",
+      "eligibility": "UG (5-year LLB): 12th pass with 45% (40% for SC/ST). No age limit. PG (LLM): LLB/BA LLB with 50% (45% for SC/ST).",
+      "exam_mode": "Online (CBT)",
+      "total_marks": 150,
+      "duration_hours": 2.0,
+      "subjects": [
+        "English Language (28-32 questions)",
+        "Current Affairs & General Knowledge (35-39 questions)",
+        "Legal Reasoning (28-32 questions)",
+        "Logical Reasoning (28-32 questions)",
+        "Quantitative Techniques (13-17 questions)",
+        "Total: 150 MCQs, +1 for correct, -0.25 for wrong"
+      ],
+      "official_website": "https://consortiumofnlus.ac.in",
+      "uttarakhand_colleges_using": [
+        "Uttaranchal University Law College",
+        "UPES School of Law",
+        "Graphic Era Hill University (Law)",
+        "DIT School of Law"
+      ],
+      "preparation_tips": "Read newspapers daily for Current Affairs & Legal Reasoning (The Hindu, Indian Express). Practice logical reasoning from RS Aggarwal. Study legal GK — landmark judgments, constitutional amendments. For English: read editorials and practice comprehension. CLAT is more about reading speed & comprehension than rote learning. Score 100+ for top NLUs, 70+ for good NLUs."
+    },
+    {
+      "exam_name": "CUET UG",
+      "full_name": "Common University Entrance Test (Undergraduate)",
+      "conducting_body": "National Testing Agency (NTA)",
+      "for_courses": [
+        "BA",
+        "B.Sc",
+        "B.Com",
+        "BCA",
+        "BBA",
+        "B.Voc",
+        "Integrated courses at Central Universities"
+      ],
+      "for_colleges": "All 45 Central Universities (DU, JNU, BHU, AMU, etc.), many state universities, and several private universities accepting CUET scores",
+      "frequency": "Once a year (May/June)",
+      "eligibility": "12th pass or appearing from any recognized board. Specific subject requirements depend on the course and university.",
+      "exam_mode": "Online (CBT)",
+      "total_marks": null,
+      "duration_hours": 3.75,
+      "subjects": [
+        "Section IA: 13 Languages (choose max 1)",
+        "Section IB: 20 Languages (choose max 1)",
+        "Section II: 27 Domain-Specific Subjects (choose max 6)",
+        "Section III: General Test (mandatory for some universities)",
+        "40-50 MCQs per subject, +5 for correct, -1 for wrong"
+      ],
+      "official_website": "https://cuet.samarth.ac.in",
+      "uttarakhand_colleges_using": [
+        "Doon University",
+        "HNB Garhwal University",
+        "Kumaun University Nainital"
+      ],
+      "preparation_tips": "CUET is NCERT-based — thoroughly revise Class 12 NCERT for your domain subjects. For General Test: practice GK, logical reasoning, numerical ability, and language skills. Take NTA mock tests available on their website. Choose subjects wisely based on the university/course you want. Score above 200/300 for top central universities."
+    },
+    {
+      "exam_name": "CUET PG",
+      "full_name": "Common University Entrance Test (Postgraduate)",
+      "conducting_body": "National Testing Agency (NTA)",
+      "for_courses": [
+        "MA",
+        "M.Sc",
+        "M.Com",
+        "MBA",
+        "MCA",
+        "M.Ed",
+        "M.Tech (some universities)",
+        "LLM"
+      ],
+      "for_colleges": "Central Universities, participating state universities, and select private universities across India",
+      "frequency": "Once a year (March/April)",
+      "eligibility": "Bachelor's degree in relevant subject from a recognized university. Minimum percentage varies by university and course (typically 50-55%).",
+      "exam_mode": "Online (CBT)",
+      "total_marks": 400,
+      "duration_hours": 2.0,
+      "subjects": [
+        "100 MCQs (domain-specific)",
+        "25% General/Research Aptitude",
+        "75% Subject-specific questions",
+        "+4 for correct, -1 for wrong"
+      ],
+      "official_website": "https://cuet.nta.nic.in",
+      "uttarakhand_colleges_using": [
+        "Doon University",
+        "HNB Garhwal University",
+        "Kumaun University Nainital"
+      ],
+      "preparation_tips": "Focus on your graduation-level subject knowledge. Revise key concepts, theories, and formulae. Practice previous year papers of the specific subject you're applying for. For research aptitude section: practice logical reasoning, data interpretation, and research methodology basics."
+    },
+    {
+      "exam_name": "MAT",
+      "full_name": "Management Aptitude Test",
+      "conducting_body": "All India Management Association (AIMA)",
+      "for_courses": [
+        "MBA",
+        "PGDM"
+      ],
+      "for_colleges": "600+ B-Schools across India accept MAT scores",
+      "frequency": "Four times a year (February, May, September, December)",
+      "eligibility": "Bachelor's degree from a recognized university. Final year students can also apply. No minimum percentage required.",
+      "exam_mode": "Online (CBT) and Offline (Paper-Based) — candidate can choose",
+      "total_marks": 200,
+      "duration_hours": 2.5,
+      "subjects": [
+        "Language Comprehension (40 questions)",
+        "Mathematical Skills (40 questions)",
+        "Data Analysis & Sufficiency (40 questions)",
+        "Intelligence & Critical Reasoning (40 questions)",
+        "Indian & Global Environment (40 questions)",
+        "Total: 200 questions, +1 for correct, -0.25 for wrong"
+      ],
+      "official_website": "https://mat.aima.in",
+      "uttarakhand_colleges_using": [
+        "UPES Dehradun",
+        "Graphic Era Deemed University",
+        "DIT University Dehradun",
+        "Uttaranchal University",
+        "Doon Business School",
+        "Quantum School of Business"
+      ],
+      "preparation_tips": "MAT is easier than CAT and a good option for Tier-2 and Tier-3 B-schools. Focus on speed — 200 questions in 150 minutes means 45 seconds per question. Use RS Aggarwal for Quant, Word Power Made Easy for English, practice GK from Manorama Yearbook. A score of 600+ (composite out of 800) is good for top MAT-accepting colleges."
+    },
+    {
+      "exam_name": "XAT",
+      "full_name": "Xavier Aptitude Test",
+      "conducting_body": "XLRI Jamshedpur (Xavier Labour Relations Institute)",
+      "for_courses": [
+        "MBA",
+        "PGDM",
+        "Executive MBA"
+      ],
+      "for_colleges": "XLRI Jamshedpur, XIM Bhubaneswar, XIMB, TAPMI, GIM Goa, IMT Ghaziabad, and 150+ Xavier-associated & other B-Schools",
+      "frequency": "Once a year (January)",
+      "eligibility": "Bachelor's degree from a recognized university with no minimum percentage. Final year students eligible. No age limit.",
+      "exam_mode": "Online (CBT)",
+      "total_marks": 100,
+      "duration_hours": 3.0,
+      "subjects": [
+        "Part 1: Verbal & Logical Ability (26 questions)",
+        "Part 1: Decision Making (21 questions)",
+        "Part 1: Quantitative Ability & Data Interpretation (27 questions)",
+        "Part 2: General Knowledge (25 questions)",
+        "+1 for correct, -0.25 for wrong, additional -0.10 for unattempted questions beyond 8"
+      ],
+      "official_website": "https://xatonline.in",
+      "uttarakhand_colleges_using": [
+        "UPES Dehradun",
+        "DIT University Dehradun"
+      ],
+      "preparation_tips": "XAT is known for its unique Decision Making section — practice ethical dilemmas and business case scenarios. Verbal section is tougher than CAT — read extensively. Note the penalty for unattempted questions — attempt at least 55+ questions. Previous year XAT papers are the best preparation resource. 95+ percentile for XLRI."
+    },
+    {
+      "exam_name": "CMAT",
+      "full_name": "Common Management Admission Test",
+      "conducting_body": "National Testing Agency (NTA)",
+      "for_courses": [
+        "MBA",
+        "PGDM"
+      ],
+      "for_colleges": "AICTE-approved institutions across India. Accepted by JBIMS Mumbai, Goa Institute of Management, SIMSREE, KJ Somaiya, and many state-level B-schools.",
+      "frequency": "Once a year (March/April)",
+      "eligibility": "Bachelor's degree with minimum 50% (45% for reserved categories). Final year students eligible. No age limit.",
+      "exam_mode": "Online (CBT)",
+      "total_marks": 400,
+      "duration_hours": 3.0,
+      "subjects": [
+        "Quantitative Techniques & Data Interpretation (25 questions, 100 marks)",
+        "Logical Reasoning (25 questions, 100 marks)",
+        "Language Comprehension (25 questions, 100 marks)",
+        "General Awareness (25 questions, 100 marks)",
+        "Innovation & Entrepreneurship (25 questions, 100 marks — optional section)",
+        "+4 for correct, -1 for wrong"
+      ],
+      "official_website": "https://cmat.nta.nic.in",
+      "uttarakhand_colleges_using": [
+        "UPES Dehradun",
+        "Graphic Era Deemed University",
+        "Uttaranchal University",
+        "DIT University"
+      ],
+      "preparation_tips": "CMAT is considered easier than CAT/XAT and is a great option for MBA aspirants. Focus on General Awareness — it carries 100 marks and is often the differentiator. Practice Quant and LR from standard books. A score of 280+ out of 400 is excellent. CMAT score valid for JBIMS Mumbai — one of the best ROI B-schools in India."
+    },
+    {
+      "exam_name": "NATA",
+      "full_name": "National Aptitude Test in Architecture",
+      "conducting_body": "Council of Architecture (CoA)",
+      "for_courses": [
+        "B.Arch (Bachelor of Architecture)"
+      ],
+      "for_colleges": "All CoA-recognized architecture colleges in India (both government and private)",
+      "frequency": "Twice a year (April & June/July)",
+      "eligibility": "12th pass with Mathematics as compulsory subject. Minimum 50% in PCM aggregate. No age limit.",
+      "exam_mode": "Online (CBT) with Drawing Test",
+      "total_marks": 200,
+      "duration_hours": 3.0,
+      "subjects": [
+        "Part A (MCQ, 125 marks): Mathematics, General Aptitude, Logical Reasoning, Aesthetic Sensitivity",
+        "Part B (Drawing, 75 marks): 2 drawing questions testing creativity, proportion, color sense, 3D perception",
+        "No negative marking"
+      ],
+      "official_website": "https://nata.in",
+      "uttarakhand_colleges_using": [
+        "IIT Roorkee (B.Arch)",
+        "Graphic Era Deemed University",
+        "DIT University Dehradun",
+        "Uttaranchal University"
+      ],
+      "preparation_tips": "Practice freehand drawing daily — objects, scenes, perspective, 3D compositions. For aptitude: study visual perception, color theory, architectural awareness. Mathematics is Class 12 level — focus on 3D geometry, trigonometry, mensuration. Visit buildings and observe architectural elements. Best of two attempts is considered."
+    },
+    {
+      "exam_name": "NCHMCT JEE",
+      "full_name": "National Council for Hotel Management & Catering Technology Joint Entrance Exam",
+      "conducting_body": "National Testing Agency (NTA) on behalf of NCHMCT",
+      "for_courses": [
+        "B.Sc Hospitality & Hotel Administration",
+        "BHM (Bachelor of Hotel Management)"
+      ],
+      "for_colleges": "21 Central IHMs (Institute of Hotel Management), 24 State IHMs, and affiliated private hotel management colleges",
+      "frequency": "Once a year (April/May)",
+      "eligibility": "12th pass from any recognized board with minimum 45% (40% for SC/ST). No specific subject requirement. Age limit: born on or after 01-10-2001 (varies yearly).",
+      "exam_mode": "Online (CBT)",
+      "total_marks": 200,
+      "duration_hours": 3.0,
+      "subjects": [
+        "Numerical Ability & Analytical Aptitude (30 questions)",
+        "Reasoning & Logical Deduction (30 questions)",
+        "General Knowledge & Current Affairs (30 questions)",
+        "English Language (60 questions)",
+        "Aptitude for Service Sector (50 questions)",
+        "+4 for correct, -1 for wrong"
+      ],
+      "official_website": "https://nchmjee.nta.nic.in",
+      "uttarakhand_colleges_using": [
+        "IHM Dehradun (Institute of Hotel Management Dehradun)",
+        "UPES School of Hospitality"
+      ],
+      "preparation_tips": "English section carries the most weight — focus on reading comprehension, vocabulary, and grammar. For GK: focus on hospitality industry, tourism, food & culture. Practice aptitude for service sector — questions about hospitality etiquette, food science, and tourism. IHM Dehradun is one of the best central IHMs — rank under 5000 gets admission."
+    },
+    {
+      "exam_name": "UPSC CSE",
+      "full_name": "Union Public Service Commission Civil Services Examination",
+      "conducting_body": "Union Public Service Commission (UPSC)",
+      "for_courses": [
+        "IAS (Indian Administrative Service)",
+        "IPS (Indian Police Service)",
+        "IFS (Indian Foreign Service)",
+        "IRS",
+        "IRTS",
+        "and 20+ All India & Central Services"
+      ],
+      "for_colleges": "Lal Bahadur Shastri National Academy of Administration (LBSNAA) Mussoorie for IAS training, National Police Academy Hyderabad for IPS",
+      "frequency": "Once a year (Prelims: June, Mains: September, Interview: February-April)",
+      "eligibility": "Indian citizen. Bachelor's degree from recognized university. Age: 21-32 years (General), 21-35 (OBC), 21-37 (SC/ST). Attempts: 6 (General), 9 (OBC), Unlimited (SC/ST) till age limit.",
+      "exam_mode": "Offline (Prelims: OMR, Mains: Written, Interview: In-person)",
+      "total_marks": 2025,
+      "duration_hours": 2.0,
+      "subjects": [
+        "PRELIMS (qualifying): Paper 1 - General Studies (100 MCQs, 200 marks), Paper 2 - CSAT (80 MCQs, 200 marks)",
+        "MAINS (merit): 9 Papers including Essay, GS I-IV (250 marks each), Optional Subject (2 papers, 250 each), English & Indian Language (qualifying)",
+        "INTERVIEW: 275 marks",
+        "Total Mains + Interview = 2025 marks"
+      ],
+      "official_website": "https://upsc.gov.in",
+      "uttarakhand_colleges_using": [
+        "LBSNAA Mussoorie (IAS Training Academy — located in Uttarakhand!)",
+        "HNB Garhwal University",
+        "Doon University",
+        "Kumaun University"
+      ],
+      "preparation_tips": "Start with NCERTs (Class 6-12) for all subjects. Read The Hindu / Indian Express daily. Follow Laxmikanth (Polity), Spectrum (Modern History), Shankar IAS (Environment), Indian Economy by Ramesh Singh. Choose optional subject wisely — Geography, Sociology, PSIR are popular. Mussoorie is the IAS training academy — imagine training in your own state! Uttarakhand's reserved seats and local quota through UKPSC is another option."
+    },
+    {
+      "exam_name": "NDA",
+      "full_name": "National Defence Academy Entrance Examination",
+      "conducting_body": "Union Public Service Commission (UPSC)",
+      "for_courses": [
+        "Army Wing (BA)",
+        "Navy Wing (B.Tech)",
+        "Air Force Wing (B.Tech)",
+        "Naval Academy (B.Tech)"
+      ],
+      "for_colleges": "National Defence Academy (NDA) Khadakwasla, Pune + Indian Military Academy (IMA) Dehradun, Indian Naval Academy (INA) Ezhimala, Air Force Academy (AFA) Dundigal",
+      "frequency": "Twice a year (NDA I in April, NDA II in September)",
+      "eligibility": "Male & Female (women allowed from 2024). 12th pass or appearing. Age: 16.5-19.5 years. For Air Force & Navy: 12th with PCM compulsory. Unmarried.",
+      "exam_mode": "Offline (OMR) + SSB Interview",
+      "total_marks": 1800,
+      "duration_hours": 2.5,
+      "subjects": [
+        "Paper 1 - Mathematics (120 questions, 300 marks, 2.5 hours)",
+        "Paper 2 - General Ability (150 questions, 600 marks, 2.5 hours): English (200), GK (400 - Physics, Chemistry, General Science, History, Geography, Current Affairs)",
+        "SSB Interview: 900 marks (5-day process including OIR, PPDT, GD, Interview, GTO)",
+        "+2.5 for correct, -0.83 for wrong"
+      ],
+      "official_website": "https://upsc.gov.in",
+      "uttarakhand_colleges_using": [
+        "Indian Military Academy (IMA) Dehradun — one of the premier military training institutions in Asia",
+        "RIMC Dehradun (feeder school for NDA)"
+      ],
+      "preparation_tips": "Start in Class 11. Mathematics: focus on Class 11-12 level (Algebra, Calculus, Trigonometry, Matrices). GAT: Read NCERT Science (Class 9-12), Lucent GK, practice English grammar & comprehension. SSB preparation is equally important — develop leadership, communication, and team skills. IMA Dehradun is right in Uttarakhand — proud tradition! Uttarakhand has a strong military culture, many coaching centers in Dehradun."
+    },
+    {
+      "exam_name": "CDS",
+      "full_name": "Combined Defence Services Examination",
+      "conducting_body": "Union Public Service Commission (UPSC)",
+      "for_courses": [
+        "Indian Military Academy (IMA) - Army",
+        "Indian Naval Academy (INA) - Navy",
+        "Air Force Academy (AFA) - Air Force",
+        "Officers Training Academy (OTA) - Army (Short Service Commission)"
+      ],
+      "for_colleges": "IMA Dehradun, INA Ezhimala, AFA Dundigal, OTA Chennai",
+      "frequency": "Twice a year (CDS I in April, CDS II in October)",
+      "eligibility": "Graduation from recognized university. Age: 20-25 years (IMA/AFA), 20-25 (INA), 20-27 (OTA — including women). Unmarried (except OTA women).",
+      "exam_mode": "Offline (OMR) + SSB Interview",
+      "total_marks": 500,
+      "duration_hours": 2.0,
+      "subjects": [
+        "English (120 questions, 100 marks, 2 hours)",
+        "General Knowledge (120 questions, 100 marks, 2 hours)",
+        "Elementary Mathematics (100 questions, 100 marks, 2 hours) — not required for OTA",
+        "SSB Interview: 200 marks",
+        "+0.83 for correct, -0.27 for wrong"
+      ],
+      "official_website": "https://upsc.gov.in",
+      "uttarakhand_colleges_using": [
+        "Indian Military Academy (IMA) Dehradun"
+      ],
+      "preparation_tips": "After graduation, CDS is the best route to join armed forces. English: practice comprehension, grammar, vocabulary. GK: focus on History, Polity, Geography, Science, Defence & Current Affairs. Maths: Class 10 level but accuracy matters. Physical fitness is critical for SSB. Many successful CDS officers come from Uttarakhand — the state has a proud military heritage."
+    },
+    {
+      "exam_name": "UKPSC PCS",
+      "full_name": "Uttarakhand Public Service Commission Provincial Civil Service Examination",
+      "conducting_body": "Uttarakhand Public Service Commission (UKPSC)",
+      "for_courses": [
+        "SDM (Sub Divisional Magistrate)",
+        "Deputy Collector",
+        "DSP (Deputy Superintendent of Police)",
+        "BDO (Block Development Officer)",
+        "District Supply Officer",
+        "Treasury Officer"
+      ],
+      "for_colleges": "Uttarakhand state government administrative positions — training provided by government",
+      "frequency": "Usually once a year (schedule varies)",
+      "eligibility": "Indian citizen and resident of Uttarakhand. Bachelor's degree from recognized university. Age: 21-42 years (General), with relaxation for OBC/SC/ST as per state rules.",
+      "exam_mode": "Offline (Prelims: OMR, Mains: Written, Interview: In-person)",
+      "total_marks": 1700,
+      "duration_hours": 2.0,
+      "subjects": [
+        "PRELIMS: Paper 1 - General Studies (150 questions, 200 marks), Paper 2 - General Aptitude (100 questions, 200 marks — qualifying)",
+        "MAINS: 6 Papers — GS I, GS II, GS III (with Uttarakhand specific topics), Hindi, English, Optional Subject",
+        "INTERVIEW: 200 marks",
+        "Uttarakhand-specific topics: State History, Culture, Geography, Economy, Char Dham, Gairsain, Chipko Movement"
+      ],
+      "official_website": "https://ukpsc.gov.in",
+      "uttarakhand_colleges_using": [
+        "HNB Garhwal University",
+        "Kumaun University Nainital",
+        "Doon University",
+        "Any recognized Uttarakhand university"
+      ],
+      "preparation_tips": "This is the most important exam for those wanting to serve Uttarakhand directly. Study NCERT + standard UPSC books for general topics. For Uttarakhand-specific: study state's history (Garhwal & Kumaun kingdoms, Tehri Riyasat), geography (Himalayan ecology, glaciers, rivers), culture (Jagar, Pandav Lila, fairs), economy (tourism, horticulture, SIDCUL). Hindi section is mandatory — prepare essay and letter writing. Many coaching centers in Dehradun and Haldwani."
+    },
+    {
+      "exam_name": "GPAT",
+      "full_name": "Graduate Pharmacy Aptitude Test",
+      "conducting_body": "National Testing Agency (NTA)",
+      "for_courses": [
+        "M.Pharm (Master of Pharmacy)",
+        "PhD in Pharmacy"
+      ],
+      "for_colleges": "All AICTE-approved pharmacy colleges offering M.Pharm across India. Also used for AICTE scholarships.",
+      "frequency": "Once a year (February/March)",
+      "eligibility": "B.Pharm degree from a recognized university. Final year students also eligible.",
+      "exam_mode": "Online (CBT)",
+      "total_marks": 500,
+      "duration_hours": 3.0,
+      "subjects": [
+        "125 MCQs covering all B.Pharm subjects",
+        "Pharmaceutical Chemistry (Organic, Inorganic, Medicinal, Analytical)",
+        "Pharmaceutics (Physical Pharmacy, Biopharmaceutics, Industrial Pharmacy)",
+        "Pharmacology & Toxicology",
+        "Pharmacognosy & Phytochemistry",
+        "Pharmaceutical Analysis & Quality Assurance",
+        "+4 for correct, -1 for wrong"
+      ],
+      "official_website": "https://gpat.nta.nic.in",
+      "uttarakhand_colleges_using": [
+        "UPES Dehradun",
+        "Graphic Era University",
+        "DIT University",
+        "Uttaranchal University",
+        "Dev Bhoomi Institute Dehradun"
+      ],
+      "preparation_tips": "Revise your B.Pharm subjects thoroughly — focus on Pharmacology, Pharmaceutical Chemistry, and Pharmaceutics as they carry the most weight. Use GPAT previous year papers (last 10 years). Standard books: Tripathi (Pharmacology), Beckett & Stenlake (Pharma Chemistry), Lachman (Industrial Pharmacy). GPAT qualifiers get AICTE scholarship of INR 12,400/month during M.Pharm."
+    },
+    {
+      "exam_name": "ICAR AIEEA",
+      "full_name": "Indian Council of Agricultural Research All India Entrance Examination for Admission",
+      "conducting_body": "National Testing Agency (NTA) on behalf of ICAR",
+      "for_courses": [
+        "B.Sc Agriculture",
+        "B.Sc Horticulture",
+        "B.Sc Forestry",
+        "B.V.Sc (Veterinary)",
+        "B.Tech Agricultural Engineering",
+        "B.F.Sc (Fisheries)"
+      ],
+      "for_colleges": "All ICAR-recognized agricultural universities (including state agricultural universities) and deemed universities",
+      "frequency": "Once a year (June/July)",
+      "eligibility": "12th pass with PCB or PCM (depending on course) with minimum 50% (40% for SC/ST). Age: maximum 25 years (30 for SC/ST).",
+      "exam_mode": "Online (CBT)",
+      "total_marks": 720,
+      "duration_hours": 2.5,
+      "subjects": [
+        "Physics (60 questions)",
+        "Chemistry (60 questions)",
+        "Biology/Mathematics (60 questions)",
+        "Total: 180 MCQs",
+        "+4 for correct, -1 for wrong"
+      ],
+      "official_website": "https://icar.nta.nic.in",
+      "uttarakhand_colleges_using": [
+        "GB Pant University of Agriculture & Technology (Pantnagar) — India's first agricultural university!",
+        "VCSG Uttarakhand University of Horticulture & Forestry (Bharsar)",
+        "College of Forestry Ranichauri"
+      ],
+      "preparation_tips": "ICAR AIEEA is similar to NEET in pattern but slightly easier. Focus on NCERT Biology and Chemistry thoroughly. Pantnagar (GB Pant University) is one of India's best agricultural universities and is in Uttarakhand — rank under 3000 can get admission. State quota seats are available. Agriculture is a growing sector with government focus — excellent career stability."
+    },
+    {
+      "exam_name": "UGC NET",
+      "full_name": "University Grants Commission National Eligibility Test",
+      "conducting_body": "National Testing Agency (NTA) on behalf of UGC",
+      "for_courses": [
+        "Assistant Professor (College/University)",
+        "Junior Research Fellowship (JRF)",
+        "PhD eligibility"
+      ],
+      "for_colleges": "All Indian universities and colleges — NET qualification is mandatory for Assistant Professor recruitment",
+      "frequency": "Twice a year (June & December)",
+      "eligibility": "Master's degree with minimum 55% marks (50% for SC/ST/OBC-NCL/PwD). Final year PG students also eligible. No age limit for Assistant Professor eligibility. JRF: below 30 years (relaxation for reserved categories).",
+      "exam_mode": "Online (CBT)",
+      "total_marks": 300,
+      "duration_hours": 3.0,
+      "subjects": [
+        "Paper 1 (50 questions, 100 marks): Teaching Aptitude, Research Aptitude, Comprehension, Communication, Reasoning, Data Interpretation, IT, Environment, Higher Education",
+        "Paper 2 (100 questions, 200 marks): Subject-specific (choose from 83 subjects)",
+        "No negative marking"
+      ],
+      "official_website": "https://ugcnet.nta.nic.in",
+      "uttarakhand_colleges_using": [
+        "HNB Garhwal University",
+        "Kumaun University Nainital",
+        "Doon University",
+        "IIT Roorkee (for PhD)",
+        "All Uttarakhand universities and colleges"
+      ],
+      "preparation_tips": "Paper 1 is common and scoring — master Teaching & Research Aptitude, practice logical reasoning. Paper 2: study your subject's PG syllabus thoroughly. Use Trueman's UGC NET (Paper 1), KVS Madaan. For Paper 2: use subject-specific standard references. JRF cutoff is higher than NET — if you clear JRF, you get INR 37,000/month fellowship for 5 years during PhD. NET is essential for teaching career in Uttarakhand's universities."
+    },
+    {
+      "exam_name": "CTET",
+      "full_name": "Central Teacher Eligibility Test",
+      "conducting_body": "Central Board of Secondary Education (CBSE)",
+      "for_courses": [
+        "Primary Teacher (PRT) - Classes 1-5",
+        "Upper Primary Teacher (TGT) - Classes 6-8"
+      ],
+      "for_colleges": "Kendriya Vidyalaya (KV), Navodaya Vidyalaya (NVS), Army Schools, DSSSB Schools, and as eligibility for many state government teacher recruitments",
+      "frequency": "Twice a year (July & December)",
+      "eligibility": "Paper 1 (PRT): 12th with 50% + D.El.Ed/B.El.Ed/B.Ed. Paper 2 (TGT): Graduation with 50% + B.Ed. Can attempt both papers.",
+      "exam_mode": "Online (CBT)",
+      "total_marks": 150,
+      "duration_hours": 2.5,
+      "subjects": [
+        "Paper 1 (Classes 1-5): Child Development & Pedagogy (30), Language I (30), Language II (30), Mathematics (30), Environmental Studies (30)",
+        "Paper 2 (Classes 6-8): Child Development & Pedagogy (30), Language I (30), Language II (30), Mathematics & Science OR Social Science (60)",
+        "All MCQs, +1 for correct, no negative marking. Minimum 60% (90/150) to qualify."
+      ],
+      "official_website": "https://ctet.nic.in",
+      "uttarakhand_colleges_using": [
+        "Applicable for KV and NVS schools across Uttarakhand",
+        "Also useful for UTET (Uttarakhand TET) preparation"
+      ],
+      "preparation_tips": "Child Development & Pedagogy (CDP) is the most important section — study Piaget, Vygotsky, Kohlberg, NCF 2005. For languages: practice comprehension passages, grammar, and pedagogy of language teaching. Mathematics/Science: NCERT Class 1-8 level + teaching methodology. CTET is valid for lifetime (since 2021). Combine with UTET for state government school eligibility."
+    },
+    {
+      "exam_name": "UTET",
+      "full_name": "Uttarakhand Teacher Eligibility Test",
+      "conducting_body": "Uttarakhand Board of School Education (UBSE)",
+      "for_courses": [
+        "Primary Teacher (PRT) - Classes 1-5 in Uttarakhand",
+        "Upper Primary Teacher (TGT) - Classes 6-8 in Uttarakhand"
+      ],
+      "for_colleges": "All government schools under Uttarakhand state education department",
+      "frequency": "Once a year (varies)",
+      "eligibility": "Paper 1 (PRT): 12th with 50% + D.El.Ed/B.El.Ed/B.Ed. Paper 2 (TGT): Graduation + B.Ed. Must be a resident of Uttarakhand for state quota.",
+      "exam_mode": "Offline (OMR Sheet)",
+      "total_marks": 150,
+      "duration_hours": 2.5,
+      "subjects": [
+        "Paper 1 (Classes 1-5): Child Development & Pedagogy (30), Language I - Hindi (30), Language II - English (30), Mathematics (30), Environmental Studies (30)",
+        "Paper 2 (Classes 6-8): Child Development & Pedagogy (30), Language I (30), Language II (30), Mathematics & Science OR Social Studies (60)",
+        "Includes Uttarakhand-specific questions on state geography, culture, and history"
+      ],
+      "official_website": "https://ukpsc.gov.in",
+      "uttarakhand_colleges_using": [
+        "All Uttarakhand government schools",
+        "DIET (District Institute of Education & Training) centers across Uttarakhand"
+      ],
+      "preparation_tips": "Preparation is similar to CTET but additionally study Uttarakhand-specific content: state's geography (districts, rivers, glaciers), history (Garhwal-Kumaun kingdoms), culture (fairs, festivals, folk dances), and education policies. Study in both Hindi and English as both language papers are mandatory. UTET + government recruitment exam = permanent government teaching job in Uttarakhand."
+    },
+    {
+      "exam_name": "SSC CGL",
+      "full_name": "Staff Selection Commission Combined Graduate Level Examination",
+      "conducting_body": "Staff Selection Commission (SSC)",
+      "for_courses": [
+        "Tax Assistant (Income Tax / Central Excise)",
+        "Auditor (CAG / CGDA)",
+        "Sub Inspector (CBI / NIA)",
+        "Assistant Section Officer (CSS)",
+        "Inspector (Preventive Officer, Examiner)",
+        "Statistical Investigator"
+      ],
+      "for_colleges": "Central Government offices across India — Ministry of Finance, CAG, CBI, NIA, FCI, etc.",
+      "frequency": "Once a year (Tier 1: April, Tier 2: June/July)",
+      "eligibility": "Indian citizen. Bachelor's degree from recognized university. Age: 18-32 years (varies by post, with relaxation for OBC/SC/ST).",
+      "exam_mode": "Online (CBT)",
+      "total_marks": 500,
+      "duration_hours": 1.0,
+      "subjects": [
+        "Tier 1 (100 questions, 200 marks, 60 min): General Intelligence & Reasoning (25), General Awareness (25), Quantitative Aptitude (25), English Comprehension (25)",
+        "Tier 2 (3 papers): Paper 1 — Mathematical Abilities + Reasoning (130 MCQs, 390 marks, 2.5 hrs), Paper 2 — English + General Awareness (105 MCQs + 45 MCQs, 450 marks, 2.5 hrs), Paper 3 — Statistics/JS&LB/Finance (100 MCQs, 200 marks, 2 hrs — for specific posts)",
+        "+2 for correct Tier1, +3 for correct Tier2, -0.50 for wrong"
+      ],
+      "official_website": "https://ssc.gov.in",
+      "uttarakhand_colleges_using": [
+        "Any recognized university in Uttarakhand — degree from any college is eligible"
+      ],
+      "preparation_tips": "SSC CGL is one of the best government job exams for graduates. For Quant: practice Rakesh Yadav or Kiran's. For Reasoning: practice from Arihant or Kiran's. For English: focus on grammar, vocabulary, and comprehension (SP Bakshi). For GK: Lucent GK + Monthly current affairs magazines. Speed is key in Tier 1 (100 questions in 60 minutes). Many coaching centers in Dehradun and Haldwani."
+    },
+    {
+      "exam_name": "BITSAT",
+      "full_name": "Birla Institute of Technology and Science Admission Test",
+      "conducting_body": "BITS Pilani",
+      "for_courses": [
+        "B.E. (Hons)",
+        "B.Pharm (Hons)",
+        "M.Sc (Hons)",
+        "Integrated First Degree programs"
+      ],
+      "for_colleges": "BITS Pilani (Pilani campus, Hyderabad campus, Goa campus)",
+      "frequency": "Once a year (May/June)",
+      "eligibility": "12th pass with PCM with minimum 75% aggregate (and 60% in each PCM subject). Must have passed in one sitting.",
+      "exam_mode": "Online (CBT)",
+      "total_marks": 450,
+      "duration_hours": 3.0,
+      "subjects": [
+        "Physics (30 questions, 90 marks)",
+        "Chemistry (30 questions, 90 marks)",
+        "English Proficiency (15 questions, 45 marks)",
+        "Logical Reasoning (10 questions, 30 marks)",
+        "Mathematics / Biology (45 questions, 135 marks)",
+        "Bonus questions if all 130 attempted (+12 extra questions)",
+        "+3 for correct, -1 for wrong, no negative for bonus"
+      ],
+      "official_website": "https://www.bitsadmission.com",
+      "uttarakhand_colleges_using": [],
+      "preparation_tips": "BITSAT is speed-based — 150 questions in 3 hours. Focus on NCERT concepts + JEE Main level problems. Practice speed with previous BITSAT papers and online mock tests. English and Logical Reasoning are unique to BITSAT — prepare separately. BITS Pilani is on par with IITs for placements — average package 15+ LPA. Score of 300+ out of 450 for popular branches."
+    },
+    {
+      "exam_name": "AFCAT",
+      "full_name": "Air Force Common Admission Test",
+      "conducting_body": "Indian Air Force (IAF)",
+      "for_courses": [
+        "Flying Branch",
+        "Technical Branch (Aeronautical / Mechanical / Electrical / Electronics)",
+        "Ground Duty Branch (Administration / Logistics / Education / Meteorology)"
+      ],
+      "for_colleges": "Air Force Academy (AFA) Dundigal, Hyderabad — training campus for all IAF officers",
+      "frequency": "Twice a year (February & August)",
+      "eligibility": "Indian citizen. Age: 20-24 years (Flying), 20-26 years (Ground Duty/Technical). Graduation: 60% in any degree (Flying/Ground Duty), B.Tech with 60% (Technical Branch). Must be unmarried at time of joining.",
+      "exam_mode": "Online (CBT) + AFSB Interview (5 days)",
+      "total_marks": 300,
+      "duration_hours": 2.0,
+      "subjects": [
+        "General Awareness (25 questions)",
+        "Verbal Ability in English (25 questions)",
+        "Numerical Ability (18 questions)",
+        "Reasoning & Military Aptitude (32 questions)",
+        "Total: 100 questions, +3 for correct, -1 for wrong",
+        "EKT (Engineering Knowledge Test) for Technical Branch: 50 additional questions"
+      ],
+      "official_website": "https://afcat.cdac.in",
+      "uttarakhand_colleges_using": [
+        "Any recognized Uttarakhand university for graduation"
+      ],
+      "preparation_tips": "Focus on General Awareness (especially defence, science, geography, current affairs). English: practice vocabulary, idioms, comprehension. Reasoning: practice from RS Aggarwal. Physical fitness is critical for AFSB. If applying for Flying Branch, ensure you meet medical standards (eyesight, height, weight). Dehradun has excellent coaching for defence exams. Air Force career offers adventure, travel, and prestige."
+    },
+    {
+      "exam_name": "IIT JAM",
+      "full_name": "Joint Admission Test for M.Sc at IITs",
+      "conducting_body": "One of the IITs (rotational basis)",
+      "for_courses": [
+        "M.Sc in Physics, Chemistry, Mathematics, Biotechnology, Geology, Statistics",
+        "Joint M.Sc-Ph.D",
+        "M.Sc-Ph.D Dual Degree",
+        "Other post-bachelor programs at IITs & IISc"
+      ],
+      "for_colleges": "All IITs (Bombay, Delhi, Kanpur, Madras, Kharagpur, Roorkee, etc.) and IISc Bangalore",
+      "frequency": "Once a year (February)",
+      "eligibility": "Bachelor's degree in relevant science subject with minimum 55% (50% for SC/ST/PwD). Final year students eligible.",
+      "exam_mode": "Online (CBT)",
+      "total_marks": 100,
+      "duration_hours": 3.0,
+      "subjects": [
+        "7 Test Papers: Biotechnology (BT), Chemistry (CY), Economics (EN), Geology (GG), Mathematics (MA), Mathematical Statistics (MS), Physics (PH)",
+        "60 questions: 10 MCQs (1 mark each, -1/3 negative), 20 MCQs (2 marks each, -2/3 negative), 10 MSQs (2 marks each, no negative), 20 NATs (1-2 marks, no negative)"
+      ],
+      "official_website": "https://jam.iitb.ac.in",
+      "uttarakhand_colleges_using": [
+        "IIT Roorkee (M.Sc programs)"
+      ],
+      "preparation_tips": "IIT JAM is the best route for B.Sc students to enter IITs. Study from standard reference books for your subject. For Physics: Griffiths, Kleppner. For Chemistry: Atkins, Morrison Boyd. For Maths: Real Analysis by Bartle, Linear Algebra by Friedberg. Practice previous 10 years' papers — pattern is consistent. IIT Roorkee M.Sc programs offer excellent placements and research opportunities. Rank under 500 for IIT Roorkee."
+    },
+    {
+      "exam_name": "Indian Forest Service (IFoS)",
+      "full_name": "Indian Forest Service Examination",
+      "conducting_body": "Union Public Service Commission (UPSC)",
+      "for_courses": [
+        "Indian Forest Service (IFoS) Officer",
+        "Conservator of Forests",
+        "Deputy Conservator of Forests (DFO)",
+        "Divisional Forest Officer"
+      ],
+      "for_colleges": "Indira Gandhi National Forest Academy (IGNFA) Dehradun — located in Uttarakhand!",
+      "frequency": "Once a year (Prelims shared with UPSC CSE in June, Mains in November)",
+      "eligibility": "Indian citizen. Bachelor's degree with at least one of: Animal Husbandry & Veterinary Science, Botany, Chemistry, Geology, Mathematics, Physics, Statistics, Zoology, Forestry, Agriculture, Engineering. Age: 21-32 years (General), with relaxation for OBC/SC/ST.",
+      "exam_mode": "Offline (Prelims: OMR shared with CSE, Mains: Written descriptive)",
+      "total_marks": 1400,
+      "duration_hours": 3.0,
+      "subjects": [
+        "PRELIMS: Same as UPSC CSE (GS Paper 1 + CSAT Paper 2)",
+        "MAINS: General English (300 marks, qualifying), General Knowledge (300 marks), 2 Optional Subject papers (200 marks each x 2 subjects = 800 marks)",
+        "INTERVIEW: 300 marks",
+        "Popular optionals: Forestry, Botany, Zoology, Geology, Agriculture"
+      ],
+      "official_website": "https://upsc.gov.in",
+      "uttarakhand_colleges_using": [
+        "IGNFA Dehradun (training academy — right in Uttarakhand!)",
+        "Forest Research Institute (FRI) Dehradun",
+        "Wildlife Institute of India (WII) Dehradun",
+        "GB Pant University Pantnagar"
+      ],
+      "preparation_tips": "This is a dream career for nature lovers — and the training academy (IGNFA) is in Dehradun! Prelims preparation is shared with UPSC CSE. For Mains, choose optionals from your B.Sc background (Botany + Zoology or Forestry + Agriculture are popular combos). Study environment, ecology, biodiversity, and Indian forest policy. Uttarakhand's rich forest cover makes this career especially meaningful. FRI and WII in Dehradun are excellent resources."
+    },
+    {
+      "exam_name": "NIFT Entrance Exam",
+      "full_name": "National Institute of Fashion Technology Entrance Exam",
+      "conducting_body": "National Institute of Fashion Technology (NIFT)",
+      "for_courses": [
+        "B.Des (Fashion Design, Textile Design, Accessory Design, Knitwear Design, Leather Design)",
+        "B.FTech (Fashion Technology)",
+        "M.Des",
+        "M.FTech",
+        "MFM (Master of Fashion Management)"
+      ],
+      "for_colleges": "18 NIFT campuses across India (New Delhi, Mumbai, Bangalore, Kolkata, Hyderabad, etc.)",
+      "frequency": "Once a year (February)",
+      "eligibility": "UG: 12th pass from any recognized board. No minimum percentage. PG: relevant graduation. No age limit.",
+      "exam_mode": "Online (CBT) + Situation Test (hands-on creative test)",
+      "total_marks": 200,
+      "duration_hours": 3.0,
+      "subjects": [
+        "GAT (General Ability Test): Quantitative Ability, Communication Ability, English Comprehension, Analytical & Logical Ability, GK, Current Affairs (150 questions)",
+        "CAT (Creative Ability Test) for B.Des: Creativity, design sense, color, innovation (hands-on, 3 hours)",
+        "Situation Test: Make a 3D model from given materials (for B.Des shortlisted candidates)"
+      ],
+      "official_website": "https://nift.ac.in",
+      "uttarakhand_colleges_using": [],
+      "preparation_tips": "For CAT: practice sketching, color compositions, and creative thinking daily. Study design elements (line, shape, texture, color theory). For GAT: standard aptitude preparation + GK. Situation Test: practice making 3D models from paper, clay, and mixed materials. Study fashion industry trends, designers, and fashion history. NIFT graduates are highly sought after — placements of 8-15 LPA."
+    },
+    {
+      "exam_name": "CA Foundation",
+      "full_name": "Chartered Accountancy Foundation Course Examination",
+      "conducting_body": "Institute of Chartered Accountants of India (ICAI)",
+      "for_courses": [
+        "CA Foundation → CA Intermediate → CA Final = Chartered Accountant"
+      ],
+      "for_colleges": "ICAI (self-study + articleship with practicing CA firms). Not a college-based course.",
+      "frequency": "Twice a year (May & November)",
+      "eligibility": "12th pass from any recognized board. Registration with ICAI must be done at least 4 months before the exam.",
       "exam_mode": "Offline (Pen & Paper)",
-      "total_marks": null,
-      "duration_hours": null,
-      "subjects": [],
-      "official_website": "",
-      "uttarakhand_colleges_using": [],
-      "preparation_tips": ""
+      "total_marks": 400,
+      "duration_hours": 3.0,
+      "subjects": [
+        "Paper 1: Accounting (100 marks, 3 hours) — Subjective + Objective",
+        "Paper 2: Business Laws & Business Correspondence (100 marks, 3 hours) — Subjective + Objective",
+        "Paper 3: Business Mathematics, Statistics & Logical Reasoning (100 marks, 2 hours) — Objective",
+        "Paper 4: Business Economics & Business & Commercial Knowledge (100 marks, 2 hours) — Objective",
+        "Pass: 40% in each paper, 50% aggregate"
+      ],
+      "official_website": "https://www.icai.org",
+      "uttarakhand_colleges_using": [
+        "CA coaching available in Dehradun, Haldwani, Haridwar",
+        "B.Com from any Uttarakhand university is a good base alongside CA"
+      ],
+      "preparation_tips": "Register with ICAI immediately after 12th. Accounting and Business Laws require thorough study of ICAI study material. For Maths: practice calculation speed. Start CA coaching alongside B.Com for best results. CA Foundation pass rate is around 20-25% — don't take it lightly. ICAI study material is sufficient but coaching helps. Many successful CAs from Uttarakhand practice in Dehradun, Delhi-NCR."
     },
     {
-      "exam_name": "Download JEE Advanced 2025 Question Paper with Solutions: Access JEE Advanced Previous Year Papers (2007-2025) in PDF Format For JEE Advanced 2026 Exam Preparation",
-      "full_name": "",
-      "conducting_body": "one of the 7 zonal IITs on a rotational basis",
-      "for_courses": [],
-      "for_colleges": "",
-      "frequency": "",
-      "eligibility": "",
-      "exam_mode": "Online (CBT)",
-      "total_marks": null,
-      "duration_hours": null,
-      "subjects": [],
-      "official_website": "",
-      "uttarakhand_colleges_using": [],
-      "preparation_tips": ""
+      "exam_name": "IBPS PO",
+      "also_known_as": [
+        "Institute of Banking Personnel Selection Probationary Officer"
+      ],
+      "category": "Banking",
+      "conducting_body": "IBPS (Institute of Banking Personnel Selection)",
+      "eligibility": "Graduate in any discipline from a recognized university. Age: 20-30 years (relaxation for reserved categories).",
+      "exam_pattern": "Prelims: 100 marks, 1 hour (English, Quant, Reasoning 30+35+35 Qs). Mains: 200 marks, 3 hours (Reasoning & Computer Aptitude, English, Data Analysis, General/Economy/Banking Awareness). Interview: 100 marks.",
+      "frequency": "Once a year",
+      "important_dates": "Notification: August. Prelims: October. Mains: November. Interview: January-February.",
+      "official_website": "https://www.ibps.in",
+      "preparation_tips": [
+        "Master quantitative aptitude and reasoning basics first",
+        "Read newspapers daily for current affairs and banking awareness",
+        "Practice previous year papers under timed conditions",
+        "Focus on speed and accuracy for prelims"
+      ],
+      "what_it_leads_to": "Appointment as Probationary Officer in 11 participating public sector banks across India.",
+      "uttarakhand_relevance": "Multiple public sector bank branches in Uttarakhand recruit POs through IBPS. Good opportunity for candidates from hill districts.",
+      "difficulty_level": "Moderate to High",
+      "approximate_applicants": 3000000,
+      "key_subjects": [
+        "Quantitative Aptitude",
+        "Reasoning Ability",
+        "English Language",
+        "General Awareness",
+        "Computer Knowledge"
+      ]
     },
     {
-      "exam_name": "Allahabad University PGAT 2024 Exam Pattern and Syllabus",
-      "full_name": "",
-      "conducting_body": "",
-      "for_courses": [],
-      "for_colleges": "",
-      "frequency": "",
-      "eligibility": "",
-      "exam_mode": "Online & Offline",
-      "total_marks": null,
-      "duration_hours": null,
-      "subjects": [],
-      "official_website": "",
-      "uttarakhand_colleges_using": [],
-      "preparation_tips": ""
+      "exam_name": "IBPS Clerk",
+      "also_known_as": [
+        "IBPS Clerical Cadre",
+        "IBPS CRP Clerk"
+      ],
+      "category": "Banking",
+      "conducting_body": "IBPS (Institute of Banking Personnel Selection)",
+      "eligibility": "Graduate in any discipline from a recognized university. Age: 20-28 years (relaxation for reserved categories).",
+      "exam_pattern": "Prelims: 100 marks, 1 hour (English 30, Numerical Ability 35, Reasoning 35). Mains: 200 marks, 2 hours 40 minutes (General/Financial Awareness, English, Reasoning & Computer Aptitude, Quantitative Aptitude).",
+      "frequency": "Once a year",
+      "important_dates": "Notification: July-August. Prelims: August-September. Mains: October.",
+      "official_website": "https://www.ibps.in",
+      "preparation_tips": [
+        "Focus on speed since time is very limited",
+        "Practice sectional mock tests regularly",
+        "Build strong basics in arithmetic and reasoning",
+        "Read banking awareness capsules before mains"
+      ],
+      "what_it_leads_to": "Appointment as Clerk in 11 participating public sector banks. Career progression to officer cadre possible.",
+      "uttarakhand_relevance": "Clerk postings available in Uttarakhand branches of public sector banks. Suitable for candidates seeking stable government banking jobs in the state.",
+      "difficulty_level": "Moderate",
+      "approximate_applicants": 4000000,
+      "key_subjects": [
+        "Quantitative Aptitude",
+        "Reasoning Ability",
+        "English Language",
+        "General/Financial Awareness",
+        "Computer Aptitude"
+      ]
     },
     {
-      "exam_name": "GMAT Score 2026: Score Calculator, Percentile, Score Sending, Validity",
-      "full_name": "",
-      "conducting_body": "may need up to 20 days to fully process your request",
-      "for_courses": [],
-      "for_colleges": "",
-      "frequency": "",
-      "eligibility": "",
-      "exam_mode": "Online (CBT)",
-      "total_marks": null,
-      "duration_hours": null,
-      "subjects": [],
-      "official_website": "",
-      "uttarakhand_colleges_using": [],
-      "preparation_tips": ""
+      "exam_name": "SBI PO",
+      "also_known_as": [
+        "State Bank of India Probationary Officer"
+      ],
+      "category": "Banking",
+      "conducting_body": "State Bank of India (SBI)",
+      "eligibility": "Graduate in any discipline from a recognized university. Age: 21-30 years (relaxation for reserved categories).",
+      "exam_pattern": "Prelims: 100 marks, 1 hour (English 30, Quant 35, Reasoning 35). Mains: 250 marks, 3 hours (Reasoning & Computer Aptitude 60, Data Analysis 60, General/Economy/Banking 40, English 40, Descriptive English 50). Group Exercises & Interview.",
+      "frequency": "Once a year",
+      "important_dates": "Notification: March-April. Prelims: June. Mains: July. Interview: September-October.",
+      "official_website": "https://sbi.co.in/web/careers",
+      "preparation_tips": [
+        "Focus on descriptive English writing for mains",
+        "Prepare case studies for group exercises",
+        "Practice data interpretation extensively",
+        "Stay updated on RBI policies and banking reforms"
+      ],
+      "what_it_leads_to": "Appointment as Probationary Officer in SBI, India's largest bank. Excellent career growth to managerial positions.",
+      "uttarakhand_relevance": "SBI has extensive branch network across Uttarakhand including remote hill areas. POs may be posted in Uttarakhand branches.",
+      "difficulty_level": "High",
+      "approximate_applicants": 2500000,
+      "key_subjects": [
+        "Quantitative Aptitude",
+        "Reasoning Ability",
+        "English Language",
+        "General Awareness",
+        "Data Analysis"
+      ]
     },
     {
-      "exam_name": "CHSE Odisha",
-      "full_name": "",
-      "conducting_body": "the concerned school as per the directions of Odisha Board",
-      "for_courses": [],
-      "for_colleges": "",
-      "frequency": "",
-      "eligibility": "",
-      "exam_mode": "Offline (Pen & Paper)",
-      "total_marks": null,
-      "duration_hours": null,
-      "subjects": [],
-      "official_website": "",
-      "uttarakhand_colleges_using": [],
-      "preparation_tips": ""
+      "exam_name": "SBI Clerk",
+      "also_known_as": [
+        "SBI Junior Associate",
+        "SBI Clerical Cadre"
+      ],
+      "category": "Banking",
+      "conducting_body": "State Bank of India (SBI)",
+      "eligibility": "Graduate in any discipline from a recognized university. Age: 20-28 years (relaxation for reserved categories).",
+      "exam_pattern": "Prelims: 100 marks, 1 hour (English 30, Numerical Ability 35, Reasoning 35). Mains: 200 marks, 2 hours 40 minutes (General/Financial Awareness 50, General English 40, Quantitative Aptitude 50, Reasoning & Computer Aptitude 60).",
+      "frequency": "Once a year",
+      "important_dates": "Notification: November-December. Prelims: January-February. Mains: March-April.",
+      "official_website": "https://sbi.co.in/web/careers",
+      "preparation_tips": [
+        "Time management is critical — practice with a timer",
+        "Focus on high-scoring topics in quant and reasoning",
+        "Build vocabulary and grammar for English section",
+        "Study financial awareness thoroughly for mains"
+      ],
+      "what_it_leads_to": "Appointment as Junior Associate (Customer Support & Sales) in SBI. Promotion path to officer cadre available.",
+      "uttarakhand_relevance": "SBI Clerk postings available across Uttarakhand. State-specific vacancies are often announced for Uttarakhand circle.",
+      "difficulty_level": "Moderate",
+      "approximate_applicants": 3500000,
+      "key_subjects": [
+        "Quantitative Aptitude",
+        "Reasoning Ability",
+        "English Language",
+        "General/Financial Awareness",
+        "Computer Aptitude"
+      ]
     },
     {
-      "exam_name": "GATE Virtual Calculator 2025: Check Uses and Benefits of Virtual Calculator",
-      "full_name": "",
-      "conducting_body": "",
-      "for_courses": [],
-      "for_colleges": "",
-      "frequency": "",
-      "eligibility": "",
-      "exam_mode": "Online & Offline",
-      "total_marks": null,
-      "duration_hours": null,
-      "subjects": [],
-      "official_website": "",
-      "uttarakhand_colleges_using": [],
-      "preparation_tips": ""
+      "exam_name": "RBI Grade B",
+      "also_known_as": [
+        "Reserve Bank of India Grade B Officer"
+      ],
+      "category": "Banking",
+      "conducting_body": "Reserve Bank of India (RBI)",
+      "eligibility": "Minimum 60% in graduation (50% for SC/ST/PwBD). Age: 21-30 years. Master's degree preferred but not mandatory.",
+      "exam_pattern": "Phase 1: 200 marks, 2 hours (General Awareness 80, Quantitative Aptitude 30, English 30, Reasoning 60). Phase 2: 300 marks, 3 hours (Economic & Social Issues 100, Finance & Management 100, Descriptive English 100). Interview.",
+      "frequency": "Once a year",
+      "important_dates": "Notification: March-April. Phase 1: May-June. Phase 2: July-August. Interview: September-October.",
+      "official_website": "https://www.rbi.org.in/scripts/Careers.aspx",
+      "preparation_tips": [
+        "Study economics and finance in depth — ESI paper is crucial",
+        "Read Economic Survey and RBI Annual Report",
+        "Practice essay writing for descriptive English",
+        "Follow RBI monetary policy updates regularly"
+      ],
+      "what_it_leads_to": "Appointment as Grade B Officer (Manager level) in RBI. One of the most prestigious banking positions in India with excellent growth to Executive Director level.",
+      "uttarakhand_relevance": "RBI has offices in Dehradun. Limited but prestigious postings available in the state.",
+      "difficulty_level": "High",
+      "approximate_applicants": 300000,
+      "key_subjects": [
+        "Economics",
+        "Finance",
+        "English Language",
+        "Quantitative Aptitude",
+        "Reasoning",
+        "General Awareness"
+      ]
     },
     {
-      "exam_name": "KEAM Exam Pattern 2024: Marking Scheme",
-      "full_name": "",
-      "conducting_body": "",
-      "for_courses": [],
-      "for_colleges": "",
-      "frequency": "",
-      "eligibility": "",
-      "exam_mode": "Offline (Pen & Paper)",
-      "total_marks": null,
-      "duration_hours": null,
-      "subjects": [],
-      "official_website": "",
-      "uttarakhand_colleges_using": [],
-      "preparation_tips": ""
+      "exam_name": "RRB NTPC",
+      "also_known_as": [
+        "Railway Recruitment Board Non-Technical Popular Categories"
+      ],
+      "category": "Government/Railway",
+      "conducting_body": "Railway Recruitment Boards (RRBs)",
+      "eligibility": "Graduate in any discipline for some posts, Class 12 pass for others. Age: 18-33 years (varies by post, relaxation for reserved categories).",
+      "exam_pattern": "CBT 1: 100 marks, 90 minutes (General Awareness 40, Mathematics 30, General Intelligence & Reasoning 30). CBT 2: 120 marks, 90 minutes (General Awareness 50, Mathematics 35, General Intelligence & Reasoning 35). Typing Skill Test/CBAT for specific posts.",
+      "frequency": "Based on vacancies (typically every 2-3 years)",
+      "important_dates": "Varies by recruitment cycle. Notification typically followed by 3-4 month preparation window.",
+      "official_website": "https://www.rrbcdg.gov.in",
+      "preparation_tips": [
+        "Focus on general awareness — very high weightage",
+        "Practice arithmetic and number series for maths",
+        "Solve reasoning puzzles daily",
+        "Study railway-specific GK for CBT 2"
+      ],
+      "what_it_leads_to": "Various non-technical posts in Indian Railways including Junior Clerk cum Typist, Accounts Clerk cum Typist, Commercial cum Ticket Clerk, Traffic Assistant, Station Master, Goods Guard.",
+      "uttarakhand_relevance": "Railway stations across Uttarakhand (Dehradun, Haridwar, Roorkee, Kathgodam, Ramnagar) require NTPC staff. Good opportunity for local candidates.",
+      "difficulty_level": "Moderate",
+      "approximate_applicants": 12500000,
+      "key_subjects": [
+        "General Awareness",
+        "Mathematics",
+        "General Intelligence & Reasoning"
+      ]
     },
     {
-      "exam_name": "OUAT Result 2026: Check Previous Year Cutoffs, Scholarship Bracket, Expected Cutoffs, and Previous Year Toppers List",
-      "full_name": "",
-      "conducting_body": "",
-      "for_courses": [],
-      "for_colleges": "",
-      "frequency": "",
-      "eligibility": "",
-      "exam_mode": "Online (CBT)",
-      "total_marks": null,
-      "duration_hours": null,
-      "subjects": [],
-      "official_website": "",
-      "uttarakhand_colleges_using": [],
-      "preparation_tips": ""
+      "exam_name": "RRB JE",
+      "also_known_as": [
+        "Railway Recruitment Board Junior Engineer"
+      ],
+      "category": "Government/Railway",
+      "conducting_body": "Railway Recruitment Boards (RRBs)",
+      "eligibility": "Diploma or B.E./B.Tech in relevant engineering discipline. Age: 18-33 years (relaxation for reserved categories).",
+      "exam_pattern": "CBT 1: 100 marks, 90 minutes (Mathematics 30, General Intelligence & Reasoning 25, General Awareness 15, General Science 30). CBT 2: 150 marks, 120 minutes (Technical abilities based on branch). Document Verification.",
+      "frequency": "Based on vacancies (typically every 2-3 years)",
+      "important_dates": "Varies by recruitment cycle. CBT 1 typically held 3-4 months after notification.",
+      "official_website": "https://www.rrbcdg.gov.in",
+      "preparation_tips": [
+        "Focus on technical subjects of your engineering branch",
+        "Revise diploma/degree-level concepts thoroughly",
+        "Practice General Science especially Physics",
+        "Solve previous year RRB JE papers"
+      ],
+      "what_it_leads_to": "Appointment as Junior Engineer in Indian Railways across departments like Electrical, Mechanical, Civil, Electronics, IT.",
+      "uttarakhand_relevance": "Railway infrastructure projects in Uttarakhand (Rishikesh-Karnaprayag rail line) create JE vacancies. Northern Railway zone covers the state.",
+      "difficulty_level": "Moderate",
+      "approximate_applicants": 2000000,
+      "key_subjects": [
+        "Technical Subjects (branch-specific)",
+        "Mathematics",
+        "General Science",
+        "Reasoning",
+        "General Awareness"
+      ]
     },
     {
-      "exam_name": "Haryana Board Class 10 Exam Pattern 2023: Check Marking Scheme and Important Details",
-      "full_name": "",
-      "conducting_body": "Board of School Education Haryana (BSEH)   Category HBSE Class 10th Exam Pattern   Frequency of Cond",
-      "for_courses": [],
-      "for_colleges": "",
-      "frequency": "",
-      "eligibility": "",
-      "exam_mode": "Offline (Pen & Paper)",
-      "total_marks": null,
-      "duration_hours": null,
-      "subjects": [],
-      "official_website": "",
-      "uttarakhand_colleges_using": [],
-      "preparation_tips": ""
+      "exam_name": "RRB Group D",
+      "also_known_as": [
+        "Railway Group D",
+        "RRC Group D"
+      ],
+      "category": "Government/Railway",
+      "conducting_body": "Railway Recruitment Cells (RRCs)",
+      "eligibility": "10th pass (Matriculation) from a recognized board. ITI certification preferred. Age: 18-33 years (relaxation for reserved categories).",
+      "exam_pattern": "CBT: 100 marks, 90 minutes (Mathematics 25, General Intelligence & Reasoning 30, General Science 25, General Awareness & Current Affairs 20). Physical Efficiency Test (PET). Document Verification.",
+      "frequency": "Based on vacancies (typically every 3-4 years with large-scale recruitment)",
+      "important_dates": "Varies by recruitment cycle. Notification typically 4-6 months before exam.",
+      "official_website": "https://www.rrbcdg.gov.in",
+      "preparation_tips": [
+        "Focus on basic arithmetic, ratio, percentage for maths",
+        "Study NCERT Science books for Class 9-10",
+        "Practice reasoning puzzles and coding-decoding",
+        "Stay updated on current affairs for last 6 months"
+      ],
+      "what_it_leads_to": "Posts such as Track Maintainer, Helper, Assistant Pointsman in Indian Railways. Entry-level railway positions with promotion opportunities.",
+      "uttarakhand_relevance": "Track maintenance and helper positions available at Uttarakhand railway stations. Accessible opportunity for Class 10 pass candidates from the state.",
+      "difficulty_level": "Low to Moderate",
+      "approximate_applicants": 12000000,
+      "key_subjects": [
+        "Mathematics",
+        "General Intelligence & Reasoning",
+        "General Science",
+        "General Awareness"
+      ]
     },
     {
-      "exam_name": "IPU CET 2026",
-      "full_name": "",
-      "conducting_body": "the university",
-      "for_courses": [],
-      "for_colleges": "",
-      "frequency": "",
-      "eligibility": "",
-      "exam_mode": "Online & Offline",
-      "total_marks": null,
-      "duration_hours": null,
-      "subjects": [],
-      "official_website": "",
-      "uttarakhand_colleges_using": [],
-      "preparation_tips": ""
+      "exam_name": "SSC JE",
+      "also_known_as": [
+        "Staff Selection Commission Junior Engineer"
+      ],
+      "category": "Government",
+      "conducting_body": "Staff Selection Commission (SSC)",
+      "eligibility": "Diploma or B.E./B.Tech in Civil, Mechanical, Electrical, or Quantity Surveying & Contracts. Age: up to 32 years (varies by department).",
+      "exam_pattern": "Paper 1 (CBT): 200 marks, 2 hours (General Intelligence & Reasoning 50, General Awareness 50, General Engineering 100). Paper 2 (Descriptive): 300 marks, 2 hours (Technical questions from respective discipline).",
+      "frequency": "Once a year",
+      "important_dates": "Notification: September-October. Paper 1: November-December. Paper 2: March. Result: June-July.",
+      "official_website": "https://ssc.nic.in",
+      "preparation_tips": [
+        "Focus heavily on General Engineering — it carries maximum weightage",
+        "Revise core engineering subjects from diploma/degree",
+        "Practice previous year SSC JE papers thoroughly",
+        "Don't neglect GK and reasoning as they decide cutoff"
+      ],
+      "what_it_leads_to": "Junior Engineer posts in CPWD, CWC, MES, BRO, and other central government departments. Good salary and career growth to Assistant Engineer.",
+      "uttarakhand_relevance": "BRO (Border Roads Organisation) and CPWD have significant projects in Uttarakhand. JE postings in the state are common for infrastructure projects.",
+      "difficulty_level": "Moderate",
+      "approximate_applicants": 800000,
+      "key_subjects": [
+        "General Engineering (Civil/Mechanical/Electrical)",
+        "General Intelligence & Reasoning",
+        "General Awareness"
+      ]
     },
     {
-      "exam_name": "AIMA UGAT 2025 Results OUT, Scorecards",
-      "full_name": "",
-      "conducting_body": "releases the list of participating institutes where candidates can apply for admission",
-      "for_courses": [],
-      "for_colleges": "",
-      "frequency": "",
-      "eligibility": "",
-      "exam_mode": "Offline (Pen & Paper)",
-      "total_marks": null,
-      "duration_hours": null,
-      "subjects": [],
-      "official_website": "",
-      "uttarakhand_colleges_using": [],
-      "preparation_tips": ""
+      "exam_name": "NABARD Grade A",
+      "also_known_as": [
+        "NABARD Assistant Manager"
+      ],
+      "category": "Banking",
+      "conducting_body": "NABARD (National Bank for Agriculture and Rural Development)",
+      "eligibility": "Bachelor's degree with minimum 60% (50% for SC/ST) for RDBS. For DEPR: Master's in Economics with 60%. Age: 21-30 years.",
+      "exam_pattern": "Prelims: 200 marks, 2 hours (Quantitative Aptitude 20, Reasoning 20, English 40, General Awareness 20, Computer Knowledge 20, Agriculture & Rural Development 40). Mains: 200 marks, 2 hours (ESI, Agriculture & Rural Development, Descriptive English). Interview: 50 marks.",
+      "frequency": "Once a year",
+      "important_dates": "Notification: July-August. Prelims: September. Mains: October-November. Interview: January.",
+      "official_website": "https://www.nabard.org/content1.aspx?id=512&catid=8&mid=490",
+      "preparation_tips": [
+        "Study agriculture and rural development in depth",
+        "Read NABARD Annual Report and Economic Survey",
+        "Focus on schemes related to rural India, SHGs, microfinance",
+        "Practice descriptive writing on economic topics"
+      ],
+      "what_it_leads_to": "Appointment as Assistant Manager (Grade A) in NABARD. Prestigious role in agricultural and rural development finance with excellent career growth.",
+      "uttarakhand_relevance": "NABARD has a regional office in Dehradun and plays a key role in financing agriculture and rural development in Uttarakhand hill regions.",
+      "difficulty_level": "High",
+      "approximate_applicants": 200000,
+      "key_subjects": [
+        "Agriculture & Rural Development",
+        "Economics",
+        "English Language",
+        "Quantitative Aptitude",
+        "Reasoning",
+        "General Awareness"
+      ]
     },
     {
-      "exam_name": "MAH BHMCT CET Syllabus 2025, Exam Pattern, Topic-wise weightage, Marking Scheme, Preparation Tips, Best Books",
-      "full_name": "",
-      "conducting_body": "the State Common Entrance Test Cell, Government of Maharashtra",
-      "for_courses": [],
-      "for_colleges": "",
-      "frequency": "",
-      "eligibility": "",
-      "exam_mode": "Online (CBT)",
-      "total_marks": null,
-      "duration_hours": null,
-      "subjects": [],
-      "official_website": "",
-      "uttarakhand_colleges_using": [],
-      "preparation_tips": ""
+      "exam_name": "MNS Entrance Exam",
+      "also_known_as": [
+        "Military Nursing Service Entrance Examination"
+      ],
+      "category": "Medical/Defence",
+      "conducting_body": "Directorate General of Medical Services (Army)",
+      "eligibility": "Unmarried female candidates, Class 12 pass with Physics, Chemistry, Biology with 50% aggregate and English. Age: 17-25 years.",
+      "exam_pattern": "Written Test: 150 marks, 90 minutes (General English, Biology, Physics, Chemistry, General Intelligence). Interview and medical fitness test.",
+      "frequency": "Once a year",
+      "important_dates": "Notification: December-January. Exam: March-April. Result: May-June. Admission: July.",
+      "official_website": "https://joinindianarmy.nic.in",
+      "preparation_tips": [
+        "Focus on NCERT Biology and Chemistry for Class 11-12",
+        "Practice English grammar and vocabulary",
+        "Study general intelligence and reasoning",
+        "Maintain physical fitness for medical examination"
+      ],
+      "what_it_leads_to": "B.Sc Nursing at Armed Forces Medical Services institutions. Commission as Lieutenant in Indian Army upon completion. Prestigious defence nursing career.",
+      "uttarakhand_relevance": "Military hospitals in Uttarakhand (Dehradun, Roorkee) may have MNS postings. Defence culture in Uttarakhand makes it a popular career choice.",
+      "difficulty_level": "Moderate",
+      "approximate_applicants": 50000,
+      "key_subjects": [
+        "Biology",
+        "Physics",
+        "Chemistry",
+        "English",
+        "General Intelligence"
+      ]
     },
     {
-      "exam_name": "DSAT 2024 Result, Check Tentative Dates, Steps to Check Result, and Cut Off",
-      "full_name": "",
-      "conducting_body": "",
-      "for_courses": [],
-      "for_colleges": "",
-      "frequency": "",
-      "eligibility": "",
-      "exam_mode": "Online (CBT)",
-      "total_marks": null,
-      "duration_hours": null,
-      "subjects": [],
-      "official_website": "",
-      "uttarakhand_colleges_using": [],
-      "preparation_tips": ""
+      "exam_name": "AIIMS Nursing Entrance",
+      "also_known_as": [
+        "AIIMS B.Sc Nursing Entrance Exam"
+      ],
+      "category": "Medical/Nursing",
+      "conducting_body": "AIIMS (All India Institute of Medical Sciences), New Delhi",
+      "eligibility": "Class 12 pass with Science stream (PCB) with 60% aggregate (55% for SC/ST). Age: 17-25 years.",
+      "exam_pattern": "CBT: 70-80 MCQs, 90 minutes. Subjects: Physics, Chemistry, Biology, General Knowledge & Aptitude. Negative marking for wrong answers.",
+      "frequency": "Once a year",
+      "important_dates": "Notification: January-February. Exam: May-June. Counselling: July.",
+      "official_website": "https://www.aiimsexams.ac.in",
+      "preparation_tips": [
+        "Study NCERT Biology, Physics, Chemistry thoroughly",
+        "Practice MCQs from previous AIIMS nursing papers",
+        "Focus on human anatomy and physiology topics",
+        "Keep updated on general health and science awareness"
+      ],
+      "what_it_leads_to": "B.Sc Nursing at AIIMS institutions across India. Highly valued nursing degree with excellent clinical training and career prospects.",
+      "uttarakhand_relevance": "AIIMS Rishikesh offers nursing programs. Direct relevance for Uttarakhand students seeking top-tier nursing education in the state.",
+      "difficulty_level": "Moderate to High",
+      "approximate_applicants": 80000,
+      "key_subjects": [
+        "Biology",
+        "Physics",
+        "Chemistry",
+        "General Knowledge"
+      ]
     },
     {
-      "exam_name": "IIT JAM Question Paper 2025 (Available): Question Paper with Answer Key PDFs & Previous year papers",
-      "full_name": "",
-      "conducting_body": "",
-      "for_courses": [],
-      "for_colleges": "",
-      "frequency": "",
-      "eligibility": "",
-      "exam_mode": "",
-      "total_marks": null,
-      "duration_hours": null,
-      "subjects": [],
-      "official_website": "",
-      "uttarakhand_colleges_using": [],
-      "preparation_tips": ""
+      "exam_name": "NEET MDS",
+      "also_known_as": [
+        "National Eligibility cum Entrance Test for Master of Dental Surgery"
+      ],
+      "category": "Medical/Dental",
+      "conducting_body": "National Board of Examinations in Medical Sciences (NBEMS)",
+      "eligibility": "BDS degree from a recognized university with completion of 1-year compulsory rotatory internship. Must be registered with State Dental Council or DCI.",
+      "exam_pattern": "CBT: 240 MCQs, 3 hours. Covers all dental subjects from BDS curriculum. Each correct answer: 4 marks. Negative marking: -1.",
+      "frequency": "Once a year",
+      "important_dates": "Notification: September-October. Exam: January-March. Counselling: March-April (AIQ) and state counselling subsequently.",
+      "official_website": "https://natboard.edu.in",
+      "preparation_tips": [
+        "Revise all BDS subjects systematically",
+        "Focus on high-yield topics: Oral Surgery, Orthodontics, Prosthodontics",
+        "Practice previous year NEET MDS papers extensively",
+        "Use standard dental textbooks for concept clarity"
+      ],
+      "what_it_leads_to": "Admission to MDS programs in government and private dental colleges across India. Specialization in various dental disciplines.",
+      "uttarakhand_relevance": "Dental colleges in Uttarakhand (Dehradun, Roorkee) offer MDS seats through NEET MDS counselling. State quota seats available.",
+      "difficulty_level": "High",
+      "approximate_applicants": 35000,
+      "key_subjects": [
+        "Oral & Maxillofacial Surgery",
+        "Orthodontics",
+        "Prosthodontics",
+        "Conservative Dentistry",
+        "Periodontics",
+        "Oral Pathology"
+      ]
     },
     {
-      "exam_name": "Kerala SSLC Exam Pattern 2023: Marks Distribution & Preparation Tips",
-      "full_name": "",
-      "conducting_body": "",
-      "for_courses": [],
-      "for_colleges": "",
-      "frequency": "",
-      "eligibility": "",
-      "exam_mode": "Offline (Pen & Paper)",
-      "total_marks": null,
-      "duration_hours": null,
-      "subjects": [],
-      "official_website": "",
-      "uttarakhand_colleges_using": [],
-      "preparation_tips": ""
+      "exam_name": "NIPER JEE",
+      "also_known_as": [
+        "National Institute of Pharmaceutical Education and Research Joint Entrance Exam"
+      ],
+      "category": "Pharmacy",
+      "conducting_body": "NIPER (National Institute of Pharmaceutical Education and Research)",
+      "eligibility": "B.Pharm/M.Pharm/B.Tech (Pharmaceutical) or equivalent with minimum 60% (55% for SC/ST). GPAT qualified preferred.",
+      "exam_pattern": "CBT: 200 MCQs, 2 hours. Subjects vary by course: Pharmaceutical Sciences, Pharmacology, Medicinal Chemistry, etc. No negative marking.",
+      "frequency": "Once a year",
+      "important_dates": "Notification: April-May. Exam: June-July. Counselling: August.",
+      "official_website": "https://niperhyd.ac.in (conducting NIPER rotates annually)",
+      "preparation_tips": [
+        "Focus on core pharmaceutical subjects from B.Pharm curriculum",
+        "Study previous year NIPER JEE papers for pattern understanding",
+        "Revise pharmacology, medicinal chemistry, pharmaceutics thoroughly",
+        "Clear GPAT first for better preparation baseline"
+      ],
+      "what_it_leads_to": "M.S. (Pharm), M.Pharm, MBA (Pharma), and Ph.D programs at 7 NIPERs across India. Premier pharmaceutical education.",
+      "uttarakhand_relevance": "Pharmaceutical companies and research in Uttarakhand (Selaqui pharma belt near Dehradun) benefit from NIPER graduates. No NIPER campus in Uttarakhand but graduates find local employment.",
+      "difficulty_level": "Moderate to High",
+      "approximate_applicants": 25000,
+      "key_subjects": [
+        "Pharmacology",
+        "Medicinal Chemistry",
+        "Pharmaceutics",
+        "Pharmaceutical Analysis",
+        "Pharmacognosy"
+      ]
     },
     {
-      "exam_name": "UPCATET 2025 Results Out: Check Counselling Schedule, Cut Off, Scorecard, How to Download",
-      "full_name": "",
-      "conducting_body": "",
-      "for_courses": [],
-      "for_colleges": "",
-      "frequency": "",
-      "eligibility": "",
-      "exam_mode": "",
-      "total_marks": null,
-      "duration_hours": null,
-      "subjects": [],
-      "official_website": "",
-      "uttarakhand_colleges_using": [],
-      "preparation_tips": ""
+      "exam_name": "AIIMS Paramedical Entrance",
+      "also_known_as": [
+        "AIIMS Paramedical Course Entrance Exam"
+      ],
+      "category": "Medical/Paramedical",
+      "conducting_body": "AIIMS (All India Institute of Medical Sciences)",
+      "eligibility": "Class 12 pass with Science stream (PCB) for most courses. Specific eligibility varies by paramedical course. Age: 17-25 years typically.",
+      "exam_pattern": "CBT: 100 MCQs, 90 minutes. Subjects: Physics, Chemistry, Biology, General Knowledge. Some courses may have additional aptitude components.",
+      "frequency": "Once a year",
+      "important_dates": "Notification: March-April. Exam: June-July. Counselling: August.",
+      "official_website": "https://www.aiimsexams.ac.in",
+      "preparation_tips": [
+        "Focus on NCERT Science textbooks for Class 11-12",
+        "Study previous year AIIMS paramedical papers",
+        "Understand basics of anatomy and physiology",
+        "Keep updated on health sector current affairs"
+      ],
+      "what_it_leads_to": "Various paramedical programs at AIIMS including B.Sc in Medical Technology (Radiography, Lab Technology), Operation Theatre Technology, Optometry, etc.",
+      "uttarakhand_relevance": "AIIMS Rishikesh offers multiple paramedical courses. Excellent opportunity for Uttarakhand students to get premier healthcare training locally.",
+      "difficulty_level": "Moderate",
+      "approximate_applicants": 60000,
+      "key_subjects": [
+        "Biology",
+        "Physics",
+        "Chemistry",
+        "General Knowledge"
+      ]
     },
     {
-      "exam_name": "BHU UET (CUET UG) 2024",
-      "full_name": "",
-      "conducting_body": "",
-      "for_courses": [],
-      "for_colleges": "",
-      "frequency": "",
-      "eligibility": "",
-      "exam_mode": "Online (CBT)",
-      "total_marks": null,
-      "duration_hours": null,
-      "subjects": [],
-      "official_website": "",
-      "uttarakhand_colleges_using": [],
-      "preparation_tips": ""
+      "exam_name": "AILET",
+      "also_known_as": [
+        "All India Law Entrance Test"
+      ],
+      "category": "Law",
+      "conducting_body": "National Law University Delhi (NLU Delhi)",
+      "eligibility": "For BA LLB (5-year): Class 12 pass with 50% marks. For LLM: LLB/BA LLB with 50%. For Ph.D: LLM with 55%. Age: No upper limit for BA LLB.",
+      "exam_pattern": "Offline exam: 150 marks, 1.5 hours (English 25, Current Affairs & GK 35, Legal Aptitude 35, Logical Reasoning 35, Mathematics 20). No negative marking.",
+      "frequency": "Once a year",
+      "important_dates": "Notification: September. Application deadline: November-January. Exam: June (before CLAT). Result: June.",
+      "official_website": "https://nationallawuniversitydelhi.in",
+      "preparation_tips": [
+        "Focus on legal reasoning and legal aptitude questions",
+        "Read The Hindu/Indian Express daily for current affairs",
+        "Practice logical reasoning and analytical skills",
+        "Solve previous year AILET papers for pattern familiarity"
+      ],
+      "what_it_leads_to": "Admission to NLU Delhi for BA LLB, LLM, and Ph.D programs. NLU Delhi is among the top 3 law universities in India.",
+      "uttarakhand_relevance": "No direct Uttarakhand campus, but Uttarakhand students aspiring for top NLUs should consider AILET alongside CLAT.",
+      "difficulty_level": "High",
+      "approximate_applicants": 30000,
+      "key_subjects": [
+        "English",
+        "Current Affairs & GK",
+        "Legal Aptitude",
+        "Logical Reasoning",
+        "Mathematics"
+      ]
     },
     {
-      "exam_name": "NCHMCT JEE Exam Pattern 2026 (Revised): Check Total Marks, Marking Scheme, No. of Questions & Duration",
-      "full_name": "",
-      "conducting_body": "",
-      "for_courses": [],
-      "for_colleges": "",
-      "frequency": "",
-      "eligibility": "",
-      "exam_mode": "Online (CBT)",
-      "total_marks": null,
-      "duration_hours": null,
-      "subjects": [],
-      "official_website": "",
-      "uttarakhand_colleges_using": [],
-      "preparation_tips": ""
+      "exam_name": "LSAT India",
+      "also_known_as": [
+        "Law School Admission Test India"
+      ],
+      "category": "Law",
+      "conducting_body": "Pearson VUE (under license from Law School Admission Council, USA)",
+      "eligibility": "No specific eligibility criteria. Open to anyone seeking admission to participating law schools. Class 12 pass/appearing for UG law.",
+      "exam_pattern": "Online proctored exam: 92-100 MCQs, 2 hours 20 minutes. Sections: Analytical Reasoning, Logical Reasoning (2 sections), Reading Comprehension. No negative marking.",
+      "frequency": "Multiple sessions per year (typically January, May-June)",
+      "important_dates": "Registration opens several months before each session. Scores valid for 1 year.",
+      "official_website": "https://www.lsatindia.in",
+      "preparation_tips": [
+        "Practice analytical reasoning (logic games) extensively",
+        "Build reading speed and comprehension for long passages",
+        "Focus on strengthening/weakening argument questions",
+        "Take multiple full-length practice tests"
+      ],
+      "what_it_leads_to": "Admission to 100+ law colleges in India including Jindal Global Law School, UPES Dehradun Law, and other private law universities.",
+      "uttarakhand_relevance": "UPES Dehradun accepts LSAT India scores for its law programs. Direct option for Uttarakhand-based law aspirants.",
+      "difficulty_level": "Moderate to High",
+      "approximate_applicants": 20000,
+      "key_subjects": [
+        "Analytical Reasoning",
+        "Logical Reasoning",
+        "Reading Comprehension"
+      ]
     },
     {
-      "exam_name": "CBSE Class 12 Sample Papers 2025-26: Download Subject-Wise PDF",
-      "full_name": "",
-      "conducting_body": "",
-      "for_courses": [],
-      "for_colleges": "",
-      "frequency": "",
-      "eligibility": "",
-      "exam_mode": "",
-      "total_marks": null,
-      "duration_hours": null,
-      "subjects": [],
-      "official_website": "",
-      "uttarakhand_colleges_using": [],
-      "preparation_tips": ""
+      "exam_name": "MH CET Law",
+      "also_known_as": [
+        "Maharashtra Common Entrance Test for Law"
+      ],
+      "category": "Law",
+      "conducting_body": "State Common Entrance Test Cell, Government of Maharashtra",
+      "eligibility": "For 5-year LLB: Class 12 pass with 45% (40% for reserved). For 3-year LLB: Graduate with 45% (40% for reserved). Maharashtra domicile for state quota.",
+      "exam_pattern": "CBT: 150 MCQs, 2 hours. Subjects: Legal Aptitude & Legal Reasoning, Logical & Analytical Reasoning, General Knowledge & Current Affairs, English. No negative marking.",
+      "frequency": "Once a year",
+      "important_dates": "Notification: December-January. Exam: May-June. Counselling: July-August.",
+      "official_website": "https://cetcell.mahacet.org",
+      "preparation_tips": [
+        "Focus on legal aptitude questions based on legal principles",
+        "Practice reading comprehension and analytical reasoning",
+        "Study Maharashtra-specific current affairs",
+        "Solve previous year MH CET Law papers"
+      ],
+      "what_it_leads_to": "Admission to government and private law colleges in Maharashtra including Government Law College Mumbai, ILS Pune, and other premier institutes.",
+      "uttarakhand_relevance": "Primarily for Maharashtra law colleges. Limited relevance for Uttarakhand unless students wish to study law in Maharashtra.",
+      "difficulty_level": "Moderate",
+      "approximate_applicants": 100000,
+      "key_subjects": [
+        "Legal Aptitude",
+        "Logical Reasoning",
+        "General Knowledge",
+        "English"
+      ]
+    },
+    {
+      "exam_name": "NMAT",
+      "also_known_as": [
+        "NMAT by GMAC",
+        "NMIMS Management Aptitude Test"
+      ],
+      "category": "Management",
+      "conducting_body": "GMAC (Graduate Management Admission Council)",
+      "eligibility": "Graduate in any discipline with minimum 50% aggregate. Final year students may also apply.",
+      "exam_pattern": "CBT: 120 questions, 2 hours. Sections: Language Skills (36 Qs, 28 min), Quantitative Skills (36 Qs, 52 min), Logical Reasoning (36 Qs, 40 min). Scored on 12-360 scale. No negative marking.",
+      "frequency": "Multiple windows (October to December, with option to retake up to 3 times)",
+      "important_dates": "Registration: August-October. Test Window: October-December. Results: Within 4-5 weeks of test.",
+      "official_website": "https://www.nmat.org",
+      "preparation_tips": [
+        "Practice time management — each section is individually timed",
+        "Focus on language skills for quick scoring",
+        "Build strong fundamentals in data interpretation",
+        "Take all 3 attempts to maximize your score"
+      ],
+      "what_it_leads_to": "Admission to NMIMS Mumbai MBA, NMIMS campuses, and 40+ partner B-schools. Also accepted by ISB, XIMB, and other institutes.",
+      "uttarakhand_relevance": "Limited direct relevance to Uttarakhand, but NMAT score is accepted by multiple B-schools where Uttarakhand students may apply.",
+      "difficulty_level": "Moderate",
+      "approximate_applicants": 90000,
+      "key_subjects": [
+        "Language Skills",
+        "Quantitative Skills",
+        "Logical Reasoning"
+      ]
+    },
+    {
+      "exam_name": "SNAP",
+      "also_known_as": [
+        "Symbiosis National Aptitude Test"
+      ],
+      "category": "Management",
+      "conducting_body": "Symbiosis International (Deemed University), Pune",
+      "eligibility": "Graduate in any discipline with minimum 50% marks (45% for SC/ST). Must register for Symbiosis Entrance Test (SET) as well.",
+      "exam_pattern": "CBT: 60 MCQs, 60 minutes. Sections: General English (15 Qs), Quantitative Aptitude, Data Interpretation & Data Sufficiency (20 Qs), Analytical & Logical Reasoning (25 Qs). Marking: +1 for correct, -0.25 for wrong.",
+      "frequency": "Once a year (3 test attempts in December)",
+      "important_dates": "Registration: August-November. Exam: December (3 attempts). Results: January. GE-PIWAT: February-March.",
+      "official_website": "https://www.snaptest.org",
+      "preparation_tips": [
+        "Speed is crucial — only 60 minutes for 60 questions",
+        "Focus on logical reasoning for maximum questions",
+        "Practice quick reading and vocabulary for English",
+        "Take all 3 attempts and best score is considered"
+      ],
+      "what_it_leads_to": "Admission to MBA programs at 16 Symbiosis institutes including SIBM Pune, SCMHRD, SIIB, SIMS, SITM, etc.",
+      "uttarakhand_relevance": "No Symbiosis campus in Uttarakhand, but popular among Uttarakhand MBA aspirants seeking quality private B-school education.",
+      "difficulty_level": "Moderate",
+      "approximate_applicants": 75000,
+      "key_subjects": [
+        "General English",
+        "Quantitative Aptitude",
+        "Data Interpretation",
+        "Analytical & Logical Reasoning"
+      ]
     },
     {
       "exam_name": "GMAT",
-      "full_name": "",
-      "conducting_body": "of GMAT, provides GMAT fee waivers to universities",
-      "for_courses": [],
-      "for_colleges": "",
-      "frequency": "",
-      "eligibility": "",
-      "exam_mode": "Online (CBT)",
-      "total_marks": null,
-      "duration_hours": null,
-      "subjects": [],
-      "official_website": "",
-      "uttarakhand_colleges_using": [],
-      "preparation_tips": ""
+      "also_known_as": [
+        "Graduate Management Admission Test",
+        "GMAT Focus Edition"
+      ],
+      "category": "Management",
+      "conducting_body": "GMAC (Graduate Management Admission Council)",
+      "eligibility": "No specific academic eligibility. Open to anyone. Must be 18+ years. Accepted globally for MBA/business programs.",
+      "exam_pattern": "GMAT Focus Edition (2023+): 64 questions, 2 hours 15 minutes. Three sections: Quantitative Reasoning (21 Qs, 45 min), Verbal Reasoning (23 Qs, 45 min), Data Insights (20 Qs, 45 min). Score range: 205-805.",
+      "frequency": "Year-round at test centers. Can take up to 5 times in a 12-month period.",
+      "important_dates": "Available year-round. Register 24 hours before test date. Score valid for 5 years.",
+      "official_website": "https://www.mba.com/exams/gmat-exam",
+      "preparation_tips": [
+        "Start with official GMAT prep materials from GMAC",
+        "Focus on Data Insights — new section requires specific practice",
+        "Build strong verbal reasoning skills for critical reasoning",
+        "Take official mock tests to gauge readiness"
+      ],
+      "what_it_leads_to": "Admission to top MBA programs globally (Harvard, Wharton, INSEAD, ISB) and in India (IIMs, ISB, XLRI). Essential for international MBA applications.",
+      "uttarakhand_relevance": "Test centers available in Delhi/NCR. Relevant for Uttarakhand students aspiring for international or top Indian MBA programs.",
+      "difficulty_level": "High",
+      "approximate_applicants": 150000,
+      "key_subjects": [
+        "Quantitative Reasoning",
+        "Verbal Reasoning",
+        "Data Insights"
+      ]
     },
     {
-      "exam_name": "SAT Exam 2025: Test Dates",
-      "full_name": "",
-      "conducting_body": "for the SAT exam has released the SAT exam dates (Spring) 2026",
-      "for_courses": [],
-      "for_colleges": "",
-      "frequency": "",
-      "eligibility": "",
-      "exam_mode": "Online (CBT)",
-      "total_marks": null,
-      "duration_hours": null,
-      "subjects": [],
-      "official_website": "",
-      "uttarakhand_colleges_using": [],
-      "preparation_tips": ""
+      "exam_name": "UCEED",
+      "also_known_as": [
+        "Undergraduate Common Entrance Exam for Design"
+      ],
+      "category": "Design",
+      "conducting_body": "IIT Bombay (in collaboration with IIT Delhi, IIT Guwahati, IIITDM Jabalpur)",
+      "eligibility": "Class 12 pass/appearing. Must have been born on or after October 1 of the year 20 years before the exam year. Maximum 3 attempts.",
+      "exam_pattern": "CBT: 3 hours. Part A: NAT (Numerical Answer Type) + MSQ (Multiple Select Questions). Part B: Sketching (on paper). Total 300 marks. Tests creativity, visualization, observation, design aptitude.",
+      "frequency": "Once a year",
+      "important_dates": "Registration: October-November. Exam: January. Results: March. Counselling: June (through JoSAA).",
+      "official_website": "https://www.uceed.iitb.ac.in",
+      "preparation_tips": [
+        "Practice sketching and visual communication daily",
+        "Develop observation skills through everyday design analysis",
+        "Study color theory, typography, and basic design principles",
+        "Take mock tests for Part A numerical and analytical questions"
+      ],
+      "what_it_leads_to": "B.Des programs at IIT Bombay, IIT Delhi, IIT Guwahati, IIT Hyderabad, and IIITDM Jabalpur. Premier design education in India.",
+      "uttarakhand_relevance": "No direct Uttarakhand campus, but relevant for design-aspiring students from the state. Counselling through JoSAA.",
+      "difficulty_level": "High",
+      "approximate_applicants": 15000,
+      "key_subjects": [
+        "Visualization & Spatial Ability",
+        "Observation & Design Sensitivity",
+        "Analytical & Logical Reasoning",
+        "Sketching",
+        "Environmental & Social Awareness"
+      ]
     },
     {
-      "exam_name": "NEET 2026 Study Material For Physics, Chemistry, Biology",
-      "full_name": "",
-      "conducting_body": "",
-      "for_courses": [],
-      "for_colleges": "",
-      "frequency": "",
-      "eligibility": "",
-      "exam_mode": "Online (CBT)",
-      "total_marks": null,
-      "duration_hours": null,
-      "subjects": [],
-      "official_website": "",
-      "uttarakhand_colleges_using": [],
-      "preparation_tips": ""
+      "exam_name": "CEED",
+      "also_known_as": [
+        "Common Entrance Exam for Design"
+      ],
+      "category": "Design",
+      "conducting_body": "IIT Bombay",
+      "eligibility": "Bachelor's degree in any discipline (for M.Des at IITs/IISc). No age limit. Maximum 3 attempts.",
+      "exam_pattern": "Part A (CBT): 100 marks, 3 hours — NAT, MSQ, MCQ testing design aptitude, visualization, logical reasoning. Part B (offline): 100 marks, 1 hour — sketching and drawing on paper.",
+      "frequency": "Once a year",
+      "important_dates": "Registration: October-November. Exam: January. Results: March. Counselling: May-June.",
+      "official_website": "https://www.ceed.iitb.ac.in",
+      "preparation_tips": [
+        "Build a strong design portfolio for interviews",
+        "Practice sketching product ideas and concepts daily",
+        "Study design history, famous designers, and design movements",
+        "Develop visual reasoning and spatial aptitude"
+      ],
+      "what_it_leads_to": "M.Des programs at IIT Bombay, IIT Delhi, IIT Guwahati, IIT Hyderabad, IIT Kanpur, IISc Bangalore, and other design institutes.",
+      "uttarakhand_relevance": "Limited direct relevance to Uttarakhand, but postgraduate design education option for graduates from the state.",
+      "difficulty_level": "High",
+      "approximate_applicants": 12000,
+      "key_subjects": [
+        "Design Aptitude",
+        "Visualization",
+        "Sketching & Drawing",
+        "Logical Reasoning",
+        "Design History & Awareness"
+      ]
     },
     {
-      "exam_name": "MET Exam 2026",
-      "full_name": "",
-      "conducting_body": "the Manipal Academy of Higher Education",
-      "for_courses": [],
-      "for_colleges": "",
-      "frequency": "",
-      "eligibility": "",
-      "exam_mode": "Online (CBT)",
-      "total_marks": null,
-      "duration_hours": null,
-      "subjects": [],
-      "official_website": "",
-      "uttarakhand_colleges_using": [],
-      "preparation_tips": ""
+      "exam_name": "NID DAT",
+      "also_known_as": [
+        "National Institute of Design Design Aptitude Test"
+      ],
+      "category": "Design",
+      "conducting_body": "National Institute of Design (NID), Ahmedabad",
+      "eligibility": "For B.Des (DAT Prelims): Class 12 pass/appearing in any stream. For M.Des (DAT Mains): Bachelor's degree in relevant discipline. No age limit.",
+      "exam_pattern": "DAT Prelims (B.Des): Objective MCQs on design aptitude, creativity, general knowledge. DAT Mains: Studio test (sketching, model making, design problem solving), Interview/Portfolio presentation. Total assessment over 2 stages.",
+      "frequency": "Once a year",
+      "important_dates": "Registration: October-December. DAT Prelims: January. DAT Mains: April-May. Results: June.",
+      "official_website": "https://admissions.nid.edu",
+      "preparation_tips": [
+        "Develop strong sketching and visualization skills",
+        "Study Indian art, craft, and cultural heritage",
+        "Practice creative problem solving and lateral thinking",
+        "Build observation skills — NID tests real-world awareness"
+      ],
+      "what_it_leads_to": "B.Des and M.Des programs at NID campuses (Ahmedabad, Gandhinagar, Bangalore, Kurukshetra, Vijayawada, Bhopal, Jorhat). NID is India's premier design institute.",
+      "uttarakhand_relevance": "No NID campus in Uttarakhand, but Uttarakhand's rich craft traditions (Aipan art, woodcraft) can be a unique portfolio strength for applicants.",
+      "difficulty_level": "High",
+      "approximate_applicants": 20000,
+      "key_subjects": [
+        "Design Aptitude",
+        "Creativity & Visualization",
+        "Sketching",
+        "General Awareness",
+        "Material & Environmental Sensitivity"
+      ]
     },
     {
-      "exam_name": "GPAT 2026 Exam: Dates, Final Answer Key (Soon)",
-      "full_name": "",
-      "conducting_body": "National Board of Examinations (NBE)Frequency Of ConductOnce a yearExam LevelNational Level ExamLang",
-      "for_courses": [],
-      "for_colleges": "",
-      "frequency": "",
-      "eligibility": "",
-      "exam_mode": "Online & Offline",
-      "total_marks": null,
-      "duration_hours": null,
-      "subjects": [],
-      "official_website": "",
-      "uttarakhand_colleges_using": [],
-      "preparation_tips": ""
+      "exam_name": "JEE Main Paper 2 (B.Arch/B.Planning)",
+      "also_known_as": [
+        "JEE Main Paper 2A for B.Arch",
+        "JEE Main Paper 2B for B.Planning"
+      ],
+      "category": "Architecture/Planning",
+      "conducting_body": "NTA (National Testing Agency)",
+      "eligibility": "Class 12 pass/appearing with 50% aggregate. For B.Arch: should have Mathematics as a subject. For B.Planning: Maths compulsory.",
+      "exam_pattern": "Paper 2A (B.Arch): 400 marks, 3 hours — Mathematics (MCQ 20+NAT 5), Aptitude Test (MCQ 50), Drawing Test (2 Qs). Paper 2B (B.Planning): 400 marks, 3 hours — Mathematics (MCQ 20+NAT 5), Aptitude Test (MCQ 50), Planning Based Questions (MCQ 25).",
+      "frequency": "Once a year (April session only)",
+      "important_dates": "Registration: February. Exam: April. Results: May. Counselling via JoSAA: June-July.",
+      "official_website": "https://jeemain.nta.nic.in",
+      "preparation_tips": [
+        "Practice architectural drawing and 3D visualization daily",
+        "Study aptitude section — covers GK, architecture, design",
+        "Strengthen mathematics for both papers",
+        "Solve previous year drawing questions under timed conditions"
+      ],
+      "what_it_leads_to": "Admission to B.Arch at NITs, IITs (through AAT), SPAs, and other government architecture colleges. B.Planning at top planning institutes through JoSAA counselling.",
+      "uttarakhand_relevance": "Relevant for admission to architecture programs. NIT Uttarakhand and other Uttarakhand colleges may offer B.Arch/B.Planning through this score.",
+      "difficulty_level": "Moderate to High",
+      "approximate_applicants": 200000,
+      "key_subjects": [
+        "Mathematics",
+        "Aptitude Test",
+        "Drawing (for B.Arch)",
+        "Planning Based Questions (for B.Planning)"
+      ]
     },
     {
-      "exam_name": "CAT Exam 2025: Result Out",
-      "full_name": "",
-      "conducting_body": "IIM Kozhikode",
-      "for_courses": [],
-      "for_colleges": "",
-      "frequency": "",
-      "eligibility": "",
-      "exam_mode": "Online & Offline",
-      "total_marks": null,
-      "duration_hours": null,
-      "subjects": [],
-      "official_website": "",
-      "uttarakhand_colleges_using": [],
-      "preparation_tips": ""
+      "exam_name": "Indian Navy INET",
+      "also_known_as": [
+        "Indian Navy Entrance Test",
+        "INET for Officers"
+      ],
+      "category": "Defence",
+      "conducting_body": "Indian Navy",
+      "eligibility": "B.E./B.Tech for technical branches. Any degree for executive/education branches. Unmarried, age 19-25 years. Must meet physical and medical standards.",
+      "exam_pattern": "CBT: 4 sections (English, Reasoning & Numerical Ability, General Science, Mathematical Aptitude), 2 hours. Each section has qualifying cutoff. Followed by SSB Interview.",
+      "frequency": "Twice a year",
+      "important_dates": "Notification: June and December. Exam: September and March. SSB: 3-4 months after result.",
+      "official_website": "https://www.joinindiannavy.gov.in",
+      "preparation_tips": [
+        "Focus on general science with emphasis on physics and mechanics",
+        "Practice numerical ability with focus on speed",
+        "Build strong English comprehension and vocabulary",
+        "Prepare for SSB concurrently — start early"
+      ],
+      "what_it_leads_to": "Commissioned officer entry into Indian Navy across branches: Executive, Engineering, Electrical, Education, Logistics.",
+      "uttarakhand_relevance": "Uttarakhand has a strong defence services tradition. Though landlocked, many Uttarakhand youth join the Navy through INET.",
+      "difficulty_level": "Moderate to High",
+      "approximate_applicants": 50000,
+      "key_subjects": [
+        "English",
+        "Reasoning & Numerical Ability",
+        "General Science",
+        "Mathematical Aptitude"
+      ]
     },
     {
-      "exam_name": "NMAT 2025",
-      "full_name": "",
-      "conducting_body": "the Graduate Management Admission Council (GMAC) for admission to NMIMS Mumbai and other top MBA col",
-      "for_courses": [],
-      "for_colleges": "",
-      "frequency": "",
-      "eligibility": "",
-      "exam_mode": "Online & Offline",
-      "total_marks": null,
-      "duration_hours": null,
-      "subjects": [],
-      "official_website": "",
-      "uttarakhand_colleges_using": [],
-      "preparation_tips": ""
+      "exam_name": "SSB Interview",
+      "also_known_as": [
+        "Services Selection Board Interview"
+      ],
+      "category": "Defence",
+      "conducting_body": "Services Selection Board (under Ministry of Defence)",
+      "eligibility": "Must have qualified the written exam (CDS/NDA/AFCAT/INET/CES etc.) or be shortlisted by the respective defence entry scheme.",
+      "exam_pattern": "5-day process: Day 1 — Screening (OIR Test + PPDT). Days 2-3 — Psychological Tests (TAT, WAT, SRT, Self Description). Day 4 — Group Testing (GD, GPE, Lecturette, HGT, Individual & Command Tasks). Day 5 — Personal Interview by IO. Conference.",
+      "frequency": "Continuous throughout the year for various entries",
+      "important_dates": "Scheduled individually after clearing the respective written exam. Dates communicated via call letter.",
+      "official_website": "https://joinindianarmy.nic.in/ssb-interview.htm",
+      "preparation_tips": [
+        "Develop genuine Officer Like Qualities (OLQs)",
+        "Practice story writing (TAT) and word association (WAT) regularly",
+        "Work on communication skills and body language",
+        "Build real-life experience in leadership, teamwork, and adventure"
+      ],
+      "what_it_leads_to": "Final selection for commissioning as officer in Indian Army, Navy, or Air Force. The SSB is the decisive selection stage.",
+      "uttarakhand_relevance": "SSB centers exist in Dehradun (for Army), Allahabad, Bhopal, and Bangalore. Dehradun SSB center is a major one. Uttarakhand's defence culture gives local candidates an advantage.",
+      "difficulty_level": "Very High",
+      "approximate_applicants": 150000,
+      "key_subjects": [
+        "Psychological Testing",
+        "Group Tasks",
+        "Personal Interview",
+        "Officer Like Qualities Assessment"
+      ]
     },
     {
-      "exam_name": "RRB Group D 2024-25 Exam - Answer Key",
-      "full_name": "",
-      "conducting_body": "Railway Recruitment BoardFrequency Of ConductBased on VacancyExam LevelMatriculateLanguagesAssamese",
-      "for_courses": [],
-      "for_colleges": "",
-      "frequency": "",
-      "eligibility": "",
-      "exam_mode": "Online & Offline",
-      "total_marks": null,
-      "duration_hours": null,
-      "subjects": [],
-      "official_website": "",
-      "uttarakhand_colleges_using": [],
-      "preparation_tips": ""
+      "exam_name": "Territorial Army Exam",
+      "also_known_as": [
+        "TA Exam",
+        "Territorial Army Officer Exam"
+      ],
+      "category": "Defence",
+      "conducting_body": "Directorate General of Territorial Army (Indian Army)",
+      "eligibility": "Employed (gainfully) Indian citizens, both male and female. Age: 18-42 years. Graduate in any discipline. Must be medically fit.",
+      "exam_pattern": "Written Exam: Paper 1 — Reasoning & Elementary Mathematics (100 marks, 2 hours). Paper 2 — General Knowledge & English (100 marks, 2 hours). Followed by SSB Interview and Medical.",
+      "frequency": "Twice a year (typically July and January)",
+      "important_dates": "Notification: February and August. Exam: July and January. SSB: 3-4 months after written result.",
+      "official_website": "https://www.jointerritorialarmy.gov.in",
+      "preparation_tips": [
+        "Focus on elementary math — topics up to Class 10 level",
+        "Build strong English language skills",
+        "Study current affairs and defence-related GK",
+        "Prepare for SSB interview alongside written preparation"
+      ],
+      "what_it_leads_to": "Commission as officer in the Territorial Army. Part-time military service while maintaining civilian career. Two months annual training.",
+      "uttarakhand_relevance": "TA battalions exist in Uttarakhand (Kumaon and Garhwal). Popular among employed youth in the state who want to serve part-time in the military.",
+      "difficulty_level": "Moderate",
+      "approximate_applicants": 50000,
+      "key_subjects": [
+        "Reasoning",
+        "Elementary Mathematics",
+        "General Knowledge",
+        "English"
+      ]
     },
     {
-      "exam_name": "SRMHCAT 2024 - Round 4",
-      "full_name": "",
-      "conducting_body": "SRM University Delhi-NCR, Sonepat, HaryanaFrequency Of ConductOnce a yearExam LevelUniversity Level",
-      "for_courses": [],
-      "for_colleges": "",
-      "frequency": "",
-      "eligibility": "",
-      "exam_mode": "Online & Offline",
-      "total_marks": null,
-      "duration_hours": null,
-      "subjects": [],
-      "official_website": "",
-      "uttarakhand_colleges_using": [],
-      "preparation_tips": ""
+      "exam_name": "IIMC Entrance Exam",
+      "also_known_as": [
+        "Indian Institute of Mass Communication Entrance Test"
+      ],
+      "category": "Media/Communication",
+      "conducting_body": "Indian Institute of Mass Communication (IIMC), New Delhi",
+      "eligibility": "Graduate in any discipline with minimum 50% marks (45% for reserved categories). For Hindi Journalism: Hindi as subject in graduation/Class 12.",
+      "exam_pattern": "Written Test: 100 MCQs on General Knowledge, Current Affairs, English/Hindi Language, Media Aptitude, Analytical Ability. Duration: 2 hours. Followed by Group Discussion and Personal Interview.",
+      "frequency": "Once a year",
+      "important_dates": "Notification: May-June. Exam: July. GD/PI: August. Admission: August-September.",
+      "official_website": "https://www.iimc.gov.in",
+      "preparation_tips": [
+        "Read newspapers and magazines extensively for current affairs",
+        "Develop strong opinions on media ethics and contemporary issues",
+        "Practice writing on media, communication, and social issues",
+        "Prepare for GD/PI with strong articulation of views"
+      ],
+      "what_it_leads_to": "PG Diploma in Journalism (English/Hindi), Advertising & PR, Radio & TV Journalism, New Media at IIMC campuses. Premier media education in India.",
+      "uttarakhand_relevance": "IIMC has no Uttarakhand campus, but media and journalism opportunities in the state are growing. IIMC graduates can work in Uttarakhand's expanding media landscape.",
+      "difficulty_level": "Moderate to High",
+      "approximate_applicants": 8000,
+      "key_subjects": [
+        "General Knowledge",
+        "Current Affairs",
+        "English/Hindi Language",
+        "Media Aptitude",
+        "Analytical Ability"
+      ]
     },
     {
-      "exam_name": "NCHMCT JEE Exam 2026",
-      "full_name": "",
-      "conducting_body": "NTA to offer admission into the hotel management courses such as the B",
-      "for_courses": [],
-      "for_colleges": "",
-      "frequency": "",
-      "eligibility": "",
-      "exam_mode": "Online (CBT)",
-      "total_marks": null,
-      "duration_hours": null,
-      "subjects": [],
-      "official_website": "",
-      "uttarakhand_colleges_using": [],
-      "preparation_tips": ""
+      "exam_name": "FTII Entrance Exam",
+      "also_known_as": [
+        "Film and Television Institute of India Entrance Test",
+        "FTII JET"
+      ],
+      "category": "Media/Film",
+      "conducting_body": "Film and Television Institute of India (FTII), Pune",
+      "eligibility": "Graduate in any discipline (for most courses). Specific courses may require relevant background. Age: No upper limit for most courses.",
+      "exam_pattern": "CBT: MCQs on General Knowledge, Current Affairs, Analytical Ability, and course-specific aptitude. Followed by screen test/interview depending on specialization (Direction, Cinematography, Sound, Editing, etc.).",
+      "frequency": "Once a year (or every 2 years for some courses)",
+      "important_dates": "Notification: January-March. Written Test: April-May. Orientation/Interview: June-July. Admission: August.",
+      "official_website": "https://www.ftii.ac.in",
+      "preparation_tips": [
+        "Watch classic and contemporary Indian and world cinema extensively",
+        "Study film history, theory, and major film movements",
+        "Develop analytical skills to critique films and narratives",
+        "Build a portfolio of creative work (shorts, photography, writing)"
+      ],
+      "what_it_leads_to": "PG Diploma in Film Direction, Cinematography, Sound Design, Editing, Screenplay Writing, Acting, Art Direction at India's premier film school.",
+      "uttarakhand_relevance": "Uttarakhand is increasingly used as a film shooting location. FTII graduates can leverage the state's natural beauty for film production careers.",
+      "difficulty_level": "High",
+      "approximate_applicants": 6000,
+      "key_subjects": [
+        "Film Appreciation & History",
+        "General Knowledge",
+        "Analytical Ability",
+        "Creative Aptitude"
+      ]
     },
     {
-      "exam_name": "UP Board 10th Exam 2026",
-      "full_name": "",
-      "conducting_body": "Board of High School and Intermediate Education Uttar PradeshFrequency Of ConductOnce a yearExam Lev",
-      "for_courses": [],
-      "for_colleges": "",
-      "frequency": "",
-      "eligibility": "",
-      "exam_mode": "Online & Offline",
-      "total_marks": null,
-      "duration_hours": null,
-      "subjects": [],
-      "official_website": "",
-      "uttarakhand_colleges_using": [],
-      "preparation_tips": ""
+      "exam_name": "NIMHANS Entrance Exam",
+      "also_known_as": [
+        "National Institute of Mental Health and Neurosciences Entrance Exam"
+      ],
+      "category": "Psychology/Medical",
+      "conducting_body": "NIMHANS (National Institute of Mental Health and Neurosciences), Bangalore",
+      "eligibility": "Varies by program. For M.Phil Clinical Psychology: MA/M.Sc in Psychology with 55%. For DM/M.Ch: MD/MS in relevant specialty. For Ph.D: M.Phil/MD in relevant field.",
+      "exam_pattern": "CBT: MCQs on core subject areas. For Clinical Psychology: Psychopathology, Clinical Psychology, Research Methods, Statistics, Psychological Assessment, Therapeutic Approaches. Duration varies by program.",
+      "frequency": "Once a year (typically)",
+      "important_dates": "Notification: March-April. Exam: May-June. Results: June-July. Admission: July-August.",
+      "official_website": "https://www.nimhans.ac.in",
+      "preparation_tips": [
+        "Study abnormal psychology and psychopathology in depth",
+        "Revise research methodology and statistics",
+        "Study DSM-5 and ICD-11 classification systems",
+        "Read published research papers from NIMHANS faculty"
+      ],
+      "what_it_leads_to": "M.Phil (Clinical Psychology, Psychiatric Social Work), DM (Neurology, Psychiatry), M.Ch (Neurosurgery), Ph.D, and Fellowship programs at India's premier mental health institute.",
+      "uttarakhand_relevance": "Mental health services are underserved in Uttarakhand hill regions. NIMHANS graduates can fill a critical gap in the state's mental health infrastructure.",
+      "difficulty_level": "Very High",
+      "approximate_applicants": 15000,
+      "key_subjects": [
+        "Clinical Psychology",
+        "Psychopathology",
+        "Research Methodology",
+        "Neurosciences",
+        "Psychiatric Assessment"
+      ]
     },
     {
-      "exam_name": "Chandigarh University (CUCET) 2026",
-      "full_name": "",
-      "conducting_body": "NAAC A+ accredited Chandigarh University",
-      "for_courses": [],
-      "for_colleges": "",
-      "frequency": "",
-      "eligibility": "",
-      "exam_mode": "Online & Offline",
-      "total_marks": null,
-      "duration_hours": null,
-      "subjects": [],
-      "official_website": "",
-      "uttarakhand_colleges_using": [],
-      "preparation_tips": ""
+      "exam_name": "ICAR NET/SRF",
+      "also_known_as": [
+        "ICAR National Eligibility Test",
+        "ICAR AICE JRF/SRF",
+        "ASRB NET"
+      ],
+      "category": "Agriculture",
+      "conducting_body": "Agricultural Scientists Recruitment Board (ASRB), ICAR",
+      "eligibility": "Master's degree in Agriculture/Veterinary/Fisheries/Home Science/relevant subject with minimum 55% marks (50% for SC/ST/OBC/PwBD).",
+      "exam_pattern": "CBT: 150 MCQs, 2 hours 30 minutes. Subjects: Core discipline (unit-wise). Qualifying for NET (Lecturership) and JRF/SRF (Research Fellowship). Negative marking: -1/3 for wrong answers.",
+      "frequency": "Once a year",
+      "important_dates": "Notification: April-May. Exam: August-September. Results: October-November.",
+      "official_website": "https://asrb.org.in",
+      "preparation_tips": [
+        "Study subject-specific topics from ICAR syllabus thoroughly",
+        "Revise MSc-level concepts in your specialization",
+        "Practice previous year ICAR NET papers",
+        "Focus on recent advances in agricultural sciences"
+      ],
+      "what_it_leads_to": "NET: Eligibility for Assistant Professor in agricultural universities. JRF/SRF: Research fellowship for Ph.D in ICAR institutes and agricultural universities.",
+      "uttarakhand_relevance": "GBPUAT Pantnagar, VCSG Uttarakhand University of Horticulture & Forestry, and other agricultural institutions in Uttarakhand recruit faculty through ICAR NET qualification.",
+      "difficulty_level": "High",
+      "approximate_applicants": 60000,
+      "key_subjects": [
+        "Agriculture/Horticulture/Veterinary (specialization-dependent)",
+        "Plant Sciences",
+        "Animal Sciences",
+        "Agricultural Engineering"
+      ]
     },
     {
-      "exam_name": "KLEE Exam 2026 (3 & 5-year LLB)",
-      "full_name": "",
-      "conducting_body": "Commissioner for Entrance ExaminationsFrequency Of ConductOnce a yearExam LevelState Level ExamLangu",
-      "for_courses": [],
-      "for_colleges": "",
-      "frequency": "",
-      "eligibility": "",
-      "exam_mode": "Online & Offline",
-      "total_marks": null,
-      "duration_hours": null,
-      "subjects": [],
-      "official_website": "",
-      "uttarakhand_colleges_using": [],
-      "preparation_tips": ""
+      "exam_name": "WII Entrance Exam",
+      "also_known_as": [
+        "Wildlife Institute of India Entrance Exam"
+      ],
+      "category": "Wildlife/Forestry",
+      "conducting_body": "Wildlife Institute of India (WII), Dehradun",
+      "eligibility": "Varies by program. For M.Sc Wildlife Science: B.Sc in Life Sciences/Forestry with 55%. For PG Diploma: Graduate with relevant experience. For Ph.D: M.Sc in relevant discipline.",
+      "exam_pattern": "Written Test: MCQs on Wildlife Biology, Ecology, Conservation Biology, Environmental Science, General Science, Current Affairs related to wildlife. Followed by Interview.",
+      "frequency": "Once a year",
+      "important_dates": "Notification: January-March. Written Test: April-May. Interview: June. Admission: July.",
+      "official_website": "https://www.wii.gov.in",
+      "preparation_tips": [
+        "Study wildlife biology, ecology, and conservation biology thoroughly",
+        "Read current affairs on wildlife and environment issues",
+        "Understand Indian Wildlife Protection Act and CITES",
+        "Gain field experience through wildlife volunteering"
+      ],
+      "what_it_leads_to": "M.Sc Wildlife Science, PG Diploma in Wildlife Management, Ph.D at WII. Careers in wildlife conservation, forest services, environmental consulting.",
+      "uttarakhand_relevance": "WII is located in Dehradun, Uttarakhand. The state has rich biodiversity (Jim Corbett, Rajaji, Valley of Flowers, Nanda Devi). Highly relevant for Uttarakhand's conservation and eco-tourism sector.",
+      "difficulty_level": "High",
+      "approximate_applicants": 3000,
+      "key_subjects": [
+        "Wildlife Biology",
+        "Ecology",
+        "Conservation Biology",
+        "Environmental Science",
+        "Statistics"
+      ]
     },
     {
-      "exam_name": "BVP CET Exam 2026: Dates",
-      "full_name": "",
-      "conducting_body": "Bharati Vidyapeeth for admission to various programs across all the campuses",
-      "for_courses": [],
-      "for_colleges": "",
-      "frequency": "",
-      "eligibility": "",
-      "exam_mode": "Online & Offline",
-      "total_marks": null,
-      "duration_hours": null,
-      "subjects": [],
-      "official_website": "",
-      "uttarakhand_colleges_using": [],
-      "preparation_tips": ""
+      "exam_name": "NIS Patiala Entrance Exam",
+      "also_known_as": [
+        "National Institute of Sports Entrance Exam",
+        "Netaji Subhas NIS Entrance"
+      ],
+      "category": "Sports",
+      "conducting_body": "Sports Authority of India (SAI), NIS Patiala",
+      "eligibility": "Graduate with sports background. For Diploma in Sports Coaching: Represented at state/national level in respective sport. Age and experience requirements vary by course.",
+      "exam_pattern": "Written Test: General Knowledge, Sports Science, Physical Education concepts. Physical Fitness Test. Sport-specific skill assessment. Interview/Viva voce.",
+      "frequency": "Once a year",
+      "important_dates": "Notification: March-April. Exam: May-June. Admission: July-August.",
+      "official_website": "https://sfrpatiala.sai.gov.in",
+      "preparation_tips": [
+        "Maintain excellent physical fitness levels",
+        "Study sports science — physiology, biomechanics, nutrition",
+        "Know rules and regulations of your specific sport",
+        "Study history of sports in India and Olympics"
+      ],
+      "what_it_leads_to": "Diploma in Sports Coaching, M.Sc in Sports Coaching, and Certificate courses at NIS Patiala. Career as certified sports coach under SAI.",
+      "uttarakhand_relevance": "Uttarakhand has produced national-level athletes in adventure sports, athletics. NIS qualification benefits aspiring coaches in the state. State Sports Authority jobs often prefer NIS certification.",
+      "difficulty_level": "Moderate",
+      "approximate_applicants": 5000,
+      "key_subjects": [
+        "Sports Science",
+        "Physical Education",
+        "General Knowledge",
+        "Sport-Specific Skills"
+      ]
     },
     {
-      "exam_name": "FDDI AIST Exam 2026",
-      "full_name": "",
-      "conducting_body": "Footwear Design and Development InstituteFrequency Of ConductOnce a yearExam LevelNational Level Exa",
-      "for_courses": [],
-      "for_colleges": "",
-      "frequency": "",
-      "eligibility": "",
-      "exam_mode": "Online & Offline",
-      "total_marks": null,
-      "duration_hours": null,
-      "subjects": [],
-      "official_website": "",
-      "uttarakhand_colleges_using": [],
-      "preparation_tips": ""
+      "exam_name": "UGC NET Physical Education",
+      "also_known_as": [
+        "UGC NET Paper Physical Education",
+        "NTA UGC NET Subject 44"
+      ],
+      "category": "Sports/Education",
+      "conducting_body": "NTA (National Testing Agency) on behalf of UGC",
+      "eligibility": "Master's degree in Physical Education with minimum 55% marks (50% for reserved categories). Final year students may also apply.",
+      "exam_pattern": "CBT: Paper 1 (50 Qs, 100 marks) — Teaching Aptitude, Research Methodology, Communication, etc. Paper 2 (100 Qs, 200 marks) — Physical Education subject-specific. Total 3 hours. Negative marking: None.",
+      "frequency": "Twice a year (June and December)",
+      "important_dates": "June session: Registration March-April, Exam June. December session: Registration September-October, Exam December.",
+      "official_website": "https://ugcnet.nta.ac.in",
+      "preparation_tips": [
+        "Study physical education pedagogy and methodology",
+        "Revise sports psychology, kinesiology, biomechanics",
+        "Practice Paper 1 topics — teaching aptitude and research methods",
+        "Solve previous year UGC NET Physical Education papers"
+      ],
+      "what_it_leads_to": "JRF (Junior Research Fellowship) for Ph.D or eligibility for Assistant Professor in Physical Education at universities and colleges across India.",
+      "uttarakhand_relevance": "Universities and colleges in Uttarakhand (HNB Garhwal, Kumaon University, LSMU) need qualified Physical Education faculty. NET qualification is mandatory for recruitment.",
+      "difficulty_level": "Moderate to High",
+      "approximate_applicants": 30000,
+      "key_subjects": [
+        "Physical Education",
+        "Sports Psychology",
+        "Kinesiology",
+        "Biomechanics",
+        "Exercise Physiology",
+        "Research Methodology"
+      ]
     },
     {
-      "exam_name": "NEET MDS 2026",
-      "full_name": "",
-      "conducting_body": "National Board of Examinations (NBE)Frequency Of ConductOnce a yearExam LevelNational Level ExamLang",
-      "for_courses": [],
-      "for_colleges": "",
-      "frequency": "",
-      "eligibility": "",
-      "exam_mode": "Online & Offline",
-      "total_marks": null,
-      "duration_hours": null,
-      "subjects": [],
-      "official_website": "",
-      "uttarakhand_colleges_using": [],
-      "preparation_tips": ""
+      "exam_name": "UPSC CSE (for IRAS/IRSE and other services)",
+      "also_known_as": [
+        "UPSC Civil Services Examination",
+        "IAS Exam",
+        "UPSC CSE"
+      ],
+      "category": "Government",
+      "conducting_body": "UPSC (Union Public Service Commission)",
+      "eligibility": "Graduate in any discipline from a recognized university. Age: 21-32 years (relaxation for reserved categories). Attempts: 6 for General, 9 for OBC, unlimited for SC/ST (within age limit).",
+      "exam_pattern": "Prelims: 2 papers (GS 200 marks + CSAT 200 marks qualifying), 2 hours each. Mains: 9 papers including 4 GS, Essay, Optional Subject (2 papers), 2 language papers. Total 1750 marks. Personality Test (Interview): 275 marks.",
+      "frequency": "Once a year",
+      "important_dates": "Notification: February. Prelims: May-June. Mains: September. Interview: January-April. Final Result: April-May.",
+      "official_website": "https://upsc.gov.in",
+      "preparation_tips": [
+        "Start with NCERT books for foundation in all subjects",
+        "Choose optional subject wisely based on interest and scoring potential",
+        "Practice answer writing for Mains from day one",
+        "Follow current affairs through newspapers and monthly magazines"
+      ],
+      "what_it_leads_to": "All India Services (IAS, IPS, IFoS) and Central Services including IRAS (Indian Railway Accounts Service), IRSE (Indian Railway Service of Engineers), IFS, IRS, and 20+ other Group A services.",
+      "uttarakhand_relevance": "IAS/IPS officers are posted in Uttarakhand districts. The state has produced notable civil servants. Mussoorie (LBSNAA) is the training academy for IAS. Uttarakhand cadre IAS postings are available.",
+      "difficulty_level": "Very High",
+      "approximate_applicants": 1200000,
+      "key_subjects": [
+        "General Studies",
+        "Current Affairs",
+        "Optional Subject",
+        "Essay Writing",
+        "Ethics"
+      ]
     },
     {
-      "exam_name": "RBSE 10th Exam 2026: Date Sheet",
-      "full_name": "",
-      "conducting_body": "Board of Secondary Education, RajasthanFrequency Of ConductOnce a yearExam LevelMatriculateLanguages",
-      "for_courses": [],
-      "for_colleges": "",
-      "frequency": "",
-      "eligibility": "",
-      "exam_mode": "Online & Offline",
-      "total_marks": null,
-      "duration_hours": null,
-      "subjects": [],
-      "official_website": "",
-      "uttarakhand_colleges_using": [],
-      "preparation_tips": ""
+      "exam_name": "NFSU Entrance Exam",
+      "also_known_as": [
+        "National Forensic Sciences University Entrance Exam"
+      ],
+      "category": "Forensic Science",
+      "conducting_body": "National Forensic Sciences University (NFSU), Gandhinagar",
+      "eligibility": "Varies by program. For B.Sc Forensic Science: Class 12 with Science (PCM/PCB) with 50%. For M.Sc: B.Sc in relevant discipline with 55%. For other programs: Graduation in relevant field.",
+      "exam_pattern": "CBT: MCQs on General Knowledge, Analytical Reasoning, Subject-specific questions (Science/Law/Cyber Security depending on program). Duration: 90 minutes to 2 hours. Negative marking applicable.",
+      "frequency": "Once a year",
+      "important_dates": "Notification: April-May. Exam: June-July. Counselling: July-August. Admission: August.",
+      "official_website": "https://www.nfrsu.ac.in",
+      "preparation_tips": [
+        "Study basic sciences — chemistry, biology, physics from Class 11-12",
+        "Learn fundamentals of forensic science and criminology",
+        "Practice analytical reasoning and logical thinking",
+        "Stay updated on cyber security and digital forensics trends"
+      ],
+      "what_it_leads_to": "B.Sc/M.Sc in Forensic Science, Digital Forensics, Cyber Security, Criminology, DNA Forensics, and related programs at NFSU. Careers in forensic labs, law enforcement, cybercrime units.",
+      "uttarakhand_relevance": "NFSU has expanded to multiple campuses. Forensic science professionals are needed in Uttarakhand's police and judicial system. Growing field with national relevance.",
+      "difficulty_level": "Moderate",
+      "approximate_applicants": 25000,
+      "key_subjects": [
+        "General Science",
+        "Analytical Reasoning",
+        "Forensic Science Basics",
+        "General Knowledge",
+        "Logical Thinking"
+      ]
+    },
+    {
+      "exam_name": "ESE",
+      "also_known_as": [
+        "Engineering Services Examination",
+        "IES Exam",
+        "UPSC ESE"
+      ],
+      "category": "Engineering/Government",
+      "conducting_body": "UPSC (Union Public Service Commission)",
+      "eligibility": "B.E./B.Tech or equivalent in relevant engineering discipline. Age: 21-30 years (relaxation for reserved categories).",
+      "exam_pattern": "Prelims: Paper 1 — General Studies & Engineering Aptitude (200 marks, 2 hrs). Paper 2 — Engineering Discipline (300 marks, 3 hrs). Mains: 2 Conventional papers (600 marks total). Personality Test: 200 marks.",
+      "frequency": "Once a year",
+      "important_dates": "Notification: September. Prelims: February. Mains: June-July. Interview: October-November. Result: December.",
+      "official_website": "https://upsc.gov.in",
+      "preparation_tips": [
+        "Master your core engineering subjects from B.Tech curriculum",
+        "Practice solving conventional (descriptive) engineering problems",
+        "Study General Studies — current affairs, ethics, environment",
+        "Solve previous 15-20 years ESE papers thoroughly"
+      ],
+      "what_it_leads_to": "Group A gazetted officer posts in Indian Engineering Services including Indian Railway Service of Engineers, Central Engineering Service, Central Electrical & Mechanical Engineering Service, and more.",
+      "uttarakhand_relevance": "ESE officers get posted in central government projects across India including infrastructure projects in Uttarakhand. BRO, CPWD projects in the state offer postings.",
+      "difficulty_level": "Very High",
+      "approximate_applicants": 150000,
+      "key_subjects": [
+        "Engineering Discipline (Civil/Mechanical/Electrical/Electronics)",
+        "General Studies",
+        "Engineering Aptitude"
+      ]
+    },
+    {
+      "exam_name": "CSIR NET",
+      "also_known_as": [
+        "CSIR UGC NET",
+        "Joint CSIR UGC NET"
+      ],
+      "category": "Science/Research",
+      "conducting_body": "NTA (National Testing Agency) on behalf of CSIR",
+      "eligibility": "M.Sc or equivalent in Life Sciences, Chemical Sciences, Physical Sciences, Mathematical Sciences, or Earth/Atmospheric/Ocean/Planetary Sciences with 55% (50% for reserved). BS-MS/Integrated Ph.D students also eligible.",
+      "exam_pattern": "CBT: Single paper, 3 hours, 200 marks. Three parts — Part A: General Aptitude (20 Qs), Part B: Subject-related MCQs (25-40 Qs), Part C: Higher value subject questions (20-25 Qs). Negative marking for Parts A and B.",
+      "frequency": "Twice a year (June and December)",
+      "important_dates": "June session: Registration March-April, Exam June. December session: Registration September-October, Exam December.",
+      "official_website": "https://csirnet.nta.ac.in",
+      "preparation_tips": [
+        "Focus on Part C — higher marks per question, no negative marking",
+        "Study MSc-level concepts in depth for your subject",
+        "Practice Part A general aptitude for quick scoring",
+        "Revise from standard reference textbooks for your discipline"
+      ],
+      "what_it_leads_to": "JRF (Junior Research Fellowship) for Ph.D at CSIR labs and universities, or Lectureship (Assistant Professor eligibility) at Indian universities and colleges.",
+      "uttarakhand_relevance": "Universities in Uttarakhand (HNB Garhwal, Kumaon, UPES, DIT) recruit faculty with NET qualification. Research opportunities at WII, FRI, and other Dehradun-based institutes.",
+      "difficulty_level": "High",
+      "approximate_applicants": 250000,
+      "key_subjects": [
+        "Life Sciences / Chemical Sciences / Physical Sciences / Mathematical Sciences / Earth Sciences (as per chosen subject)"
+      ]
     }
   ]
 }

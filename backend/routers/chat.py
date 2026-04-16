@@ -1,20 +1,23 @@
 import os
 import json
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, HTTPException, Request
 from fastapi.responses import StreamingResponse
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 from typing import List, Optional
 from openai import OpenAI
-from rag.retriever import retrieve_context
+from slowapi import Limiter
+from slowapi.util import get_remote_address
+from rag.retriever import retrieve_context, rewrite_query
 from rag.prompts import SYSTEM_PROMPT, ONBOARDING_PROMPT
 
 router = APIRouter()
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+limiter = Limiter(key_func=get_remote_address)
 
 
 class Message(BaseModel):
     role: str  # "user" or "assistant"
-    content: str
+    content: str = Field(..., max_length=5000)
 
 
 class UserProfile(BaseModel):
@@ -28,8 +31,8 @@ class UserProfile(BaseModel):
 
 
 class ChatRequest(BaseModel):
-    message: str
-    history: List[Message] = []
+    message: str = Field(..., max_length=2000)
+    history: List[Message] = Field(default=[], max_length=50)
     user_profile: Optional[UserProfile] = None
     session_id: Optional[str] = None
 
@@ -39,25 +42,19 @@ class OnboardingRequest(BaseModel):
 
 
 @router.post("/chat")
-async def chat(req: ChatRequest):
+@limiter.limit("20/minute")
+async def chat(request: Request, req: ChatRequest):
     try:
-        # Build a context-aware query for RAG retrieval.
-        # For follow-up messages like "and what about its fees?" we prepend
-        # the last few turns so the embedding captures the real topic.
-        rag_query = req.message
-        if req.history:
-            recent = req.history[-4:]  # last 2 exchanges (user+assistant)
-            summary_parts = []
-            for msg in recent:
-                if msg.role == "user":
-                    summary_parts.append(msg.content)
-                else:
-                    # Only take first 200 chars of assistant reply (enough for topic)
-                    summary_parts.append(msg.content[:200])
-            rag_query = " | ".join(summary_parts) + " | " + req.message
+        # Rewrite vague follow-ups into standalone queries using
+        # conversation history so the vector search finds the right context.
+        # e.g. "which colleges offer this?" → "which Uttarakhand colleges offer nursing courses?"
+        history_dicts = [{"role": m.role, "content": m.content} for m in req.history]
+        rag_query = rewrite_query(req.message, history_dicts)
 
         # Retrieve relevant context from database (PostgreSQL/pgvector)
-        context = retrieve_context(rag_query, top_k=5)
+        retrieval = retrieve_context(rag_query, top_k=10)
+        context = retrieval["context"]
+        college_names = retrieval["college_names"]
 
         # Build user profile string
         profile_str = "Not collected yet."
@@ -103,13 +100,17 @@ async def chat(req: ChatRequest):
             stream = client.chat.completions.create(
                 model="gpt-4o-mini",
                 messages=messages,
-                max_tokens=800,
-                temperature=0.7,
+                max_tokens=1500,
+                temperature=0.4,
                 stream=True
             )
             for chunk in stream:
                 if chunk.choices[0].delta.content:
                     yield f"data: {json.dumps({'content': chunk.choices[0].delta.content})}\n\n"
+            # Send retrieved college names so the frontend can show cards
+            # without hardcoded name lists or fetching all colleges
+            if college_names:
+                yield f"data: {json.dumps({'sources': {'colleges': college_names}})}\n\n"
             yield "data: [DONE]\n\n"
 
         return StreamingResponse(generate(), media_type="text/event-stream")
@@ -119,7 +120,8 @@ async def chat(req: ChatRequest):
 
 
 @router.post("/chat/onboarding")
-async def get_onboarding_message(req: OnboardingRequest):
+@limiter.limit("10/minute")
+async def get_onboarding_message(request: Request, req: OnboardingRequest):
     """Get the initial greeting message"""
     try:
         response = client.chat.completions.create(

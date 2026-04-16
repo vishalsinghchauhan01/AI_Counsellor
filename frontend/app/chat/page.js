@@ -7,7 +7,7 @@ import VoiceButton from '@/components/VoiceButton'
 import AdSlot from '@/components/AdSlot'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
-import { Menu, Send, RotateCcw, Square, Target, ChevronDown, ChevronUp } from 'lucide-react'
+import { Menu, Send, RotateCcw, Square, Target, ChevronDown, ChevronUp, Trash2 } from 'lucide-react'
 
 const ERROR_MSG =
   'Abhi server se connect nahi ho pa raha. Please thodi der baad try karein.'
@@ -30,6 +30,7 @@ export default function ChatPage() {
     isLoading,
     userProfile,
     clearMessages,
+    resetAll,
   } = useStore()
 
   const [input, setInput] = useState('')
@@ -37,6 +38,7 @@ export default function ChatPage() {
   const [initialLoad, setInitialLoad] = useState(true)
   const [menuOpen, setMenuOpen] = useState(false)
   const [suggestionsOpen, setSuggestionsOpen] = useState(true)
+  const [messageSources, setMessageSources] = useState({})
   const abortRef = useRef(null)
   const loadWelcomeMessage = () => {
     if (welcomeLoadStarted) return
@@ -64,6 +66,16 @@ export default function ChatPage() {
     setMenuOpen(false)
     clearMessages()
     setCollegesCache({})
+    setMessageSources({})
+    welcomeLoadStarted = false
+    loadWelcomeMessage()
+  }
+
+  const handleStartFresh = () => {
+    setMenuOpen(false)
+    resetAll()
+    setCollegesCache({})
+    setMessageSources({})
     welcomeLoadStarted = false
     loadWelcomeMessage()
   }
@@ -86,6 +98,8 @@ export default function ChatPage() {
     addMessage({ role: 'assistant', content: '' })
 
     abortRef.current = new AbortController()
+    // The assistant message will be at this index after the user message is added
+    const assistantMsgIndex = messages.length + 1
 
     try {
       const historyForApi = messages.slice(0, -1)
@@ -106,7 +120,12 @@ export default function ChatPage() {
           setLoading(false)
           abortRef.current = null
         },
-        { signal: abortRef.current.signal }
+        {
+          signal: abortRef.current.signal,
+          onSources: (sources) => {
+            setMessageSources((prev) => ({ ...prev, [assistantMsgIndex]: sources }))
+          },
+        }
       )
     } catch (err) {
       if (err?.name === 'AbortError') {
@@ -184,7 +203,7 @@ export default function ChatPage() {
                 aria-hidden
                 onClick={() => setMenuOpen(false)}
               />
-              <div className="absolute left-2 top-full mt-1 z-20 bg-white rounded-xl border border-[var(--border)] shadow-soft-lg py-1 min-w-[160px]">
+              <div className="absolute left-2 top-full mt-1 z-20 bg-white rounded-xl border border-[var(--border)] shadow-soft-lg py-1 min-w-[180px]">
                 <button
                   type="button"
                   onClick={handleNewChat}
@@ -192,6 +211,14 @@ export default function ChatPage() {
                 >
                   <RotateCcw className="h-4 w-4" />
                   New chat
+                </button>
+                <button
+                  type="button"
+                  onClick={handleStartFresh}
+                  className="w-full flex items-center gap-2 px-4 py-2.5 text-left text-sm text-red-600 hover:bg-red-50 rounded-lg mx-1"
+                >
+                  <Trash2 className="h-4 w-4" />
+                  Start fresh
                 </button>
               </div>
             </>
@@ -236,6 +263,7 @@ export default function ChatPage() {
           onSpeak={handleSpeak}
           collegesCache={collegesCache}
           setCollegesCache={setCollegesCache}
+          messageSources={messageSources}
         />
       </main>
 

@@ -1,0 +1,335 @@
+{
+  "study_plans": [
+    {
+      "plan_name": "JEE Main & Advanced — 2-Year Plan (Class 11-12)",
+      "target_exam": "JEE Main + JEE Advanced",
+      "target_audience": "Class 11 PCM students aiming for IITs/NITs",
+      "total_duration": "24 months (Class 11 start to Class 12 April)",
+      "prerequisites": "Strong foundation in Class 10 Maths and Science (80%+ recommended)",
+      "phase_wise_plan": [
+        {
+          "phase": "Phase 1: Foundation Building (Class 11 — April to September)",
+          "duration": "6 months",
+          "focus": "Build strong conceptual base in all three subjects. This is the MOST important phase — Class 11 topics form 45-50% of JEE syllabus.",
+          "physics": "Kinematics, Laws of Motion, Work-Energy-Power, Rotational Motion, Gravitation. Books: HC Verma (Concepts of Physics Vol 1), DC Pandey.",
+          "chemistry": "Mole Concept, Atomic Structure, Chemical Bonding, Thermodynamics, Equilibrium. Physical Chemistry from OP Tandon, Organic from Morrison Boyd basics.",
+          "mathematics": "Sets, Relations, Functions, Trigonometry, Complex Numbers, Sequences & Series. Books: RD Sharma (Class 11), then Cengage/Arihant for JEE level.",
+          "daily_hours": "4-5 hours (2 hrs coaching/school + 2-3 hrs self-study)",
+          "monthly_tests": "Chapter-wise tests after completing each topic. Score target: 60%+."
+        },
+        {
+          "phase": "Phase 2: Advanced Foundation (Class 11 — October to March)",
+          "duration": "6 months",
+          "focus": "Complete remaining Class 11 syllabus + start solving JEE-level problems.",
+          "physics": "SHM, Waves, Fluid Mechanics, Heat & Thermodynamics, KTG. Start Irodov for advanced problems.",
+          "chemistry": "P-Block Elements, Organic Chemistry (GOC, Hydrocarbons, Haloalkanes), Thermochemistry. MS Chouhan for Organic.",
+          "mathematics": "Calculus (Limits, Derivatives, Integration basics), Permutations & Combinations, Binomial Theorem, Straight Lines, Circles. Start solving previous year JEE questions.",
+          "daily_hours": "5-6 hours",
+          "monthly_tests": "Full Class 11 syllabus tests. Target: 100+ out of 300 in JEE pattern mock."
+        },
+        {
+          "phase": "Phase 3: Class 12 + JEE Parallel (Class 12 — April to September)",
+          "duration": "6 months",
+          "focus": "Class 12 topics are equally important (50% of JEE). Balance school + JEE preparation.",
+          "physics": "Electrostatics, Current Electricity, Magnetism, EMI, AC Circuits, Optics, Modern Physics. These are HIGH SCORING in JEE.",
+          "chemistry": "Electrochemistry, Chemical Kinetics, Surface Chemistry, d-f Block, Coordination Compounds, Alcohols, Aldehydes, Amines, Polymers, Biomolecules.",
+          "mathematics": "Definite Integration, Differential Equations, Vectors, 3D Geometry, Probability, Matrices & Determinants. These topics are MUST for JEE Advanced.",
+          "daily_hours": "6-7 hours",
+          "monthly_tests": "Combined Class 11+12 mocks. Target: 150+ out of 300."
+        },
+        {
+          "phase": "Phase 4: Revision & Mock Tests (Class 12 — October to January JEE)",
+          "duration": "4 months",
+          "focus": "No new topics. Pure revision + mock test practice. This phase separates rank 5000 from rank 50,000.",
+          "strategy": "Revise all formulas and concepts using short notes. Solve 10+ full JEE Main mock tests. Analyze every mock — find weak topics and fix them. Practice time management (3 hours, 75 questions). Solve previous 10 years JEE Main papers. Board exam preparation should be parallel (NCERT revision).",
+          "daily_hours": "8-10 hours",
+          "monthly_tests": "2 full mocks per week. Target: 200+ out of 300 for top NITs, 250+ for IIT."
+        },
+        {
+          "phase": "Phase 5: JEE Advanced Sprint (February to May)",
+          "duration": "3 months (after JEE Main January attempt)",
+          "focus": "JEE Advanced specific preparation — deeper conceptual problems, multi-concept questions.",
+          "strategy": "Solve previous 20 years JEE Advanced papers. Focus on Irodov, Pathfinder, Vikas Gupta for difficult problems. Practice Paper 1 + Paper 2 pattern. Board exams in Feb-March — use NCERT (sufficient for boards if JEE prep is solid). April: JEE Main 2nd attempt. May: JEE Advanced.",
+          "daily_hours": "10-12 hours (peak period)",
+          "monthly_tests": "Full JEE Advanced mocks every 3 days."
+        }
+      ],
+      "recommended_books": {
+        "physics": ["HC Verma - Concepts of Physics Vol 1 & 2", "DC Pandey - Understanding Physics series", "Irodov - Problems in General Physics (Advanced level)", "Previous year JEE papers (Disha/Arihant)"],
+        "chemistry": ["NCERT Class 11 & 12 (MUST — read every line)", "OP Tandon - Physical Chemistry", "MS Chouhan - Organic Chemistry", "VK Jaiswal - Inorganic Chemistry", "JD Lee - Concise Inorganic (for Advanced)"],
+        "mathematics": ["RD Sharma Class 11 & 12 (foundation)", "Cengage Series by G. Tewani (JEE level)", "Arihant Skill in Mathematics (topic-wise)", "Previous year JEE papers"]
+      },
+      "coaching_vs_self_study": "Coaching (Allen, FIITJEE, Aakash, PW) helps with structured study and doubt clearing. But self-study discipline is equally important — coaching alone won't crack JEE. Online options: Physics Wallah, Unacademy, BYJU's are effective and cheaper. Many Uttarakhand students prepare from Dehradun/Kota coaching centers.",
+      "uttarakhand_targets": "IIT Roorkee (rank 1500-5000 in Advanced for popular branches), NIT Uttarakhand Srinagar (rank 15000-35000 in Main), UPES Dehradun (takes JEE score, easier cutoff), Graphic Era (direct/JEE score)."
+    },
+    {
+      "plan_name": "NEET UG — 2-Year Plan (Class 11-12)",
+      "target_exam": "NEET UG",
+      "target_audience": "Class 11 PCB students aiming for MBBS/BDS",
+      "total_duration": "24 months (Class 11 start to Class 12 May NEET)",
+      "prerequisites": "Strong interest in Biology. Good foundation in Class 10 Science (75%+ recommended).",
+      "phase_wise_plan": [
+        {
+          "phase": "Phase 1: NCERT Mastery (Class 11 — April to August)",
+          "duration": "5 months",
+          "focus": "NEET is 95% NCERT-based. Master NCERT Class 11 Biology, Physics, Chemistry line by line. Highlight, annotate, and make short notes from every chapter.",
+          "biology": "Cell Biology, Biomolecules, Plant Anatomy, Animal Tissues, Morphology of Plants & Animals. NCERT + Trueman's Biology. Read diagrams and tables — NEET asks directly from them.",
+          "physics": "Units & Measurement, Kinematics, Laws of Motion, Work-Energy-Power. Physics is the toughest subject in NEET — start building concepts from DC Pandey (NEET edition).",
+          "chemistry": "Mole Concept, Atomic Structure, Chemical Bonding, States of Matter. Physical Chemistry from NCERT + OP Tandon. Organic: learn GOC basics.",
+          "daily_hours": "4-5 hours",
+          "monthly_tests": "Chapter-wise NEET pattern MCQs. Use MTG NEET chapter-wise book."
+        },
+        {
+          "phase": "Phase 2: Complete Class 11 Syllabus (Class 11 — September to March)",
+          "duration": "7 months",
+          "focus": "Finish remaining Class 11 topics. These are critical — 50% of NEET comes from Class 11.",
+          "biology": "Plant Physiology (Photosynthesis, Respiration, Transport), Animal Physiology (Digestion, Breathing, Circulation), Structural Organization. These chapters are HEAVY but high-scoring.",
+          "physics": "Thermodynamics, Oscillations, Waves, Mechanical Properties. Focus on numerical practice — NEET Physics has tricky numericals.",
+          "chemistry": "Equilibrium, Thermodynamics, Redox, Hydrogen, s-Block, p-Block (Class 11 portion). These are frequently asked.",
+          "daily_hours": "5-6 hours",
+          "monthly_tests": "Class 11 full syllabus mock tests. Target: 300/720 initially."
+        },
+        {
+          "phase": "Phase 3: Class 12 + High-Yield Topics (Class 12 — April to October)",
+          "duration": "7 months",
+          "focus": "Class 12 Biology is the HIGHEST scoring section in NEET. Genetics, Ecology, Human Reproduction, and Biotechnology together contribute 100+ marks.",
+          "biology": "Genetics & Evolution (Mendelism, Molecular Biology, Evolution) — most important chapter group. Human Reproduction, Reproductive Health. Biotechnology & its Applications. Ecology & Environment — easiest and most scoring section.",
+          "physics": "Electrostatics, Current Electricity, Optics, Modern Physics, Semiconductor. These are Class 12 high-yield topics for NEET.",
+          "chemistry": "Solutions, Electrochemistry, Chemical Kinetics (Physical), d-f Block, Coordination (Inorganic), Organic reactions (Alcohols, Aldehydes, Amines, Biomolecules).",
+          "daily_hours": "6-7 hours",
+          "monthly_tests": "Combined Class 11+12 mocks. Target: 450/720."
+        },
+        {
+          "phase": "Phase 4: Revision & Mock Tests (November to May NEET)",
+          "duration": "6 months",
+          "focus": "Non-stop revision and practice. Read NCERT Biology at least 5 times. Solve 10,000+ MCQs. Take 30+ full mocks.",
+          "strategy": "Re-read entire NCERT Biology (3 full readings minimum in this phase). Revise Physics formulas daily. Organic Chemistry reaction mechanisms — revise weekly. Solve previous 15 years NEET papers. Take 2 full mocks per week. Board exams in Feb-March — NCERT prep covers both. Analyze every mock — identify and fix weak topics. Last 1 month: only revision and mocks, no new topics.",
+          "daily_hours": "8-12 hours (peak)",
+          "monthly_tests": "2-3 full mocks/week. Target: 550+/720 for government MBBS, 600+ for AIIMS Rishikesh."
+        }
+      ],
+      "recommended_books": {
+        "biology": ["NCERT Class 11 & 12 (THE BIBLE — read every line, diagram, table, and example)", "Trueman's Objective Biology", "MTG NEET Chapter-wise", "Previous year NEET papers (MTG/Arihant)"],
+        "physics": ["NCERT Class 11 & 12", "DC Pandey (NEET/AIIMS edition)", "HC Verma (selected chapters for concept clarity)", "Previous year NEET Physics"],
+        "chemistry": ["NCERT Class 11 & 12 (especially Inorganic — learn NCERT tables)", "OP Tandon (Physical + Organic)", "MS Chouhan (Organic mechanism practice)", "VK Jaiswal (Inorganic practice)"]
+      },
+      "coaching_vs_self_study": "Coaching is helpful but NCERT self-study is NON-NEGOTIABLE. Many NEET toppers are self-study students who mastered NCERT + solved extensive MCQs. Online: Physics Wallah (Alakh Pandey) has excellent NEET content. Uttarakhand students often go to Kota or Dehradun (Allen/Aakash Dehradun branches).",
+      "uttarakhand_targets": "AIIMS Rishikesh (top 5000 AIR), Govt Medical College Haldwani (state rank under 500), VCSG Medical College Srinagar (state rank under 800), HIMS Dehradun (NEET score 400+). Uttarakhand 85% state quota is a HUGE advantage — students with 450-500 NEET score can get government MBBS."
+    },
+    {
+      "plan_name": "CA Foundation — Plan for Class 12 Students",
+      "target_exam": "CA Foundation (ICAI)",
+      "target_audience": "Class 12 Commerce students (or any stream) interested in becoming Chartered Accountants",
+      "total_duration": "18 months (Register after 10th, appear after 12th)",
+      "prerequisites": "Basic understanding of Accounting. Commerce stream preferred but not mandatory. Strong interest in numbers and finance.",
+      "phase_wise_plan": [
+        {
+          "phase": "Phase 1: Registration & Basics (Class 11 — anytime)",
+          "duration": "Ongoing",
+          "focus": "Register with ICAI for CA Foundation immediately after Class 10. Start learning basics of accounting alongside Class 11 studies.",
+          "strategy": "Register on icai.org. Get ICAI study material (free with registration). Start with Paper 1 (Accounting) basics — Journal entries, Ledger, Trial Balance. Watch ICAI's e-learning lectures. Don't go deep yet — just build familiarity.",
+          "daily_hours": "1-2 hours alongside school",
+          "monthly_tests": "None — just build foundation."
+        },
+        {
+          "phase": "Phase 2: Serious Preparation (Class 12 — April to November)",
+          "duration": "8 months",
+          "focus": "Parallel preparation for boards + CA Foundation. Class 12 Accountancy overlaps significantly with CA Foundation Paper 1.",
+          "strategy": "Paper 1 (Accounting): ICAI study material + TS Grewal for practice. Paper 2 (Business Laws & BCR): Read ICAI module + practice communication writing. Paper 3 (Maths, Stats, LR): If you have Maths in 12th, this is easy. Practice from ICAI material. Paper 4 (Business Economics & BCK): Study ICAI module + current affairs. Join CA Foundation coaching (offline or online — Unacademy CA, CA Rachit Agarwal).",
+          "daily_hours": "3-4 hours (in addition to school)",
+          "monthly_tests": "Topic-wise tests from coaching or ICAI practice papers."
+        },
+        {
+          "phase": "Phase 3: Board Exams + Final Push (January to May)",
+          "duration": "5 months",
+          "focus": "Board exams in Feb-March. CA Foundation in May. The 2-month gap between boards and CA Foundation is your POWER WINDOW.",
+          "strategy": "Jan-Feb: Focus on board exams (if Commerce, most concepts overlap with CA). March-April: After boards, dedicate 100% to CA Foundation. Solve last 5 years CA Foundation papers. Practice 2 full mock papers per week. Focus on weak papers. May: CA Foundation exam (4 papers over 2 days).",
+          "daily_hours": "6-8 hours (after boards)",
+          "monthly_tests": "Full mock exams in April and May."
+        }
+      ],
+      "recommended_books": {
+        "paper_1_accounting": ["ICAI Study Material (PRIMARY)", "TS Grewal (for practice problems)", "Tulsian's Accounting"],
+        "paper_2_law": ["ICAI Study Material", "Munish Bhandari (for CA Foundation Law)"],
+        "paper_3_maths": ["ICAI Study Material", "RS Aggarwal (for Logical Reasoning)"],
+        "paper_4_economics": ["ICAI Study Material", "Sandeep Garg (Microeconomics)"]
+      },
+      "coaching_vs_self_study": "CA coaching is highly recommended — CA Foundation has 25-30% pass rate. Good coaches: Unacademy CA (Rahul Agarwal, CA Rachit Agarwal), VSI Jaipur, local Dehradun CA classes. Self-study possible but requires extreme discipline.",
+      "uttarakhand_targets": "CA doesn't have college seats — it's a self-study + articleship program. Dehradun has many CA firms for articleship. Pair with B.Com from Doon University or DAV College for a dual qualification."
+    },
+    {
+      "plan_name": "UPSC CSE — 12-Month Intensive Plan (After Graduation)",
+      "target_exam": "UPSC Civil Services Examination",
+      "target_audience": "Graduates (any stream) aspiring for IAS/IPS/IFS",
+      "total_duration": "12-18 months of dedicated preparation",
+      "prerequisites": "Bachelor's degree from any recognized university. Age 21-32 (General). Strong reading habit and general awareness.",
+      "phase_wise_plan": [
+        {
+          "phase": "Phase 1: Foundation + NCERT (Month 1-3)",
+          "duration": "3 months",
+          "focus": "Build the foundation. UPSC tests BREADTH, not just depth. Read NCERTs cover to cover.",
+          "strategy": "Read ALL NCERTs: History (Class 6-12), Geography (Class 6-12), Polity (Laxmikanth — India's top polity book), Economy (Class 11-12 NCERT + Ramesh Singh), Science (Class 6-10 for General Science). Start reading The Hindu newspaper DAILY (minimum 1 hour). Choose your Optional Subject (Geography, Sociology, PSIR, History, Public Administration are popular). Start making your own notes — UPSC is about revision, and your notes are your weapon.",
+          "daily_hours": "8-10 hours",
+          "monthly_tests": "Weekly current affairs quiz. Monthly Prelims MCQ test (Vision IAS/Insights)."
+        },
+        {
+          "phase": "Phase 2: Standard Books + Optional (Month 4-6)",
+          "duration": "3 months",
+          "focus": "Deep dive into standard reference books for each GS paper + begin Optional subject.",
+          "strategy": "GS 1 (History, Geography, Society): Spectrum Modern History, Certificate Physical Geography (Goh Cheng Leong), India After Gandhi. GS 2 (Polity, Governance, IR): Laxmikanth (must read 3 times), Rajesh Mishra for International Relations. GS 3 (Economy, Environment, Security): Ramesh Singh Economy, Shankar IAS Environment. GS 4 (Ethics): Lexicon Ethics book + case studies. Optional: Complete 50% of optional syllabus. Continue newspaper reading — now make notes of editorials.",
+          "daily_hours": "10-12 hours",
+          "monthly_tests": "Bi-weekly Prelims mock. Start Answer Writing practice (1 answer/day minimum)."
+        },
+        {
+          "phase": "Phase 3: Prelims Focus (Month 7-9)",
+          "duration": "3 months",
+          "focus": "Prelims is the first hurdle (June). Switch to MCQ practice mode.",
+          "strategy": "Solve previous 10 years Prelims papers. Take 30+ Prelims mock tests (Vision IAS, ForumIAS, Insights). Revise ALL NCERTs again. Current Affairs: last 12 months compilation (Vision IAS Monthly Magazine). CSAT Paper 2: Practice comprehension and basic math (qualifying, need 33%). Focus on elimination technique for MCQs. Revise Environment (Shankar IAS) — 15-20 questions from here every year.",
+          "daily_hours": "10-12 hours",
+          "monthly_tests": "3-4 full Prelims mocks per week. Analyze every test."
+        },
+        {
+          "phase": "Phase 4: Mains Preparation (Month 10-12, after Prelims)",
+          "duration": "3 months (July-September, between Prelims result and Mains exam)",
+          "focus": "Mains is the real exam (September). Switch from MCQs to descriptive answer writing.",
+          "strategy": "Write 2-3 answers daily (250 words in 8 minutes). Practice Essay writing (2 essays per week, 1000-1200 words each). Complete Optional subject fully. Revise all GS notes made earlier. Current affairs integration — link current events to static topics. Ethics case studies: practice 5 per week. Get answer copies evaluated (online: ForumIAS, Telegram groups, or coaching test series).",
+          "daily_hours": "12-14 hours (peak period)",
+          "monthly_tests": "Full Mains mock every 10 days. Get evaluated."
+        }
+      ],
+      "recommended_books": {
+        "polity": ["M Laxmikanth - Indian Polity (MUST READ 3 TIMES)"],
+        "history": ["Spectrum - Modern India", "Tamil Nadu Board History books", "NCERTs Class 6-12"],
+        "geography": ["NCERT Class 6-12", "Goh Cheng Leong - Certificate Physical Geography", "Majid Husain - Indian Geography"],
+        "economy": ["Ramesh Singh - Indian Economy", "Economic Survey (latest)", "NCERT Class 11-12"],
+        "environment": ["Shankar IAS - Environment"],
+        "ethics": ["Lexicon Ethics", "2nd ARC Reports"],
+        "essay": ["Previous toppers' essays", "The Hindu editorials (daily practice)"]
+      },
+      "coaching_vs_self_study": "Many toppers are self-study. But test series is ESSENTIAL (Vision IAS, Insights, ForumIAS). Online: Unacademy UPSC, StudyIQ. Coaching helps with Answer Writing practice. Mussoorie has LBSNAA (IAS academy) — imagine training there! Dehradun has good UPSC coaching (Drishti IAS, ALS). Many Uttarakhand students prepare from Delhi (Rajinder Nagar/Old Rajinder Nagar area).",
+      "uttarakhand_targets": "LBSNAA Mussoorie is the IAS training academy — located in Uttarakhand! UKPSC PCS is a parallel preparation (Prelims overlaps 70% with UPSC). Many Uttarakhand toppers in both UPSC and UKPSC. State-specific knowledge (Uttarakhand history, geography, culture) helps in UKPSC Mains."
+    },
+    {
+      "plan_name": "CLAT — 1-Year Plan (Class 12)",
+      "target_exam": "CLAT (Common Law Admission Test)",
+      "target_audience": "Class 12 students (any stream) aiming for National Law Universities (NLUs)",
+      "total_duration": "12 months (Class 12 start to December CLAT)",
+      "prerequisites": "Strong English reading skills. Interest in legal reasoning, current affairs, and logical thinking. Any stream acceptable — Arts students have a natural advantage.",
+      "phase_wise_plan": [
+        {
+          "phase": "Phase 1: Reading Habit + Basics (April to June)",
+          "duration": "3 months",
+          "focus": "CLAT is a test of READING SPEED and COMPREHENSION. Build the habit now.",
+          "strategy": "Read The Hindu/Indian Express daily (1 hour minimum). Start Legal Reasoning basics — understand legal principles, landmark cases. Practice English passages (450-word passages, answer 4-5 questions — this is the CLAT pattern). Basic Logical Reasoning from RS Aggarwal. Current Affairs: maintain a monthly diary of important events.",
+          "daily_hours": "2-3 hours alongside school",
+          "monthly_tests": "Weekly current affairs quiz. 1 practice passage set per day."
+        },
+        {
+          "phase": "Phase 2: Structured Preparation (July to September)",
+          "duration": "3 months",
+          "focus": "Cover all 5 sections systematically.",
+          "strategy": "English: practice RC passages daily (speed + accuracy). Current Affairs: Last 12 months compilation (Legal Edge/LegalBuzz). Legal Reasoning: Study Constitution basics, Contract Law, Tort Law, Criminal Law fundamentals — CLAT tests APPLICATION of legal principles, not memorization. Logical Reasoning: Critical reasoning, syllogisms, assumptions. Quantitative: Basic maths (percentages, averages, ratios — Class 10 level).",
+          "daily_hours": "3-4 hours",
+          "monthly_tests": "2 full CLAT mocks per month."
+        },
+        {
+          "phase": "Phase 3: Mock Tests & Revision (October to December)",
+          "duration": "3 months",
+          "focus": "Mock tests, mock tests, mock tests. CLAT is about speed — 150 questions in 120 minutes = 48 seconds per question.",
+          "strategy": "Take 25+ full mock tests. Analyze each mock: Which section takes most time? Where are you losing marks? Practice time management — allocate 20-25 min per section. Revise 1 year of current affairs using monthly compilations. Board exam preparation parallel (especially for English and Political Science students). Last 2 weeks: only mocks and revision.",
+          "daily_hours": "5-6 hours",
+          "monthly_tests": "3-4 full mocks per week in November-December."
+        }
+      ],
+      "recommended_books": {
+        "english": ["The Hindu newspaper (daily)", "Word Power Made Easy by Norman Lewis", "Previous year CLAT English sections"],
+        "current_affairs": ["Legal Edge Monthly Magazine", "The Hindu Monthly Compilation", "GK Today"],
+        "legal_reasoning": ["Legal Aptitude by AP Bhardwaj", "Universal's CLAT Guide", "Previous year CLAT papers"],
+        "logical_reasoning": ["RS Aggarwal - Verbal & Non-Verbal Reasoning"],
+        "quantitative": ["RS Aggarwal - Quantitative Aptitude (selected chapters)"]
+      },
+      "coaching_vs_self_study": "CLAT coaching (Legal Edge, Career Launcher, CLAT Possible) provides structured test series and current affairs compilations. But self-study is very effective if you're a disciplined reader. Online: Unacademy CLAT, Legal Edge YouTube. The key is READING — if you read extensively, half the battle is won.",
+      "uttarakhand_targets": "NLUs don't have state quota, so it's pure merit. Score 100+ for top NLUs (NLU Delhi, NLSIU Bangalore). Score 70-80 for mid-tier NLUs. Uttarakhand has UPES School of Law and Uttaranchal University Law College which accept CLAT scores at lower cutoffs."
+    },
+    {
+      "plan_name": "Board Exams + Competitive Exam Balance Strategy",
+      "target_exam": "Class 12 Board Exams (CBSE/Uttarakhand Board) alongside any competitive exam",
+      "target_audience": "Class 12 students preparing for both boards and competitive exams simultaneously",
+      "total_duration": "12 months",
+      "prerequisites": "Must be already preparing for a competitive exam (JEE/NEET/CLAT/CUET/CA)",
+      "phase_wise_plan": [
+        {
+          "phase": "April to November: Competitive Exam Focus (70%) + Board Basics (30%)",
+          "duration": "8 months",
+          "focus": "If you're preparing well for JEE/NEET, boards become easier — not the other way around. Competitive exam preparation covers 80% of board syllabus.",
+          "strategy": "Focus primarily on competitive exam coaching and practice. For boards: read NCERT chapters as you cover them in competitive prep. Mark board-specific topics that aren't in competitive syllabus (values-based questions, specific diagrams, experiments). Keep a separate 'board notes' file for these extra topics. Attempt school exams sincerely — they're practice for boards.",
+          "daily_hours": "6-8 hours total (5-6 competitive + 1-2 board-specific)",
+          "monthly_tests": "Competitive exam mocks primarily. 1 board pattern paper per month."
+        },
+        {
+          "phase": "December to February: Board Exam Sprint (60%) + Competitive Revision (40%)",
+          "duration": "3 months",
+          "focus": "Board exams are in February-March. Shift focus to NCERT and board pattern preparation.",
+          "strategy": "Re-read all NCERT textbooks (for Science students, this also revises NEET/JEE concepts). Practice previous 5 years board papers. Focus on presentation: neat diagrams, step-by-step solutions, proper formatting. Write practice answers in board exam format (not MCQ format). Sample papers from CBSE website. DON'T abandon competitive prep — keep solving 10-15 MCQs daily to maintain touch.",
+          "daily_hours": "7-8 hours (5 board + 2-3 competitive maintenance)",
+          "monthly_tests": "2 full board mock papers per week."
+        },
+        {
+          "phase": "March to May: Post-Board Competitive Exam Sprint",
+          "duration": "2 months",
+          "focus": "Boards are done. Now give 100% to competitive exam.",
+          "strategy": "JEE Main (April): Full focus on JEE after boards. NEET (May): Revise NCERT Biology 2-3 times. Solve maximum mock tests. This is the GOLDEN WINDOW — no school, no distractions, pure preparation. Many toppers credit this period for their success.",
+          "daily_hours": "10-14 hours (all-in)",
+          "monthly_tests": "Full mock every 2 days."
+        }
+      ],
+      "recommended_books": {
+        "boards": ["NCERT Textbooks (primary)", "CBSE Sample Papers", "Previous 5 year board papers", "Oswaal or Educart question banks"],
+        "time_management": ["Use Pomodoro technique (50 min study + 10 min break)", "Keep separate notebooks for board-specific and competitive-specific notes", "Use Sunday for board-only revision"]
+      },
+      "coaching_vs_self_study": "Your coaching handles competitive exam. For boards, self-study with NCERT is sufficient. Don't join separate board coaching — waste of time and money. Your competitive exam prep IS your board prep (with a few additions).",
+      "uttarakhand_targets": "Uttarakhand Board and CBSE both have board exams in Feb-March. State topper certificates help in some college admissions. But competitive exam rank matters more than board marks for most top colleges."
+    },
+    {
+      "plan_name": "NDA — Preparation Plan for Class 12 Students",
+      "target_exam": "NDA (National Defence Academy) Entrance Exam",
+      "target_audience": "Class 12 students (any stream for Army, PCM for Navy/Air Force) aged 16.5-19.5 years",
+      "total_duration": "6-8 months",
+      "prerequisites": "Physical fitness, patriotism, and leadership qualities. PCM mandatory for Navy and Air Force wings.",
+      "phase_wise_plan": [
+        {
+          "phase": "Phase 1: Academics + Fitness Start (Month 1-3)",
+          "duration": "3 months",
+          "focus": "NDA written exam covers Mathematics (300 marks) + General Ability Test (600 marks). Start both academic and physical preparation.",
+          "strategy": "Maths: Algebra, Trigonometry, Calculus, Coordinate Geometry, Vectors, Statistics, Probability — Class 11-12 level. Use RS Aggarwal + Pathfinder NDA book. GAT: English (Grammar, Vocabulary, Comprehension) + GK (Physics, Chemistry, General Science, History, Geography, Current Affairs). Physical fitness: Start running (2.4 km in 15 minutes goal), push-ups (20+), sit-ups, pull-ups. Begin daily morning exercise routine.",
+          "daily_hours": "4-5 hours academics + 1-2 hours physical training",
+          "monthly_tests": "1 full NDA mock per month."
+        },
+        {
+          "phase": "Phase 2: Mock Tests + SSB Awareness (Month 4-6)",
+          "duration": "3 months",
+          "focus": "Intensive practice + begin SSB (Services Selection Board) mental preparation.",
+          "strategy": "Solve previous 10 years NDA papers. Take 10+ full mocks. Speed is crucial: 120 questions in 2.5 hours (Maths), 150 questions in 2.5 hours (GAT). Learn about SSB interview process (5-day process with psychological tests, group discussions, personal interview, group tasks). Develop opinions on national and international issues. Read about Indian defence forces — history, achievements, current operations.",
+          "daily_hours": "5-6 hours academics + 1 hour physical",
+          "monthly_tests": "2 full mocks per week. Analyze and improve."
+        },
+        {
+          "phase": "Phase 3: Post-Written SSB Preparation (after clearing written exam)",
+          "duration": "2-3 months",
+          "focus": "SSB interview is where most candidates fail. 60% weightage is on SSB (900/1800 marks).",
+          "strategy": "Understand Officer Like Qualities (OLQs): Effective Intelligence, Social Adaptability, Dynamic Personality, Leadership. Practice PPDT (Picture Perception and Description Test): Tell a story from an ambiguous picture. Group Discussion: Practice with friends, develop opinions on current affairs. Personal Interview: Know yourself — your achievements, failures, family background, why you want to join. GTO Tasks: Group Planning, Progressive Group Task, Half Group Task, Individual Obstacles, Command Task. Physical fitness: Peak fitness — running, obstacle course practice.",
+          "daily_hours": "4 hours SSB prep + 2 hours physical fitness",
+          "monthly_tests": "Mock SSB interviews (join SSB coaching in Dehradun — several available)."
+        }
+      ],
+      "recommended_books": {
+        "mathematics": ["RS Aggarwal - Mathematics", "Pathfinder NDA by Arihant"],
+        "english": ["SP Bakshi - Objective English", "Word Power Made Easy"],
+        "general_knowledge": ["Lucent GK", "Manorama Yearbook", "The Hindu newspaper"],
+        "ssb": ["Let's Crack SSB by Cdr Natarajan", "SSB OIR Test Guide"]
+      },
+      "coaching_vs_self_study": "Written exam: self-study is sufficient with good books. SSB: coaching HIGHLY recommended — SSB Gurukul, Cavalier India, The Centurion (many in Dehradun). Dehradun is the DEFENCE CAPITAL of India — IMA, RIMC, and many defence coaching centers are here. Physical training with a group is more effective than solo.",
+      "uttarakhand_targets": "IMA Dehradun (Army training — right in your state!). RIMC Dehradun is a feeder school for NDA. Uttarakhand has a proud military tradition — many families have generations of armed forces officers. This gives local students a cultural advantage in SSB interviews."
+    }
+  ]
+}

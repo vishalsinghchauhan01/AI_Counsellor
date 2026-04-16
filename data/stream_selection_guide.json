@@ -1,0 +1,313 @@
+{
+  "stream_guides": [
+    {
+      "stream_name": "PCM (Physics, Chemistry, Mathematics)",
+      "also_called": ["Science with Maths", "Non-Medical", "Science-Maths"],
+      "who_should_choose": "Students who enjoy Mathematics, logical problem-solving, and are interested in Engineering, Technology, Architecture, Defence, or Data Science careers. If you like solving puzzles, building things, or working with numbers and formulas — PCM is for you.",
+      "who_should_avoid": "Students who struggle with Mathematics or find abstract concepts frustrating. If you dislike calculations and prefer memorization-based subjects, consider other streams.",
+      "subjects": {
+        "core": ["Physics", "Chemistry", "Mathematics"],
+        "optional_5th_subject": ["Computer Science", "Physical Education", "Economics", "Engineering Drawing", "Informatics Practices", "Hindi/English Elective"],
+        "recommended_5th": "Computer Science (strongly recommended for IT/Software careers) or Economics (for finance careers)"
+      },
+      "careers_unlocked": [
+        "Software Developer / IT Engineer",
+        "Data Scientist / AI Engineer",
+        "Mechanical Engineer",
+        "Civil Engineer",
+        "Electrical Engineer",
+        "Architect",
+        "Defence Officer (Army/Navy/Air Force — Navy & Air Force require PCM)",
+        "Chartered Accountant (can do CA with any stream)",
+        "MBA / Business Manager",
+        "Financial Analyst / Investment Banker",
+        "Pilot (Commercial Aviation)",
+        "Merchant Navy Officer",
+        "Actuarial Scientist",
+        "Statistician",
+        "Physicist / Research Scientist"
+      ],
+      "careers_blocked": [
+        "Doctor (MBBS) — needs Biology, not available with PCM",
+        "Dentist (BDS) — needs Biology",
+        "Pharmacist (B.Pharm) — most colleges need Biology",
+        "Veterinarian — needs Biology",
+        "Nurse (B.Sc Nursing) — needs Biology",
+        "Physiotherapist (BPT) — needs Biology",
+        "Biotechnologist — needs Biology"
+      ],
+      "key_entrance_exams": ["JEE Main", "JEE Advanced", "BITSAT", "GATE", "NDA", "CUET", "State Engineering Entrance Exams"],
+      "difficulty_level": "High — Mathematics and Physics require strong analytical thinking. Chemistry needs both conceptual understanding and memorization. Most competitive stream due to JEE aspirants.",
+      "job_market_demand": "Very High — Engineering and Technology sector is India's largest employer for graduates. IT sector alone employs 50+ lakh people. Excellent global opportunities.",
+      "salary_potential": "High — Entry-level IT: 4-8 LPA, Mid-level: 12-25 LPA, Senior: 25-50+ LPA. IIT graduates average 20+ LPA.",
+      "uttarakhand_specific": "Uttarakhand has strong engineering colleges: IIT Roorkee (top 5 in India), NIT Uttarakhand, UPES Dehradun, Graphic Era. UPES especially strong for Petroleum, Aerospace, and Computer Science. Many students from Uttarakhand crack JEE and get into top NITs.",
+      "common_myths": [
+        "MYTH: PCM is the 'best' stream — REALITY: It's best only if you're genuinely interested in Math/Science. Forcing PCM leads to poor performance and frustration.",
+        "MYTH: You can switch to Medical later — REALITY: You CANNOT appear for NEET without Biology in 12th. PCM locks you out of medical careers.",
+        "MYTH: Only toppers should take PCM — REALITY: Average students can excel in PCM if they have genuine interest and work consistently.",
+        "MYTH: PCM guarantees a good job — REALITY: Only if you build skills alongside your degree. A B.Tech without skills = unemployment."
+      ],
+      "decision_checklist": [
+        "Do you enjoy solving Mathematics problems (not just getting marks)?",
+        "Are you comfortable with abstract concepts and formulas?",
+        "Do you see yourself in an engineering, tech, or defence career?",
+        "Can you handle the pressure of competitive exams like JEE?",
+        "Are you willing to study consistently for 2 years (Class 11-12) without shortcuts?"
+      ]
+    },
+    {
+      "stream_name": "PCB (Physics, Chemistry, Biology)",
+      "also_called": ["Science with Biology", "Medical Stream", "Science-Bio"],
+      "who_should_choose": "Students who are fascinated by the human body, diseases, nature, and living organisms. If you want to become a Doctor, Dentist, Pharmacist, Nurse, or work in healthcare/biotechnology — PCB is your path. Also ideal for students interested in Environmental Science, Agriculture, and Forensic Science.",
+      "who_should_avoid": "Students who dislike memorization — Biology requires extensive memorization of terminology, processes, and diagrams. Also avoid if you're only choosing PCB because 'parents want me to be a doctor' without genuine interest.",
+      "subjects": {
+        "core": ["Physics", "Chemistry", "Biology"],
+        "optional_5th_subject": ["Mathematics (PCMB — opens both Engineering + Medical)", "Physical Education", "Psychology", "Biotechnology", "Home Science", "Hindi/English Elective"],
+        "recommended_5th": "Mathematics (if you can handle the load — PCMB keeps ALL career doors open) or Psychology (for medical/counselling careers)"
+      },
+      "careers_unlocked": [
+        "Doctor (MBBS)",
+        "Dentist (BDS)",
+        "Pharmacist (B.Pharm / D.Pharm)",
+        "Nurse (B.Sc Nursing / GNM)",
+        "Physiotherapist (BPT)",
+        "Veterinarian (BVSc)",
+        "Biotechnologist",
+        "Microbiologist",
+        "Agricultural Scientist",
+        "Environmental Scientist",
+        "Forensic Scientist",
+        "Nutritionist / Dietician",
+        "Occupational Therapist",
+        "Optometrist",
+        "Psychologist (with further studies)",
+        "Ayurvedic / Homeopathic Doctor (BAMS/BHMS)"
+      ],
+      "careers_blocked": [
+        "Engineering (B.Tech) — needs Mathematics (unless you take PCMB)",
+        "Architecture (B.Arch) — needs Mathematics for NATA/JEE Paper 2",
+        "Pilot — needs Mathematics and Physics",
+        "Merchant Navy — needs Mathematics",
+        "NDA Navy/Air Force — needs Mathematics (Army is open to all)"
+      ],
+      "key_entrance_exams": ["NEET UG", "NEET PG", "AIIMS Nursing", "ICAR AIEEA", "State Medical Entrance Exams", "CUET"],
+      "difficulty_level": "High — NEET is extremely competitive (18+ lakh students for ~1 lakh seats). Biology is volume-heavy (massive syllabus to memorize). Physics in NEET is considered tough. However, if you love Biology, the workload feels manageable.",
+      "job_market_demand": "High and Stable — Healthcare is recession-proof. India has a severe doctor shortage (1 doctor per 1,000 people vs WHO recommendation of 1:250). International demand for Indian nurses and doctors is growing rapidly.",
+      "salary_potential": "Moderate to High — MBBS start: 6-10 LPA, Specialist (MD/MS): 15-40 LPA, Senior Surgeon: 50+ LPA. Private practice income is unlimited. Nursing abroad: 30-60 LPA. Pharmacy: 3-8 LPA.",
+      "uttarakhand_specific": "Uttarakhand has excellent medical colleges: AIIMS Rishikesh (top-tier, central government), Government Medical College Haldwani, VCSG Medical College Srinagar. State quota (85%) gives Uttarakhand students a significant advantage in NEET counselling. Also, GB Pant University Pantnagar is India's first agricultural university — great for agriculture careers.",
+      "common_myths": [
+        "MYTH: PCB = only Doctor — REALITY: PCB opens 15+ career paths including biotech, pharmacy, agriculture, nursing, forensic science, and environmental science.",
+        "MYTH: NEET is easier than JEE — REALITY: NEET competition is actually higher (18+ lakh aspirants). Biology is volume-heavy and Physics in NEET is tricky.",
+        "MYTH: Private medical college = waste of money — REALITY: While fees are high (50L-1Cr), an MBBS degree guarantees a career. But try for government seats first (fees: 10-50K/year).",
+        "MYTH: You can't do Engineering with PCB — REALITY: If you take PCMB (Maths as 5th subject), you CAN appear for JEE and NEET both. It's tough but possible.",
+        "MYTH: Doctors earn from day 1 — REALITY: MBBS takes 5.5 years + 3 years PG. You start earning well only after ~9 years of education. Plan financially."
+      ],
+      "decision_checklist": [
+        "Are you genuinely fascinated by the human body and how diseases work?",
+        "Can you handle extensive memorization (NCERT Biology alone is 500+ pages)?",
+        "Are you prepared for a long education journey (MBBS = 5.5 years, then PG)?",
+        "Can your family support the financial commitment if you don't get a government seat?",
+        "Do you have the empathy and patience to deal with sick patients daily?"
+      ]
+    },
+    {
+      "stream_name": "Commerce",
+      "also_called": ["Commerce with Maths", "Commerce without Maths", "Business Stream"],
+      "who_should_choose": "Students interested in Business, Finance, Accounting, Banking, Entrepreneurship, or Economics. If you enjoy understanding how money works, how businesses operate, and want careers in CA, MBA, Banking, or Corporate world — Commerce is your path. Commerce with Mathematics opens more doors than without.",
+      "who_should_avoid": "Students who have zero interest in numbers, accounting, or business concepts. Also, students who choose Commerce just because 'Science is too hard' without any genuine interest — this leads to poor performance in CA/MBA exams later.",
+      "subjects": {
+        "core": ["Accountancy", "Business Studies", "Economics"],
+        "optional_5th_subject": ["Mathematics (STRONGLY recommended)", "Informatics Practices", "Physical Education", "Entrepreneurship", "Hindi/English Elective"],
+        "recommended_5th": "Mathematics — absolutely essential for CA, Finance, MBA, Economics. Commerce WITHOUT Maths limits your options significantly. Take it even if you find it moderately difficult."
+      },
+      "careers_unlocked": [
+        "Chartered Accountant (CA)",
+        "Company Secretary (CS)",
+        "Cost & Management Accountant (CMA)",
+        "MBA / Business Manager",
+        "Financial Analyst / Investment Banker",
+        "Bank Officer (PO / Specialist Officer)",
+        "Economist",
+        "Entrepreneur / Startup Founder",
+        "Tax Consultant",
+        "Auditor",
+        "Insurance Actuary",
+        "Stock Market Analyst / Trader",
+        "Human Resources Manager",
+        "Digital Marketing Manager",
+        "Civil Services (IAS/IPS — open to all streams)",
+        "Journalist (Business Journalism)"
+      ],
+      "careers_blocked": [
+        "Engineering (B.Tech) — needs PCM",
+        "Doctor (MBBS) — needs PCB",
+        "Architecture — needs PCM",
+        "Any career requiring Science background"
+      ],
+      "key_entrance_exams": ["CA Foundation", "CUET", "CAT", "MAT", "XAT", "CLAT", "IPMAT (IIM Indore)", "SSC CGL", "Bank PO (IBPS/SBI)", "CS Foundation"],
+      "difficulty_level": "Moderate — Accountancy requires precision and practice. Economics can be conceptual. Business Studies is the easiest. CA is extremely tough (pass rate ~10-15%). But overall workload is less than PCM/PCB in Class 11-12.",
+      "job_market_demand": "Very High — Every company needs accountants, finance managers, and business professionals. Banking sector is one of India's largest employers. CA demand always exceeds supply. MBA graduates are hired across all industries.",
+      "salary_potential": "High — CA freshers: 7-10 LPA (Big 4 firms: 10-15 LPA), MBA (IIM): 20-30 LPA, Banking PO: 8-12 LPA, Financial Analyst: 5-15 LPA. Entrepreneurs: unlimited potential.",
+      "uttarakhand_specific": "Uttarakhand has IIM Kashipur — one of the newer IIMs with excellent ROI. Doon University, Graphic Era, and UPES offer strong B.Com and BBA programs. Many CA coaching centers in Dehradun. Uttarakhand students can leverage state quota at Doon University for B.Com Hons.",
+      "common_myths": [
+        "MYTH: Commerce is for weak students — REALITY: Commerce requires different skills (analytical, financial, business acumen). CA is tougher than most engineering exams. Warren Buffett, Mukesh Ambani — all commerce background.",
+        "MYTH: Commerce = only Accountant — REALITY: Commerce opens 15+ careers from Banking to Entrepreneurship to IAS. It's the most versatile stream after PCM.",
+        "MYTH: You don't need Maths in Commerce — REALITY: Commerce WITHOUT Maths closes doors for CA, Finance, Economics, Actuarial Science. Always take Maths if you can manage it.",
+        "MYTH: CA is impossible — REALITY: CA is tough (10-15% pass rate) but students who study systematically and join good coaching clear it. 3,000+ CAs are made every year.",
+        "MYTH: MBA needs Engineering — REALITY: B.Com/BBA + MBA is a powerful combination. Many IIM toppers are from Commerce background."
+      ],
+      "decision_checklist": [
+        "Do you find yourself curious about how businesses make money?",
+        "Are you comfortable with numbers and calculations (even if not at PCM level)?",
+        "Can you see yourself in a corporate office, bank, or running your own business?",
+        "Are you disciplined enough for CA (5-year journey requiring consistent daily study)?",
+        "Do you enjoy reading about economy, markets, and current business affairs?"
+      ]
+    },
+    {
+      "stream_name": "Arts / Humanities",
+      "also_called": ["Humanities", "Arts Stream", "Liberal Arts"],
+      "who_should_choose": "Students passionate about Society, History, Languages, Psychology, Political Science, Literature, Philosophy, or Creative Fields. If you want to become an IAS Officer, Lawyer, Journalist, Psychologist, Teacher, Social Worker, or work in Government/NGOs — Arts is excellent. Also perfect for students interested in Civil Services (UPSC), which is India's most prestigious exam.",
+      "who_should_avoid": "Students who choose Arts because 'nothing else was available' or 'it's easy'. Arts requires deep reading, analytical writing, and conceptual thinking. If you won't read and write extensively, you'll struggle.",
+      "subjects": {
+        "core": ["History OR Geography OR Political Science (varies by school — usually choose 3-4 from available options)"],
+        "popular_combinations": [
+          "History + Political Science + Economics + English (Best for UPSC/Law)",
+          "Psychology + Sociology + English + Political Science (Best for Psychology/Social Work)",
+          "Geography + History + Political Science + Hindi (Best for UPSC with Hindi medium)",
+          "Fine Arts + History + English + Music (Best for Creative careers)",
+          "Physical Education + Geography + Hindi + Political Science (Best for Sports/Teaching)"
+        ],
+        "recommended_5th": "Mathematics (if available — opens Economics, Statistics, Data Science doors) or Psychology (growing career field)"
+      },
+      "careers_unlocked": [
+        "Civil Services (IAS/IPS/IFS) — Arts students have the HIGHEST success rate in UPSC!",
+        "Lawyer / Advocate (through CLAT → 5-year LLB)",
+        "Journalist / Mass Communication",
+        "Psychologist / Counsellor",
+        "Teacher / Professor (through B.Ed + NET)",
+        "Social Worker (MSW)",
+        "Archaeologist / Historian",
+        "Graphic Designer / UI-UX Designer",
+        "Content Writer / Author",
+        "Civil Judge (through Judicial Services Exam)",
+        "Diplomat (IFS through UPSC)",
+        "Public Policy Analyst",
+        "NGO / Development Sector Professional",
+        "Museum Curator / Heritage Manager",
+        "Language Expert / Translator",
+        "Politician / Public Leader"
+      ],
+      "careers_blocked": [
+        "Engineering (B.Tech) — needs PCM",
+        "Doctor (MBBS) — needs PCB",
+        "Pharmacy — needs Science",
+        "Architecture — needs PCM",
+        "Most technical/science careers"
+      ],
+      "key_entrance_exams": ["UPSC CSE", "CLAT", "CUET", "UKPSC PCS", "UGC NET", "CTET", "NIFT Entrance", "Mass Communication Entrance Exams"],
+      "difficulty_level": "Moderate — Less mathematical burden but requires extensive reading, strong writing skills, and ability to form arguments. UPSC preparation is the most intellectually demanding exam in India regardless of stream.",
+      "job_market_demand": "Moderate to High — Government sector (UPSC, PCS, SSC) has fixed demand. Law is booming. Psychology and counselling are growing rapidly. Content, media, and digital marketing are exploding. Teaching is always in demand.",
+      "salary_potential": "Variable — IAS/IPS: 8-25 LPA (plus perks worth crores), Lawyer: 4-50+ LPA (huge range), Journalist: 3-15 LPA, Teacher: 3-15 LPA, Psychologist: 4-15 LPA. Government jobs offer unmatched job security and pension.",
+      "uttarakhand_specific": "Uttarakhand has a PROUD history of Civil Servants — many IAS/IPS officers come from Garhwal and Kumaon. LBSNAA (IAS training academy) is in Mussoorie! HNB Garhwal University and Kumaun University have strong Arts programs. Doon University offers excellent BA programs. UKPSC exam has Uttarakhand-specific GK which local Arts students can ace.",
+      "common_myths": [
+        "MYTH: Arts is for 'failures' — REALITY: India's most powerful people (IAS officers, Supreme Court judges, diplomats) are predominantly from Arts backgrounds. UPSC toppers are often Arts graduates.",
+        "MYTH: Arts has no jobs — REALITY: Government sector, Law, Media, Psychology, Education, NGOs all recruit Arts graduates. The catch is: you need to be GOOD, not just pass.",
+        "MYTH: Arts is easy — REALITY: Scoring 90%+ in Arts boards is very difficult (subjective papers). UPSC General Studies requires knowledge of Science, Economics, AND Humanities. CLAT requires logical reasoning.",
+        "MYTH: You can't earn well with Arts — REALITY: An IAS officer's perks (government bungalow, car, security, pension) are worth 50+ LPA equivalent. Top lawyers earn crores. Film directors, journalists, psychologists earn very well.",
+        "MYTH: Arts = only teaching — REALITY: Arts opens 15+ career paths. Teaching is just ONE option (and a noble one at that)."
+      ],
+      "decision_checklist": [
+        "Do you enjoy reading about history, politics, or society?",
+        "Are you a strong writer who can express thoughts clearly in essays?",
+        "Are you interested in government service, law, or social impact?",
+        "Can you handle subjective exams that require deep analysis (not just formulas)?",
+        "Are you willing to read newspapers, books, and stay updated on current affairs daily?"
+      ]
+    },
+    {
+      "stream_name": "PCMB (Physics, Chemistry, Mathematics, Biology)",
+      "also_called": ["Science with Both Maths and Biology", "All Science", "Double Science"],
+      "who_should_choose": "Students who are genuinely strong in BOTH Mathematics and Biology and want to keep ALL career doors open. If you're confused between Engineering and Medical, PCMB lets you appear for BOTH JEE and NEET. Also ideal for careers in Bioinformatics, Biomedical Engineering, and Biotechnology that need both skill sets.",
+      "who_should_avoid": "Students who are average in either Maths or Biology. PCMB means studying 4 heavy science subjects — the workload is brutal. If you're taking PCMB just to 'keep options open' without a plan, you'll likely perform poorly in all subjects. Better to excel in PCM or PCB than be mediocre in PCMB.",
+      "subjects": {
+        "core": ["Physics", "Chemistry", "Mathematics", "Biology"],
+        "optional_5th_subject": ["Computer Science", "Physical Education", "English Elective"],
+        "recommended_5th": "Physical Education (lightest load, since 4 science subjects are already heavy) or Computer Science (if you can manage the workload)"
+      },
+      "careers_unlocked": [
+        "ALL careers from PCM (Engineering, IT, Defence, Architecture, etc.)",
+        "ALL careers from PCB (Doctor, Dentist, Pharmacy, Nursing, etc.)",
+        "PLUS unique careers: Biomedical Engineer, Bioinformatics Scientist, Biostatistician, Environmental Engineer, Genetic Counsellor, Clinical Data Analyst"
+      ],
+      "careers_blocked": [
+        "None — PCMB keeps every Science career door open"
+      ],
+      "key_entrance_exams": ["JEE Main", "JEE Advanced", "NEET UG", "BITSAT", "ICAR AIEEA", "GATE", "All exams from both PCM and PCB"],
+      "difficulty_level": "Very High — You are studying the syllabus of BOTH PCM and PCB students. This is the hardest combination in Class 11-12. Only attempt if you scored 85%+ in Class 10 Science and Maths.",
+      "job_market_demand": "Very High — You can target any STEM career. Unique advantage for interdisciplinary fields like Biomedical Engineering, Bioinformatics, and Clinical Data Science which are growing rapidly.",
+      "salary_potential": "Same as PCM and PCB — depends on which career you ultimately choose.",
+      "uttarakhand_specific": "IIT Roorkee offers Biotechnology and Bioinformatics programs. UPES has Biomedical Engineering. This combination is ideal if you want to keep IIT + AIIMS both as options.",
+      "common_myths": [
+        "MYTH: PCMB is the smartest choice — REALITY: It's the smartest choice ONLY if you're genuinely strong in both. Otherwise, it dilutes your preparation for both JEE and NEET.",
+        "MYTH: Colleges prefer PCMB students — REALITY: Colleges only look at your entrance exam score. A PCM student who scores well in JEE beats a PCMB student who scores average in both JEE and NEET.",
+        "MYTH: You can prepare for JEE and NEET simultaneously — REALITY: Very few students successfully crack both. Physics and Chemistry overlap, but Maths vs Biology preparation competes for the same study time."
+      ],
+      "decision_checklist": [
+        "Did you score 85%+ in BOTH Maths and Science in Class 10?",
+        "Are you genuinely undecided between Engineering and Medical?",
+        "Can you handle 6-8 hours of daily study across 4 heavy subjects?",
+        "Do you have a strong support system (coaching, time management, mental health)?",
+        "Will you commit to choosing between JEE/NEET by Class 12 mid-year to focus preparation?"
+      ]
+    },
+    {
+      "stream_name": "Vocational / Diploma Courses (After Class 10)",
+      "also_called": ["ITI", "Polytechnic Diploma", "Skill-based courses", "Vocational Training"],
+      "who_should_choose": "Students who want to start earning early, prefer hands-on practical work over theoretical study, or whose families need financial support sooner. ITI (2 years) and Polytechnic Diploma (3 years) provide job-ready skills. Also great as a stepping stone — you can do lateral entry to B.Tech 2nd year after Diploma.",
+      "who_should_avoid": "Students who have the ability and resources for traditional 12th + graduation path and want careers requiring full degrees (Doctor, CA, IAS). Diploma alone won't qualify for many competitive exams.",
+      "subjects": {
+        "core": ["Depends on trade chosen"],
+        "popular_trades_iti": ["Electrician", "Fitter", "Computer Operator & Programming (COPA)", "Welder", "Mechanic Motor Vehicle", "Draughtsman Civil", "Draughtsman Mechanical", "Electronics Mechanic", "Plumber", "Surveyor"],
+        "popular_diploma_courses": ["Diploma in Mechanical Engineering", "Diploma in Civil Engineering", "Diploma in Electrical Engineering", "Diploma in Computer Science", "Diploma in Electronics", "Diploma in Agriculture", "Diploma in Pharmacy"]
+      },
+      "careers_unlocked": [
+        "Technician / Skilled Worker (immediate employment)",
+        "Junior Engineer (through SSC JE after Diploma)",
+        "B.Tech Lateral Entry (2nd year direct admission after Diploma)",
+        "Railway Technician (through RRB exams)",
+        "Government ITI Instructor",
+        "Self-employment / Own Workshop",
+        "Supervisor in Manufacturing / Construction",
+        "Electrician / Plumber / Mechanic (self-employed, high demand)",
+        "Armed Forces (Technical trades)",
+        "Apprenticeship in companies (earn while learning)"
+      ],
+      "careers_blocked": [
+        "Doctor (MBBS) — needs 12th with PCB + NEET",
+        "CA — needs 12th pass",
+        "IAS/IPS — needs graduation",
+        "Lawyer — needs graduation + LLB",
+        "Any career requiring full Bachelor's degree (without further study)"
+      ],
+      "key_entrance_exams": ["Uttarakhand Polytechnic Entrance (JEEP)", "ITI Admission (merit-based/entrance)", "SSC JE (after diploma)", "RRB Technician"],
+      "difficulty_level": "Low to Moderate — Focus on practical skills rather than heavy theory. Exams are less competitive than JEE/NEET. But job market values skill quality, not just certificate.",
+      "job_market_demand": "Very High — India has a massive shortage of skilled technicians. Electricians, plumbers, and mechanics earn ₹15,000-40,000/month. After Diploma, SSC JE government job pays ₹35,000-50,000/month.",
+      "salary_potential": "Moderate — ITI: 2-4 LPA initially, 4-8 LPA with experience. Diploma + SSC JE: 5-8 LPA (government). B.Tech through lateral entry: same as regular engineering graduates.",
+      "uttarakhand_specific": "Uttarakhand has many Government Polytechnics (Dehradun, Srinagar, Dwarahat, Narendra Nagar, etc.) and ITIs across all districts. Fees are very low (₹5,000-15,000/year for government). SIDCUL Haridwar industrial area offers direct employment for diploma/ITI graduates. After diploma, lateral entry to B.Tech at UPES, Graphic Era, COER is popular.",
+      "common_myths": [
+        "MYTH: ITI/Diploma is for failures — REALITY: Skilled workers are in HIGH demand. A good electrician earns more than many B.Tech graduates. Germany, Canada, Australia actively recruit Indian ITI graduates.",
+        "MYTH: Diploma means no degree ever — REALITY: After Diploma, you can do B.Tech through lateral entry (directly into 2nd year). Many successful engineers took this path.",
+        "MYTH: Only poor students go to Polytechnic — REALITY: Polytechnic provides practical skills that B.Tech students often lack. Many polytechnic graduates clear SSC JE and become government Junior Engineers.",
+        "MYTH: No growth in blue-collar work — REALITY: An experienced electrician/plumber in cities earns ₹30,000-50,000/month. Self-employed technicians can earn even more."
+      ],
+      "decision_checklist": [
+        "Do you prefer learning by doing (practical) rather than reading textbooks?",
+        "Does your family need you to start earning within 2-3 years?",
+        "Are you interested in a specific trade (electrical, mechanical, computers)?",
+        "Are you okay with starting in a hands-on technical role?",
+        "Would you consider doing B.Tech later through lateral entry after gaining experience?"
+      ]
+    }
+  ]
+}

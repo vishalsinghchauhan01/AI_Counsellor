@@ -1,18 +1,12 @@
-import os
+import logging
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
 from typing import Optional
 
-router = APIRouter()
+from db.schema import upsert_user_profile, get_user_profile
 
-try:
-    from supabase import create_client
-    supabase = create_client(
-        os.getenv("SUPABASE_URL", ""),
-        os.getenv("SUPABASE_SERVICE_KEY", "")
-    )
-except Exception:
-    supabase = None
+router = APIRouter()
+logger = logging.getLogger("routers.user")
 
 
 class UserProfile(BaseModel):
@@ -35,23 +29,21 @@ class SaveProfileRequest(BaseModel):
 @router.post("/profile")
 def save_profile(req: SaveProfileRequest):
     try:
-        if supabase is None:
-            return {"success": True, "note": "Profile saved locally"}
         data = req.profile.model_dump()
-        result = supabase.table("user_profiles").upsert(data).execute()
-        return {"success": True, "data": result.data}
+        result = upsert_user_profile(data)
+        return {"success": True, "data": result}
     except Exception as e:
-        return {"success": True, "note": "Profile saved locally"}
+        logger.error("Failed to save user profile: %s", e)
+        raise HTTPException(status_code=500, detail="Failed to save profile")
 
 
 @router.get("/profile/{user_id}")
 def get_profile(user_id: str):
     try:
-        if supabase is None:
+        profile = get_user_profile(user_id)
+        if profile is None:
             return {}
-        result = supabase.table("user_profiles").select("*").eq("user_id", user_id).execute()
-        if result.data and len(result.data) > 0:
-            return result.data[0]
-        return {}
-    except Exception:
-        return {}
+        return profile
+    except Exception as e:
+        logger.error("Failed to get user profile: %s", e)
+        raise HTTPException(status_code=500, detail="Failed to retrieve profile")

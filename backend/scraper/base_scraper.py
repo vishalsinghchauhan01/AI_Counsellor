@@ -80,8 +80,8 @@ class BaseScraper(ABC):
                 response = await page.goto(url, wait_until="domcontentloaded")
                 self.stats["pages_visited"] += 1
                 if response and response.ok:
-                    # Wait a bit for JS to render
-                    await page.wait_for_timeout(2000)
+                    # Brief wait for JS to render
+                    await page.wait_for_timeout(1000)
                     return True
                 logger.warning(
                     f"[{self.source_name}] HTTP {response.status if response else '?'} for {url}"
@@ -94,6 +94,19 @@ class BaseScraper(ABC):
                 await asyncio.sleep(2 ** attempt)
         self.stats["errors"] += 1
         logger.error(f"[{self.source_name}] All retries exhausted for {url}")
+        return False
+
+    async def safe_goto_once(self, page: Page, url: str) -> bool:
+        """Single attempt to visit a URL — no retries. Use for optional sub-pages."""
+        try:
+            await self.throttle()
+            response = await page.goto(url, wait_until="domcontentloaded")
+            self.stats["pages_visited"] += 1
+            if response and response.ok:
+                await page.wait_for_timeout(1000)
+                return True
+        except Exception:
+            pass
         return False
 
     async def safe_get_text(self, page: Page, selector: str, default: str = "") -> str:

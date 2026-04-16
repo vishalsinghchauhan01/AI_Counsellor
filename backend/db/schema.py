@@ -22,25 +22,27 @@ CREATE TABLE IF NOT EXISTS colleges (
     id SERIAL PRIMARY KEY,
     uuid UUID DEFAULT gen_random_uuid() UNIQUE NOT NULL,
     college_name TEXT UNIQUE NOT NULL,
+    abbreviation TEXT DEFAULT '',
+    also_known_as JSONB DEFAULT '[]',
     city TEXT DEFAULT '',
+    district TEXT DEFAULT '',
     institution_type TEXT DEFAULT '',
     institution_subtype TEXT DEFAULT '',
-    ownership TEXT DEFAULT '',
+    established INTEGER,
     courses_offered JSONB DEFAULT '[]',
     fees JSONB DEFAULT '{}',
-    eligibility JSONB DEFAULT '{}',
-    admission_process TEXT DEFAULT '',
     entrance_exam JSONB DEFAULT '[]',
     placement_rate INTEGER CHECK (placement_rate IS NULL OR (placement_rate >= 0 AND placement_rate <= 100)),
     average_package BIGINT,
     highest_package BIGINT,
-    ranking TEXT DEFAULT '',
+    nirf_ranking TEXT DEFAULT '',
+    naac_grade TEXT DEFAULT '',
     facilities JSONB DEFAULT '[]',
     website TEXT DEFAULT '',
     phone_number TEXT DEFAULT '',
     email TEXT DEFAULT '',
-    admission_open_date TEXT DEFAULT '',
-    application_deadline TEXT DEFAULT '',
+    hostel_available BOOLEAN DEFAULT FALSE,
+    hostel_fee_annual INTEGER,
     created_at TIMESTAMP DEFAULT NOW(),
     updated_at TIMESTAMP DEFAULT NOW()
 );
@@ -113,17 +115,57 @@ CREATE TABLE IF NOT EXISTS scholarships (
 );
 """
 
+_USER_PROFILES_DDL = """
+CREATE TABLE IF NOT EXISTS user_profiles (
+    id SERIAL PRIMARY KEY,
+    user_id TEXT UNIQUE NOT NULL,
+    name TEXT DEFAULT '',
+    phone TEXT DEFAULT '',
+    current_class TEXT DEFAULT '',
+    stream TEXT DEFAULT '',
+    career_interest TEXT DEFAULT '',
+    budget_per_year INTEGER,
+    category TEXT DEFAULT '',
+    location TEXT DEFAULT '',
+    willing_to_relocate BOOLEAN DEFAULT FALSE,
+    created_at TIMESTAMP DEFAULT NOW(),
+    updated_at TIMESTAMP DEFAULT NOW()
+);
+"""
+
 
 def init_tables():
-    """Create all structured data tables if they don't exist."""
+    """Create all structured data tables if they don't exist.
+    Drops and recreates the colleges table if the schema has changed
+    (detected by checking for the 'abbreviation' column).
+    """
     conn = get_conn()
     try:
         with conn.cursor() as cur:
             cur.execute(_ENABLE_PGCRYPTO)
+
+            # Check if colleges table needs migration (old schema → new schema)
+            cur.execute("""
+                SELECT column_name FROM information_schema.columns
+                WHERE table_name = 'colleges' AND column_name = 'abbreviation';
+            """)
+            colleges_exists_with_new_schema = cur.fetchone() is not None
+
+            cur.execute("""
+                SELECT 1 FROM information_schema.tables
+                WHERE table_name = 'colleges';
+            """)
+            colleges_table_exists = cur.fetchone() is not None
+
+            if colleges_table_exists and not colleges_exists_with_new_schema:
+                logger.info("Migrating colleges table to new university schema...")
+                cur.execute("DROP TABLE colleges;")
+
             cur.execute(_COLLEGES_DDL)
             cur.execute(_CAREERS_DDL)
             cur.execute(_EXAMS_DDL)
             cur.execute(_SCHOLARSHIPS_DDL)
+            cur.execute(_USER_PROFILES_DDL)
         conn.commit()
         logger.info("Structured data tables ready.")
     finally:
@@ -153,32 +195,50 @@ def _json_col(val) -> str:
 
 
 def upsert_colleges_batch(colleges: list[dict]):
-    """Batch upsert colleges. Uses ON CONFLICT to update existing rows."""
+    """Batch upsert colleges/universities. Uses ON CONFLICT to update existing rows.
+    Accepts both old-style (college_name) and new-style (university_name) JSON keys.
+    """
     if not colleges:
         return
     conn = get_conn()
     try:
         with conn.cursor() as cur:
             for c in colleges:
+                # Support both old key (college_name) and new key (university_name)
+                name = c.get("university_name") or c.get("college_name", "")
+                # Support both old key (entrance_exam) and new key (entrance_exams)
+                exams = c.get("entrance_exams") or c.get("entrance_exam", [])
                 cur.execute("""
                     INSERT INTO colleges (
-                        college_name, city, institution_type, institution_subtype, ownership,
-                        courses_offered, fees, eligibility, admission_process, entrance_exam,
-                        placement_rate, average_package, highest_package, ranking, facilities,
-                        website, phone_number, email, admission_open_date, application_deadline,
+                        college_name, abbreviation, also_known_as, city, district,
+                        institution_type, institution_subtype, established,
+                        courses_offered, fees, entrance_exam,
+                        placement_rate, average_package, highest_package,
+                        nirf_ranking, naac_grade, facilities,
+                        website, phone_number, email,
+                        hostel_available, hostel_fee_annual,
                         created_at, updated_at
                     ) VALUES (
-                        %s, %s, %s, %s, %s,
-                        %s::jsonb, %s::jsonb, %s::jsonb, %s, %s::jsonb,
-                        %s, %s, %s, %s, %s::jsonb,
-                        %s, %s, %s, %s, %s,
+                        %s, %s, %s::jsonb, %s, %s,
+                        %s, %s, %s,
+                        %s::jsonb, %s::jsonb, %s::jsonb,
+                        %s, %s, %s,
+                        %s, %s, %s::jsonb,
+                        %s, %s, %s,
+                        %s, %s,
                         NOW(), NOW()
                     )
                     ON CONFLICT (college_name) DO UPDATE SET
+                        abbreviation = COALESCE(NULLIF(EXCLUDED.abbreviation, ''), colleges.abbreviation),
+                        also_known_as = CASE
+                            WHEN EXCLUDED.also_known_as = '[]'::jsonb THEN colleges.also_known_as
+                            ELSE EXCLUDED.also_known_as
+                        END,
                         city = COALESCE(NULLIF(EXCLUDED.city, ''), colleges.city),
+                        district = COALESCE(NULLIF(EXCLUDED.district, ''), colleges.district),
                         institution_type = COALESCE(NULLIF(EXCLUDED.institution_type, ''), colleges.institution_type),
                         institution_subtype = COALESCE(NULLIF(EXCLUDED.institution_subtype, ''), colleges.institution_subtype),
-                        ownership = COALESCE(NULLIF(EXCLUDED.ownership, ''), colleges.ownership),
+                        established = COALESCE(EXCLUDED.established, colleges.established),
                         courses_offered = CASE
                             WHEN EXCLUDED.courses_offered = '[]'::jsonb THEN colleges.courses_offered
                             ELSE EXCLUDED.courses_offered
@@ -187,11 +247,6 @@ def upsert_colleges_batch(colleges: list[dict]):
                             WHEN EXCLUDED.fees = '{}'::jsonb THEN colleges.fees
                             ELSE EXCLUDED.fees
                         END,
-                        eligibility = CASE
-                            WHEN EXCLUDED.eligibility = '{}'::jsonb THEN colleges.eligibility
-                            ELSE EXCLUDED.eligibility
-                        END,
-                        admission_process = COALESCE(NULLIF(EXCLUDED.admission_process, ''), colleges.admission_process),
                         entrance_exam = CASE
                             WHEN EXCLUDED.entrance_exam = '[]'::jsonb THEN colleges.entrance_exam
                             ELSE EXCLUDED.entrance_exam
@@ -199,7 +254,8 @@ def upsert_colleges_batch(colleges: list[dict]):
                         placement_rate = COALESCE(EXCLUDED.placement_rate, colleges.placement_rate),
                         average_package = COALESCE(EXCLUDED.average_package, colleges.average_package),
                         highest_package = COALESCE(EXCLUDED.highest_package, colleges.highest_package),
-                        ranking = COALESCE(NULLIF(EXCLUDED.ranking, ''), colleges.ranking),
+                        nirf_ranking = COALESCE(NULLIF(EXCLUDED.nirf_ranking, ''), colleges.nirf_ranking),
+                        naac_grade = COALESCE(NULLIF(EXCLUDED.naac_grade, ''), colleges.naac_grade),
                         facilities = CASE
                             WHEN EXCLUDED.facilities = '[]'::jsonb THEN colleges.facilities
                             ELSE EXCLUDED.facilities
@@ -207,30 +263,32 @@ def upsert_colleges_batch(colleges: list[dict]):
                         website = COALESCE(NULLIF(EXCLUDED.website, ''), colleges.website),
                         phone_number = COALESCE(NULLIF(EXCLUDED.phone_number, ''), colleges.phone_number),
                         email = COALESCE(NULLIF(EXCLUDED.email, ''), colleges.email),
-                        admission_open_date = COALESCE(NULLIF(EXCLUDED.admission_open_date, ''), colleges.admission_open_date),
-                        application_deadline = COALESCE(NULLIF(EXCLUDED.application_deadline, ''), colleges.application_deadline),
+                        hostel_available = COALESCE(EXCLUDED.hostel_available, colleges.hostel_available),
+                        hostel_fee_annual = COALESCE(EXCLUDED.hostel_fee_annual, colleges.hostel_fee_annual),
                         updated_at = NOW();
                 """, (
-                    c.get("college_name", ""),
+                    name,
+                    c.get("abbreviation", ""),
+                    _json_col(c.get("also_known_as", [])),
                     c.get("city", ""),
+                    c.get("district", ""),
                     c.get("institution_type", ""),
                     c.get("institution_subtype", ""),
-                    c.get("ownership", ""),
+                    c.get("established"),
                     _json_col(c.get("courses_offered", [])),
                     _json_col(c.get("fees", {})),
-                    _json_col(c.get("eligibility", {})),
-                    c.get("admission_process", ""),
-                    _json_col(c.get("entrance_exam", [])),
+                    _json_col(exams),
                     c.get("placement_rate"),
                     c.get("average_package"),
                     c.get("highest_package"),
-                    c.get("ranking", ""),
+                    c.get("nirf_ranking", ""),
+                    c.get("naac_grade", ""),
                     _json_col(c.get("facilities", [])),
                     c.get("website", ""),
-                    c.get("phone_number", ""),
+                    c.get("phone") or c.get("phone_number", ""),
                     c.get("email", ""),
-                    c.get("admission_open_date", ""),
-                    c.get("application_deadline", ""),
+                    c.get("hostel_available", False),
+                    c.get("hostel_fee_annual"),
                 ))
         conn.commit()
         logger.info(f"Upserted {len(colleges)} colleges into PostgreSQL.")
@@ -473,6 +531,61 @@ def get_all_scholarships() -> list[dict]:
         conn.close()
 
 
+def upsert_user_profile(profile: dict):
+    """Insert or update a user profile in PostgreSQL."""
+    conn = get_conn()
+    try:
+        with conn.cursor() as cur:
+            cur.execute("""
+                INSERT INTO user_profiles
+                    (user_id, name, phone, current_class, stream,
+                     career_interest, budget_per_year, category,
+                     location, willing_to_relocate)
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                ON CONFLICT (user_id) DO UPDATE SET
+                    name = EXCLUDED.name,
+                    phone = EXCLUDED.phone,
+                    current_class = EXCLUDED.current_class,
+                    stream = EXCLUDED.stream,
+                    career_interest = EXCLUDED.career_interest,
+                    budget_per_year = EXCLUDED.budget_per_year,
+                    category = EXCLUDED.category,
+                    location = EXCLUDED.location,
+                    willing_to_relocate = EXCLUDED.willing_to_relocate,
+                    updated_at = NOW()
+                RETURNING *;
+            """, (
+                profile.get("user_id"),
+                profile.get("name", ""),
+                profile.get("phone", ""),
+                profile.get("current_class", ""),
+                profile.get("stream", ""),
+                profile.get("career_interest", ""),
+                profile.get("budget_per_year"),
+                profile.get("category", ""),
+                profile.get("location", ""),
+                profile.get("willing_to_relocate", False),
+            ))
+            row = cur.fetchone()
+            result = _row_to_dict(cur, row) if row else profile
+        conn.commit()
+        return result
+    finally:
+        conn.close()
+
+
+def get_user_profile(user_id: str) -> dict | None:
+    """Retrieve a user profile by user_id. Returns None if not found."""
+    conn = get_conn()
+    try:
+        with conn.cursor() as cur:
+            cur.execute("SELECT * FROM user_profiles WHERE user_id = %s;", (user_id,))
+            row = cur.fetchone()
+            return _row_to_dict(cur, row) if row else None
+    finally:
+        conn.close()
+
+
 def search_colleges(query=None, city=None, institution_type=None, course=None, max_fee=None) -> list[dict]:
     """Search colleges with optional filters, using parameterized SQL."""
     conditions = []
@@ -494,18 +607,20 @@ def search_colleges(query=None, city=None, institution_type=None, course=None, m
         params.append(f"%{course}%")
 
     if max_fee:
-        # Check if any fee value in the JSONB dict is <= max_fee
+        # Fees are nested: {"B.Tech": {"annual": 200000, "total": 800000, "duration_years": 4}}
+        # Check if any course's annual fee is <= max_fee
         conditions.append(
-            "EXISTS (SELECT 1 FROM jsonb_each_text(fees) AS kv WHERE kv.value::int <= %s)"
+            "EXISTS (SELECT 1 FROM jsonb_each(fees) AS kv WHERE (kv.value->>'annual')::int <= %s)"
         )
         params.append(max_fee)
 
     if query:
         conditions.append(
-            "(college_name ILIKE %s OR city ILIKE %s OR "
+            "(college_name ILIKE %s OR abbreviation ILIKE %s OR city ILIKE %s OR "
+            "EXISTS (SELECT 1 FROM jsonb_array_elements_text(also_known_as) AS elem WHERE elem ILIKE %s) OR "
             "EXISTS (SELECT 1 FROM jsonb_array_elements_text(courses_offered) AS elem WHERE elem ILIKE %s))"
         )
-        params.extend([f"%{query}%", f"%{query}%", f"%{query}%"])
+        params.extend([f"%{query}%", f"%{query}%", f"%{query}%", f"%{query}%", f"%{query}%"])
 
     where = " AND ".join(conditions) if conditions else "TRUE"
     sql = f"SELECT * FROM colleges WHERE {where} ORDER BY college_name;"
@@ -529,13 +644,19 @@ def seed_from_json(data_dir: Path):
     """
     logger.info("Seeding PostgreSQL tables from JSON files...")
 
-    # Colleges
-    colleges_file = data_dir / "uttarakhand_colleges_db.json"
-    if colleges_file.exists():
-        with open(colleges_file, "r", encoding="utf-8") as f:
+    # Universities (new curated dataset replaces old colleges_db)
+    uni_file = data_dir / "uttarakhand_universities.json"
+    old_file = data_dir / "uttarakhand_colleges_db.json"
+    if uni_file.exists():
+        with open(uni_file, "r", encoding="utf-8") as f:
+            universities = json.load(f).get("universities", [])
+        upsert_colleges_batch(universities)
+        logger.info(f"Seeded {len(universities)} universities.")
+    elif old_file.exists():
+        with open(old_file, "r", encoding="utf-8") as f:
             colleges = json.load(f).get("colleges", [])
         upsert_colleges_batch(colleges)
-        logger.info(f"Seeded {len(colleges)} colleges.")
+        logger.info(f"Seeded {len(colleges)} colleges (legacy file).")
 
     # Careers
     careers_file = data_dir / "career_paths.json"

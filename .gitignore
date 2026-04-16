@@ -48,3 +48,4 @@ data/backups/
 
 # Test scripts
 backend/test_*.py
+mobile/

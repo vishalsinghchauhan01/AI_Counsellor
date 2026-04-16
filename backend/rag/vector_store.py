@@ -147,3 +147,39 @@ def query(query_embedding: list, top_k: int = 5, min_score: float = 0.3):
         return [{"text": r[0], "score": float(r[1])} for r in rows if r[1] and float(r[1]) >= min_score]
     finally:
         conn.close()
+
+
+def query_with_metadata(query_embedding: list, top_k: int = 5, min_score: float = 0.3):
+    """
+    Cosine similarity search returning text, score, source_type, and metadata.
+    """
+    conn = get_conn()
+    try:
+        with conn.cursor() as cur:
+            cur.execute(
+                f"""
+                SELECT content, 1 - (embedding <=> %s::vector) AS score,
+                       source_type, metadata
+                FROM {TABLE_NAME}
+                ORDER BY embedding <=> %s::vector
+                LIMIT %s;
+                """,
+                (query_embedding, query_embedding, top_k),
+            )
+            rows = cur.fetchall()
+        results = []
+        for r in rows:
+            if r[1] and float(r[1]) >= min_score:
+                meta = r[3] if r[3] else {}
+                if isinstance(meta, str):
+                    import json as _json
+                    meta = _json.loads(meta)
+                results.append({
+                    "text": r[0],
+                    "score": float(r[1]),
+                    "source_type": r[2] or "",
+                    "metadata": meta,
+                })
+        return results
+    finally:
+        conn.close()

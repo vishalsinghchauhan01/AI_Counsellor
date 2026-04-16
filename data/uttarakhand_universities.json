@@ -1,0 +1,3904 @@
+{
+  "_meta": {
+    "description": "Universities in Uttarakhand — manually curated with verified data",
+    "last_updated": "2026-04-11",
+    "total_count": 38,
+    "sources": [
+      "Official university websites",
+      "NIRF 2025 rankings (nirfindia.org)",
+      "AISHE data",
+      "Careers360, Shiksha (cross-referenced only)"
+    ],
+    "notes": "Fees are approximate annual figures in INR unless noted. null = data not available. Placement data is self-reported by universities."
+  },
+  "universities": [
+    {
+      "university_name": "Indian Institute of Technology Roorkee",
+      "abbreviation": "IIT Roorkee",
+      "also_known_as": [
+        "IITR",
+        "IIT-R",
+        "Roorkee IIT"
+      ],
+      "city": "Roorkee",
+      "district": "Haridwar",
+      "institution_type": "Government",
+      "institution_subtype": "Institute of National Importance",
+      "established": 1847,
+      "courses_offered": [
+        "B.Tech CSE",
+        "B.Tech ECE",
+        "B.Tech EE",
+        "B.Tech ME",
+        "B.Tech Civil",
+        "B.Tech Chemical",
+        "B.Tech Metallurgical",
+        "B.Tech Polymer Science",
+        "B.Tech Biotechnology",
+        "B.Tech Industrial & Production",
+        "B.Tech Engineering Physics",
+        "B.Arch",
+        "B.Des",
+        "Integrated M.Sc Physics",
+        "Integrated M.Sc Chemistry",
+        "Integrated M.Sc Mathematics",
+        "Integrated M.Sc Applied Mathematics",
+        "Integrated M.Sc Earth Science",
+        "Integrated M.Sc Economics",
+        "M.Tech",
+        "M.Arch",
+        "M.Plan",
+        "M.Des",
+        "M.Sc Physics",
+        "M.Sc Chemistry",
+        "M.Sc Mathematics",
+        "MBA",
+        "PhD",
+        "B.Tech Data Science & AI",
+        "Integrated M.Tech (5-year)"
+      ],
+      "fees": {
+        "B.Tech": {
+          "annual": 294600,
+          "total": 887000,
+          "duration_years": 4
+        },
+        "B.Arch": {
+          "annual": 222000,
+          "total": 1109000,
+          "duration_years": 5
+        },
+        "M.Tech": {
+          "annual": 33000,
+          "total": 65200,
+          "duration_years": 2
+        },
+        "MBA": {
+          "annual": 200000,
+          "total": 400000,
+          "duration_years": 2
+        },
+        "M.Sc": {
+          "annual": 28600,
+          "total": 57200,
+          "duration_years": 2
+        },
+        "PhD": {
+          "annual": 30000,
+          "total": 90000,
+          "duration_years": 3
+        },
+        "B.Des": {
+          "annual": 294600,
+          "total": 887000,
+          "duration_years": 4
+        },
+        "Integrated M.Sc": {
+          "annual": 200000,
+          "total": 1000000,
+          "duration_years": 5
+        }
+      },
+      "nirf_ranking": "Overall #7, Engineering #6, Management #22, Architecture #1, Research #8",
+      "placement_rate": 95,
+      "average_package": 2161000,
+      "highest_package": 80000000,
+      "entrance_exams": [
+        "JEE Advanced",
+        "GATE",
+        "CAT",
+        "JAM"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library",
+        "Sports Complex",
+        "Hospital",
+        "Labs",
+        "WiFi",
+        "Placement Cell"
+      ],
+      "website": "https://www.iitr.ac.in",
+      "phone": null,
+      "email": null,
+      "hostel_available": true,
+      "hostel_fee_annual": 54000,
+      "naac_grade": "Not applicable (INI)"
+    },
+    {
+      "university_name": "All India Institute of Medical Sciences Rishikesh",
+      "abbreviation": "AIIMS Rishikesh",
+      "also_known_as": [
+        "AIIMS Rishikesh",
+        "AIIMS UK"
+      ],
+      "city": "Rishikesh",
+      "district": "Dehradun",
+      "institution_type": "Government",
+      "institution_subtype": "Institute of National Importance",
+      "established": 2012,
+      "courses_offered": [
+        "MBBS",
+        "B.Sc Nursing (Hons)",
+        "B.Sc Paramedical",
+        "B.Sc OT Technology",
+        "B.Sc Medical Lab Technology",
+        "B.Sc Radiology & Imaging Technology",
+        "M.Sc Nursing",
+        "M.Sc Anatomy",
+        "M.Sc Physiology",
+        "M.Sc Biochemistry",
+        "MD",
+        "MS",
+        "MDS",
+        "DM",
+        "MCh",
+        "MPH",
+        "PhD",
+        "PDCC (Post Doctoral Certificate Course)",
+        "M.Sc Neuroscience"
+      ],
+      "fees": {
+        "MBBS": {
+          "annual": 1358,
+          "total": 6790,
+          "duration_years": 5
+        },
+        "B.Sc Nursing (Hons)": {
+          "annual": 18050,
+          "total": 72200,
+          "duration_years": 4
+        },
+        "B.Sc Paramedical": {
+          "annual": 19800,
+          "total": 79200,
+          "duration_years": 4
+        },
+        "MD/MS": {
+          "annual": 1435,
+          "total": 4305,
+          "duration_years": 3
+        },
+        "MDS": {
+          "annual": 1550,
+          "total": 4650,
+          "duration_years": 3
+        },
+        "MPH": {
+          "annual": 70000,
+          "total": 140000,
+          "duration_years": 2
+        }
+      },
+      "nirf_ranking": "Medical #13, Overall #78",
+      "placement_rate": null,
+      "average_package": 850000,
+      "highest_package": null,
+      "placement_notes": "MBBS median salary INR 8.5 LPA; MD/MS median salary INR 24.1 LPA (NIRF 2024 report). Most graduates enter government hospital service.",
+      "entrance_exams": [
+        "NEET-UG",
+        "INI-CET",
+        "AIIMS Paramedical Exam"
+      ],
+      "facilities": [
+        "Hostel",
+        "Hospital",
+        "Library",
+        "Labs",
+        "Research Centre"
+      ],
+      "website": "https://aiimsrishikesh.edu.in",
+      "phone": null,
+      "email": null,
+      "hostel_available": true,
+      "hostel_fee_annual": 5000,
+      "naac_grade": "Not applicable (INI)"
+    },
+    {
+      "university_name": "National Institute of Technology Uttarakhand",
+      "abbreviation": "NIT Uttarakhand",
+      "also_known_as": [
+        "NITUK",
+        "NIT UK",
+        "NIT Srinagar Garhwal"
+      ],
+      "city": "Srinagar",
+      "district": "Pauri Garhwal",
+      "institution_type": "Government",
+      "institution_subtype": "Institute of National Importance",
+      "established": 2009,
+      "courses_offered": [
+        "B.Tech CSE",
+        "B.Tech ECE",
+        "B.Tech EEE",
+        "B.Tech Civil Engineering",
+        "B.Tech Mechanical Engineering",
+        "B.Tech CSE (AI & ML)",
+        "B.Tech CSE (Data Science)",
+        "M.Tech CSE",
+        "M.Tech ECE",
+        "M.Tech Structural Engineering",
+        "M.Tech Power Systems",
+        "M.Tech Thermal Engineering",
+        "PhD",
+        "M.Tech AI & Machine Learning",
+        "M.Tech Transportation Engineering"
+      ],
+      "btech_branches": [
+        "Computer Science & Engineering",
+        "Electronics & Communication Engineering",
+        "Electrical & Electronics Engineering",
+        "Civil Engineering",
+        "Mechanical Engineering"
+      ],
+      "fees": {
+        "B.Tech": {
+          "annual": 125000,
+          "total": 500000,
+          "duration_years": 4
+        },
+        "M.Tech": {
+          "annual": 70000,
+          "total": 140000,
+          "duration_years": 2
+        },
+        "PhD": {
+          "annual": 30000,
+          "total": 90000,
+          "duration_years": 3
+        }
+      },
+      "nirf_ranking": "Overall #62, Engineering 51-100 band",
+      "placement_rate": 75,
+      "average_package": 870000,
+      "highest_package": 1250000,
+      "placement_notes": "CSE highest 32 LPA, CSE avg 13.57 LPA. BTech avg 10.27 LPA, MTech avg 7.33 LPA. BTech placement rate ~80%, MTech ~45%. (2024 data)",
+      "entrance_exams": [
+        "JEE Main",
+        "GATE"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library",
+        "Labs",
+        "Sports",
+        "WiFi"
+      ],
+      "website": "https://nituk.ac.in",
+      "phone": null,
+      "email": null,
+      "hostel_available": true,
+      "hostel_fee_annual": 68666,
+      "naac_grade": "Not applicable (INI)"
+    },
+    {
+      "university_name": "Indian Institute of Management Kashipur",
+      "abbreviation": "IIM Kashipur",
+      "also_known_as": [
+        "IIM-K",
+        "IIM Kashipur"
+      ],
+      "city": "Kashipur",
+      "district": "Udham Singh Nagar",
+      "institution_type": "Government",
+      "institution_subtype": "Institute of National Importance",
+      "established": 2011,
+      "courses_offered": [
+        "MBA",
+        "MBA Analytics",
+        "MBA Finance",
+        "MBA Marketing",
+        "MBA Operations",
+        "MBA HR",
+        "Executive MBA",
+        "Executive MBA Analytics",
+        "PhD/FPM",
+        "EFPM (Executive Fellow Programme)"
+      ],
+      "fees": {
+        "MBA": {
+          "annual": 865000,
+          "total": 1730000,
+          "duration_years": 2
+        },
+        "MBA Analytics": {
+          "annual": 1000000,
+          "total": 2000000,
+          "duration_years": 2
+        },
+        "Executive MBA": {
+          "annual": 617500,
+          "total": 1235000,
+          "duration_years": 2
+        },
+        "PhD/FPM": {
+          "annual": null,
+          "total": null,
+          "duration_years": 4,
+          "notes": "Fully funded with stipend as per GoI norms"
+        }
+      },
+      "nirf_ranking": "Management #23",
+      "accreditation": "AACSB, AMBA",
+      "placement_rate": 98,
+      "average_package": 1495000,
+      "highest_package": 3312000,
+      "placement_notes": "MBA 2025: highest 33.12 LPA, avg 14.95 LPA, median 14.46 LPA. 433 out of 480 students sought placement, 10 unplaced. 190+ recruiters. Top sectors: IT (26%), Marketing & Sales (21%).",
+      "entrance_exams": [
+        "CAT",
+        "GMAT"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library",
+        "Auditorium",
+        "Sports Complex",
+        "Incubation Centre"
+      ],
+      "website": "https://www.iimkashipur.ac.in",
+      "phone": null,
+      "email": null,
+      "hostel_available": true,
+      "hostel_fee_annual": 156000,
+      "naac_grade": "Not applicable (INI)"
+    },
+    {
+      "university_name": "Hemvati Nandan Bahuguna Garhwal University",
+      "abbreviation": "HNB Garhwal University",
+      "also_known_as": [
+        "HNBGU",
+        "Garhwal University"
+      ],
+      "city": "Srinagar",
+      "district": "Pauri Garhwal",
+      "institution_type": "Government",
+      "institution_subtype": "Central University",
+      "established": 1973,
+      "courses_offered": [
+        "BA English",
+        "BA Hindi",
+        "BA History",
+        "BA Political Science",
+        "BA Economics",
+        "BA Geography",
+        "BA Sociology",
+        "BA Sanskrit",
+        "BA Psychology",
+        "BA Music",
+        "B.Sc Physics",
+        "B.Sc Chemistry",
+        "B.Sc Mathematics",
+        "B.Sc Botany",
+        "B.Sc Zoology",
+        "B.Sc Geology",
+        "B.Sc Computer Science",
+        "B.Sc Biotechnology",
+        "B.Sc Microbiology",
+        "B.Sc Environmental Science",
+        "B.Sc Home Science",
+        "B.Sc Agriculture",
+        "B.Com",
+        "B.Tech",
+        "B.Pharm",
+        "B.Ed",
+        "LLB",
+        "BA LLB",
+        "BBA",
+        "BCA",
+        "BJMC",
+        "MA English",
+        "MA Hindi",
+        "MA History",
+        "MA Economics",
+        "MA Political Science",
+        "MA Geography",
+        "MA Sociology",
+        "M.Sc Physics",
+        "M.Sc Chemistry",
+        "M.Sc Mathematics",
+        "M.Sc Botany",
+        "M.Sc Zoology",
+        "M.Sc Geology",
+        "M.Sc Computer Science",
+        "M.Sc Biotechnology",
+        "M.Sc Environmental Science",
+        "M.Com",
+        "MBA",
+        "MCA",
+        "M.Ed",
+        "M.Pharm",
+        "LLM",
+        "PhD"
+      ],
+      "fees": {
+        "BA": {
+          "annual": 14890,
+          "total": 44670,
+          "duration_years": 3
+        },
+        "B.Sc": {
+          "annual": 12040,
+          "total": 36120,
+          "duration_years": 3
+        },
+        "B.Com": {
+          "annual": 12040,
+          "total": 36120,
+          "duration_years": 3
+        },
+        "B.Tech": {
+          "annual": 25000,
+          "total": 100000,
+          "duration_years": 4
+        },
+        "B.Pharm": {
+          "annual": 48500,
+          "total": 194000,
+          "duration_years": 4
+        },
+        "B.Ed": {
+          "annual": 5250,
+          "total": 10500,
+          "duration_years": 2
+        },
+        "LLB": {
+          "annual": 10000,
+          "total": 30000,
+          "duration_years": 3
+        },
+        "MBA": {
+          "annual": 33500,
+          "total": 67000,
+          "duration_years": 2
+        },
+        "MCA": {
+          "annual": 14000,
+          "total": 42000,
+          "duration_years": 3
+        },
+        "MA": {
+          "annual": 5000,
+          "total": 10000,
+          "duration_years": 2
+        },
+        "M.Sc": {
+          "annual": 7000,
+          "total": 14000,
+          "duration_years": 2
+        }
+      },
+      "nirf_ranking": "University 151-200 band",
+      "placement_rate": 48,
+      "average_package": 450000,
+      "highest_package": 550000,
+      "placement_notes": "UG 4-year median 4.5 LPA, PG 5-year median 5.5 LPA (2024). Top recruiters: TCS, HCL, Cognizant, Wipro, Tech Mahindra, Infosys.",
+      "entrance_exams": [
+        "CUET-UG",
+        "CUET-PG",
+        "JEE Main",
+        "GATE"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library",
+        "Labs",
+        "Sports",
+        "Health Centre"
+      ],
+      "website": "https://www.hnbgu.ac.in",
+      "phone": null,
+      "email": null,
+      "hostel_available": true,
+      "hostel_fee_annual": 39500,
+      "naac_grade": "A"
+    },
+    {
+      "university_name": "Forest Research Institute",
+      "abbreviation": "FRI Dehradun",
+      "also_known_as": [
+        "FRI",
+        "Forest Research Institute Deemed University"
+      ],
+      "city": "Dehradun",
+      "district": "Dehradun",
+      "institution_type": "Government",
+      "institution_subtype": "Deemed University",
+      "established": 1906,
+      "courses_offered": [
+        "M.Sc Forestry",
+        "M.Sc Wood Science & Technology",
+        "M.Sc Cellulose & Paper Technology",
+        "M.Sc Environment Management",
+        "M.Sc Botany (Forest Botany)",
+        "PhD Forestry",
+        "PhD Botany",
+        "PhD Environmental Science",
+        "PhD Wood Science"
+      ],
+      "fees": {
+        "M.Sc Forestry": {
+          "annual": 58000,
+          "total": 116000,
+          "duration_years": 2
+        },
+        "M.Sc Wood Science & Technology": {
+          "annual": 58000,
+          "total": 116000,
+          "duration_years": 2
+        },
+        "M.Sc Environment Management": {
+          "annual": 58000,
+          "total": 116000,
+          "duration_years": 2
+        },
+        "M.Sc Cellulose & Paper Technology": {
+          "annual": 58000,
+          "total": 116000,
+          "duration_years": 2
+        },
+        "PhD": {
+          "annual": 49000,
+          "total": 147000,
+          "duration_years": 3
+        }
+      },
+      "nirf_ranking": "University 101-150 band",
+      "institution_of_eminence": true,
+      "placement_rate": 60,
+      "average_package": 600000,
+      "highest_package": 950000,
+      "placement_notes": "2022-2024 batch: highest 9.5 LPA, avg ~5.7 LPA. Top recruiters: ITC Limited, JK Paper Mill, Orient Paper Mill, Naini Papers, Proklean.",
+      "entrance_exams": [
+        "FRI Entrance Exam"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library",
+        "Museum",
+        "Botanical Garden",
+        "Labs"
+      ],
+      "website": "https://fridu.edu.in",
+      "phone": null,
+      "email": null,
+      "hostel_available": true,
+      "hostel_fee_annual": 36000,
+      "naac_grade": "A"
+    },
+    {
+      "university_name": "Govind Ballabh Pant University of Agriculture and Technology",
+      "abbreviation": "GBPUAT",
+      "also_known_as": [
+        "Pantnagar University",
+        "GBPUAT Pantnagar",
+        "Pant University"
+      ],
+      "city": "Pantnagar",
+      "district": "Udham Singh Nagar",
+      "institution_type": "Government",
+      "institution_subtype": "State University",
+      "established": 1960,
+      "courses_offered": [
+        "B.Sc Agriculture",
+        "B.Sc Forestry",
+        "B.Sc Home Science",
+        "B.Sc Fisheries",
+        "B.Sc Horticulture",
+        "B.Tech CSE",
+        "B.Tech IT",
+        "B.Tech ECE",
+        "B.Tech EE",
+        "B.Tech Civil",
+        "B.Tech Mechanical",
+        "B.Tech Food Technology",
+        "B.Tech Biotechnology",
+        "B.V.Sc & AH",
+        "BBA",
+        "BCA",
+        "B.Ed",
+        "MBA",
+        "MBA Agribusiness",
+        "MCA",
+        "M.Sc Agriculture",
+        "M.Sc Horticulture",
+        "M.Sc Forestry",
+        "M.Sc Biotechnology",
+        "M.Sc Microbiology",
+        "M.Sc Physics",
+        "M.Sc Chemistry",
+        "M.Sc Mathematics",
+        "M.Sc Environmental Science",
+        "M.Tech",
+        "M.V.Sc",
+        "PhD"
+      ],
+      "fees": {
+        "B.Sc Agriculture": {
+          "annual": 38900,
+          "total": 155600,
+          "duration_years": 4
+        },
+        "B.Tech": {
+          "annual": 42000,
+          "total": 168000,
+          "duration_years": 4
+        },
+        "MBA": {
+          "annual": 60000,
+          "total": 120000,
+          "duration_years": 2
+        },
+        "M.Sc": {
+          "annual": 35000,
+          "total": 70000,
+          "duration_years": 2
+        },
+        "PhD": {
+          "annual": 55700,
+          "total": 167100,
+          "duration_years": 3
+        },
+        "BBA": {
+          "annual": 35000,
+          "total": 105000,
+          "duration_years": 3
+        },
+        "BCA": {
+          "annual": 35000,
+          "total": 105000,
+          "duration_years": 3
+        },
+        "B.V.Sc & AH": {
+          "annual": 40000,
+          "total": 200000,
+          "duration_years": 5
+        }
+      },
+      "nirf_ranking": "Agriculture #9, University 101-150 band",
+      "placement_rate": 70,
+      "average_package": 525000,
+      "highest_package": null,
+      "entrance_exams": [
+        "JEE Main",
+        "ICAR AIEEA",
+        "GBPUAT Entrance Exam",
+        "GATE",
+        "NEET"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library",
+        "Farms",
+        "Veterinary Hospital",
+        "Labs",
+        "Sports"
+      ],
+      "website": "https://www.gbpuat.ac.in",
+      "phone": null,
+      "email": null,
+      "hostel_available": true,
+      "hostel_fee_annual": 8800,
+      "naac_grade": "A"
+    },
+    {
+      "university_name": "Kumaun University",
+      "abbreviation": "Kumaun University",
+      "also_known_as": [
+        "KU Nainital",
+        "Kumaun Vishwavidyalaya"
+      ],
+      "city": "Nainital",
+      "district": "Nainital",
+      "institution_type": "Government",
+      "institution_subtype": "State University",
+      "established": 1973,
+      "courses_offered": [
+        "BA English",
+        "BA Hindi",
+        "BA History",
+        "BA Political Science",
+        "BA Economics",
+        "BA Geography",
+        "BA Sociology",
+        "BA Sanskrit",
+        "B.Sc Physics",
+        "B.Sc Chemistry",
+        "B.Sc Mathematics",
+        "B.Sc Botany",
+        "B.Sc Zoology",
+        "B.Sc Geology",
+        "B.Sc Computer Science",
+        "B.Sc Biotechnology",
+        "B.Sc Statistics",
+        "B.Sc Home Science",
+        "B.Com",
+        "BBA",
+        "BCA",
+        "B.Ed",
+        "B.Pharm",
+        "D.Pharm",
+        "LLB",
+        "BA LLB",
+        "MA English",
+        "MA Hindi",
+        "MA Economics",
+        "MA History",
+        "MA Political Science",
+        "MA Geography",
+        "M.Sc Physics",
+        "M.Sc Chemistry",
+        "M.Sc Mathematics",
+        "M.Sc Botany",
+        "M.Sc Zoology",
+        "M.Sc Geology",
+        "M.Sc Computer Science",
+        "M.Sc Statistics",
+        "M.Com",
+        "MBA",
+        "MCA",
+        "M.Pharm",
+        "M.Ed",
+        "LLM",
+        "PhD"
+      ],
+      "fees": {
+        "BA": {
+          "annual": 6000,
+          "total": 18000,
+          "duration_years": 3
+        },
+        "B.Sc": {
+          "annual": 6000,
+          "total": 18000,
+          "duration_years": 3
+        },
+        "B.Com": {
+          "annual": 6000,
+          "total": 18000,
+          "duration_years": 3
+        },
+        "BBA": {
+          "annual": 23000,
+          "total": 69000,
+          "duration_years": 3
+        },
+        "B.Pharm": {
+          "annual": 45000,
+          "total": 180000,
+          "duration_years": 4
+        },
+        "MBA": {
+          "annual": 20000,
+          "total": 40000,
+          "duration_years": 2
+        },
+        "BCA": {
+          "annual": 23000,
+          "total": 69000,
+          "duration_years": 3
+        },
+        "B.Ed": {
+          "annual": 12000,
+          "total": 24000,
+          "duration_years": 2
+        },
+        "D.Pharm": {
+          "annual": 45000,
+          "total": 90000,
+          "duration_years": 2
+        },
+        "MA": {
+          "annual": 5000,
+          "total": 10000,
+          "duration_years": 2
+        },
+        "M.Sc": {
+          "annual": 7000,
+          "total": 14000,
+          "duration_years": 2
+        },
+        "LLM": {
+          "annual": 10000,
+          "total": 20000,
+          "duration_years": 2
+        }
+      },
+      "nirf_ranking": "Pharmacy #73",
+      "placement_rate": 45,
+      "average_package": 300000,
+      "highest_package": null,
+      "entrance_exams": [
+        "CUET",
+        "KUET"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library",
+        "Labs",
+        "Sports"
+      ],
+      "website": "https://www.kunainital.ac.in",
+      "phone": null,
+      "email": null,
+      "hostel_available": true,
+      "hostel_fee_annual": 12000,
+      "naac_grade": "A"
+    },
+    {
+      "university_name": "Veer Madho Singh Bhandari Uttarakhand Technical University",
+      "abbreviation": "UTU",
+      "also_known_as": [
+        "UKTech",
+        "Uttarakhand Technical University"
+      ],
+      "city": "Dehradun",
+      "district": "Dehradun",
+      "institution_type": "Government",
+      "institution_subtype": "State University",
+      "established": 2005,
+      "courses_offered": [
+        "B.Tech CSE",
+        "B.Tech ECE",
+        "B.Tech ME",
+        "B.Tech Civil",
+        "B.Tech EE",
+        "B.Tech IT",
+        "B.Tech CSE (AI & ML)",
+        "B.Pharm",
+        "D.Pharm",
+        "BBA",
+        "BCA",
+        "BHM",
+        "LLB",
+        "BA LLB",
+        "BBA LLB",
+        "M.Tech",
+        "M.Pharm",
+        "MBA",
+        "MCA",
+        "LLM",
+        "PhD"
+      ],
+      "fees": {
+        "B.Tech": {
+          "annual": 95000,
+          "total": 380000,
+          "duration_years": 4
+        },
+        "B.Pharm": {
+          "annual": 50000,
+          "total": 200000,
+          "duration_years": 4
+        },
+        "MBA": {
+          "annual": 170000,
+          "total": 340000,
+          "duration_years": 2
+        },
+        "M.Pharm": {
+          "annual": 50000,
+          "total": 100000,
+          "duration_years": 2
+        }
+      },
+      "nirf_ranking": "Not ranked",
+      "placement_rate": 65,
+      "average_package": 400000,
+      "highest_package": 5400000,
+      "entrance_exams": [
+        "UKSEE",
+        "JEE Main",
+        "GATE",
+        "CMAT",
+        "NEET"
+      ],
+      "facilities": [
+        "Library",
+        "Labs",
+        "Placement Cell"
+      ],
+      "website": "https://uktech.ac.in",
+      "phone": null,
+      "email": null,
+      "hostel_available": false,
+      "hostel_fee_annual": 40000,
+      "naac_grade": "Not accredited"
+    },
+    {
+      "university_name": "Doon University",
+      "abbreviation": "Doon University",
+      "also_known_as": [
+        "DU Dehradun"
+      ],
+      "city": "Dehradun",
+      "district": "Dehradun",
+      "institution_type": "Government",
+      "institution_subtype": "State University",
+      "established": 2005,
+      "courses_offered": [
+        "BA Hons English",
+        "BA Hons Hindi",
+        "BA Hons Economics",
+        "BA Hons History",
+        "BA Hons Political Science",
+        "BA Hons Mass Communication",
+        "B.Sc Hons Physics",
+        "B.Sc Hons Chemistry",
+        "B.Sc Hons Mathematics",
+        "B.Sc Hons Environmental Science",
+        "B.Sc Hons Computer Science",
+        "B.Sc Hons Biotechnology",
+        "B.Com Hons",
+        "BBA",
+        "BCA",
+        "B.Des",
+        "MA English",
+        "MA Hindi",
+        "MA Economics",
+        "MA History",
+        "M.Sc Physics",
+        "M.Sc Chemistry",
+        "M.Sc Mathematics",
+        "M.Sc Environmental Science",
+        "M.Sc Computer Science",
+        "M.Sc Biotechnology",
+        "MBA",
+        "Executive MBA",
+        "M.Tech",
+        "PhD"
+      ],
+      "fees": {
+        "BA Hons": {
+          "annual": 26000,
+          "total": 78000,
+          "duration_years": 3
+        },
+        "B.Sc Hons": {
+          "annual": 30000,
+          "total": 90000,
+          "duration_years": 3
+        },
+        "B.Com Hons": {
+          "annual": 26000,
+          "total": 78000,
+          "duration_years": 3
+        },
+        "BBA": {
+          "annual": 30000,
+          "total": 90000,
+          "duration_years": 3
+        },
+        "MBA": {
+          "annual": 82000,
+          "total": 164000,
+          "duration_years": 2
+        },
+        "M.Tech": {
+          "annual": 45000,
+          "total": 90000,
+          "duration_years": 2
+        }
+      },
+      "nirf_ranking": "Not ranked",
+      "placement_rate": 55,
+      "average_package": 410000,
+      "highest_package": null,
+      "entrance_exams": [
+        "DUET",
+        "CUET"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library",
+        "Labs",
+        "Sports",
+        "Auditorium"
+      ],
+      "website": "https://www.doonuniversity.ac.in",
+      "phone": null,
+      "email": null,
+      "hostel_available": true,
+      "hostel_fee_annual": 45000,
+      "naac_grade": "Not accredited"
+    },
+    {
+      "university_name": "Sri Dev Suman Uttarakhand University",
+      "abbreviation": "SDSUV",
+      "also_known_as": [
+        "SDSUU",
+        "Sri Dev Suman University"
+      ],
+      "city": "Badshahithaul",
+      "district": "Tehri Garhwal",
+      "institution_type": "Government",
+      "institution_subtype": "State University",
+      "established": 2012,
+      "courses_offered": [
+        "BA English",
+        "BA Hindi",
+        "BA History",
+        "BA Economics",
+        "BA Political Science",
+        "BA Geography",
+        "BA Sanskrit",
+        "B.Sc Physics",
+        "B.Sc Chemistry",
+        "B.Sc Mathematics",
+        "B.Sc Botany",
+        "B.Sc Zoology",
+        "B.Sc Computer Science",
+        "B.Com",
+        "BBA",
+        "BCA",
+        "B.Ed",
+        "BHM",
+        "MA Hindi",
+        "MA English",
+        "MA History",
+        "MA Economics",
+        "M.Sc Physics",
+        "M.Sc Chemistry",
+        "M.Sc Mathematics",
+        "M.Sc Botany",
+        "M.Sc Zoology",
+        "M.Sc Computer Science",
+        "M.Com",
+        "MBA",
+        "MCA",
+        "M.Ed",
+        "PhD"
+      ],
+      "fees": {
+        "BA": {
+          "annual": 15000,
+          "total": 45000,
+          "duration_years": 3
+        },
+        "B.Sc": {
+          "annual": 15000,
+          "total": 45000,
+          "duration_years": 3
+        },
+        "B.Com": {
+          "annual": 15000,
+          "total": 45000,
+          "duration_years": 3
+        },
+        "BBA": {
+          "annual": 25000,
+          "total": 75000,
+          "duration_years": 3
+        },
+        "BCA": {
+          "annual": 25000,
+          "total": 75000,
+          "duration_years": 3
+        },
+        "MBA": {
+          "annual": 45000,
+          "total": 90000,
+          "duration_years": 2
+        }
+      },
+      "nirf_ranking": "Not ranked",
+      "placement_rate": 40,
+      "average_package": 300000,
+      "highest_package": null,
+      "entrance_exams": [
+        "Merit-based",
+        "University Entrance Test"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library",
+        "Labs"
+      ],
+      "website": "http://www.sdsuv.ac.in",
+      "phone": null,
+      "email": null,
+      "hostel_available": true,
+      "hostel_fee_annual": 15000,
+      "naac_grade": "Not accredited"
+    },
+    {
+      "university_name": "Soban Singh Jeena University",
+      "abbreviation": "SSJU",
+      "also_known_as": [
+        "SSJ University Almora"
+      ],
+      "city": "Almora",
+      "district": "Almora",
+      "institution_type": "Government",
+      "institution_subtype": "State University",
+      "established": 2020,
+      "courses_offered": [
+        "BA English",
+        "BA Hindi",
+        "BA History",
+        "BA Economics",
+        "BA Political Science",
+        "BA Geography",
+        "B.Sc Physics",
+        "B.Sc Chemistry",
+        "B.Sc Mathematics",
+        "B.Sc Botany",
+        "B.Sc Zoology",
+        "B.Sc Computer Science",
+        "B.Com",
+        "BBA",
+        "BCA",
+        "BFA",
+        "B.Ed",
+        "BHM",
+        "B.Voc",
+        "LLB",
+        "BA LLB",
+        "MA English",
+        "MA Hindi",
+        "MA Economics",
+        "MA History",
+        "M.Sc Physics",
+        "M.Sc Chemistry",
+        "M.Sc Mathematics",
+        "M.Sc Computer Science",
+        "M.Com",
+        "LLM",
+        "PhD"
+      ],
+      "fees": {
+        "B.Sc": {
+          "annual": 24000,
+          "total": 72000,
+          "duration_years": 3
+        },
+        "BA": {
+          "annual": 20000,
+          "total": 60000,
+          "duration_years": 3
+        },
+        "B.Voc": {
+          "annual": 33000,
+          "total": 99000,
+          "duration_years": 3
+        }
+      },
+      "nirf_ranking": "Not ranked",
+      "placement_rate": 35,
+      "average_package": 250000,
+      "highest_package": 2400000,
+      "entrance_exams": [
+        "Merit-based",
+        "University Entrance Test"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library",
+        "Labs"
+      ],
+      "website": "https://www.ssju.ac.in",
+      "phone": null,
+      "email": null,
+      "hostel_available": true,
+      "hostel_fee_annual": 12000,
+      "naac_grade": "Not accredited"
+    },
+    {
+      "university_name": "Uttarakhand Open University",
+      "abbreviation": "UOU",
+      "also_known_as": [
+        "UKOU",
+        "Uttarakhand Open University Haldwani"
+      ],
+      "city": "Haldwani",
+      "district": "Nainital",
+      "institution_type": "Government",
+      "institution_subtype": "State University",
+      "established": 2005,
+      "courses_offered": [
+        "BA English",
+        "BA Hindi",
+        "BA Sociology",
+        "BA Economics",
+        "BA Political Science",
+        "BA Public Administration",
+        "B.Sc Physics",
+        "B.Sc Chemistry",
+        "B.Sc Mathematics",
+        "B.Sc Computer Science",
+        "B.Com",
+        "BBA",
+        "BCA",
+        "B.Ed",
+        "BTS (Bachelor of Tourism Studies)",
+        "BSW (Bachelor of Social Work)",
+        "MA English",
+        "MA Hindi",
+        "MA Sociology",
+        "MA Economics",
+        "MA Political Science",
+        "MA Public Administration",
+        "M.Sc Physics",
+        "M.Sc Chemistry",
+        "M.Sc Mathematics",
+        "M.Com",
+        "MBA",
+        "MCA",
+        "MSW",
+        "Certificate Programs",
+        "Diploma Programs",
+        "PhD"
+      ],
+      "fees": {
+        "BA": {
+          "annual": 4000,
+          "total": 12000,
+          "duration_years": 3
+        },
+        "B.Sc": {
+          "annual": 4000,
+          "total": 12000,
+          "duration_years": 3
+        },
+        "B.Com": {
+          "annual": 4000,
+          "total": 12000,
+          "duration_years": 3
+        },
+        "B.Ed": {
+          "annual": 16000,
+          "total": 32000,
+          "duration_years": 2
+        },
+        "MBA": {
+          "annual": 23000,
+          "total": 46000,
+          "duration_years": 2
+        }
+      },
+      "nirf_ranking": "Not ranked",
+      "placement_rate": null,
+      "average_package": 515000,
+      "highest_package": null,
+      "entrance_exams": [
+        "Merit-based"
+      ],
+      "facilities": [
+        "Study Centres across Uttarakhand",
+        "Online Learning Portal",
+        "Library"
+      ],
+      "website": "https://www.uou.ac.in",
+      "phone": null,
+      "email": null,
+      "hostel_available": false,
+      "hostel_fee_annual": null,
+      "naac_grade": "B++"
+    },
+    {
+      "university_name": "Uttarakhand Sanskrit University",
+      "abbreviation": "USVV",
+      "also_known_as": [
+        "Uttarakhand Sanskrit Vishwavidyalaya"
+      ],
+      "city": "Haridwar",
+      "district": "Haridwar",
+      "institution_type": "Government",
+      "institution_subtype": "State University",
+      "established": 2005,
+      "courses_offered": [
+        "BA Sanskrit",
+        "BA Vedic Studies",
+        "BA Jyotish",
+        "BA Hindi",
+        "BA Sahitya",
+        "B.Ed",
+        "MA Sanskrit",
+        "MA Vedic Studies",
+        "MA Darshan",
+        "MA Jyotish",
+        "MA Hindi",
+        "MA Sahitya",
+        "PG Diploma Sanskrit",
+        "PG Diploma Jyotish",
+        "PhD Sanskrit",
+        "PhD Vedic Studies"
+      ],
+      "fees": {
+        "BA": {
+          "annual": 10000,
+          "total": 30000,
+          "duration_years": 3
+        },
+        "MA": {
+          "annual": 15000,
+          "total": 30000,
+          "duration_years": 2
+        }
+      },
+      "nirf_ranking": "Not ranked",
+      "placement_rate": null,
+      "average_package": null,
+      "highest_package": null,
+      "entrance_exams": [
+        "Merit-based"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library"
+      ],
+      "website": "https://usvv.ac.in",
+      "phone": null,
+      "email": null,
+      "hostel_available": true,
+      "hostel_fee_annual": null,
+      "naac_grade": "Not accredited"
+    },
+    {
+      "university_name": "Uttarakhand Ayurved University",
+      "abbreviation": "UAU",
+      "also_known_as": [
+        "Uttarakhand Ayurved University Dehradun"
+      ],
+      "city": "Dehradun",
+      "district": "Dehradun",
+      "institution_type": "Government",
+      "institution_subtype": "State University",
+      "established": 2009,
+      "courses_offered": [
+        "BAMS",
+        "BHMS",
+        "BUMS",
+        "BNYS",
+        "B.Sc Yoga",
+        "MD Ayurveda (Kayachikitsa)",
+        "MD Ayurveda (Panchakarma)",
+        "MD Ayurveda (Dravyaguna)",
+        "MD Ayurveda (Shalya Tantra)",
+        "MS Ayurveda (Shalakya Tantra)",
+        "M.Sc Yoga",
+        "PhD Ayurveda"
+      ],
+      "fees": {
+        "BAMS": {
+          "annual": 54000,
+          "total": 270000,
+          "duration_years": 5
+        },
+        "BHMS": {
+          "annual": 110000,
+          "total": 550000,
+          "duration_years": 5
+        },
+        "MS Ayurveda": {
+          "annual": 143000,
+          "total": 429000,
+          "duration_years": 3
+        }
+      },
+      "nirf_ranking": "Not ranked",
+      "placement_rate": null,
+      "average_package": 800000,
+      "highest_package": 1200000,
+      "entrance_exams": [
+        "NEET",
+        "AIAPGET"
+      ],
+      "facilities": [
+        "Hospital",
+        "Hostel",
+        "Library",
+        "Labs",
+        "Herbal Garden"
+      ],
+      "website": "https://www.uau.ac.in",
+      "phone": null,
+      "email": null,
+      "hostel_available": true,
+      "hostel_fee_annual": 15000,
+      "naac_grade": "Not accredited"
+    },
+    {
+      "university_name": "Hemwati Nandan Bahuguna Uttarakhand Medical Education University",
+      "abbreviation": "HNBUMU",
+      "also_known_as": [
+        "Uttarakhand Medical University",
+        "HNB Uttarakhand Medical Education University"
+      ],
+      "city": "Dehradun",
+      "district": "Dehradun",
+      "institution_type": "Government",
+      "institution_subtype": "State University",
+      "established": 2014,
+      "courses_offered": [
+        "MBBS",
+        "BDS",
+        "B.Sc Nursing",
+        "B.Sc OT Technology",
+        "B.Sc Radiology",
+        "B.Sc Medical Lab Technology",
+        "B.Sc Optometry",
+        "BPT",
+        "BMLT",
+        "B.Sc Paramedical",
+        "GNM (General Nursing & Midwifery)",
+        "ANM (Auxiliary Nursing)",
+        "MD Medicine",
+        "MD Paediatrics",
+        "MD Radiology",
+        "MD Anaesthesia",
+        "MD Pathology",
+        "MD Microbiology",
+        "MD Biochemistry",
+        "MD Pharmacology",
+        "MS Surgery",
+        "MS Orthopaedics",
+        "MS ENT",
+        "MS Ophthalmology",
+        "MS Obstetrics & Gynaecology",
+        "MDS",
+        "M.Sc Nursing",
+        "M.Sc Paramedical",
+        "MPT",
+        "DM",
+        "MCh",
+        "PhD"
+      ],
+      "fees": {
+        "MBBS": {
+          "annual": 145000,
+          "total": 725000,
+          "duration_years": 5,
+          "note": "Govt college fee; private affiliated colleges range up to 15 lakh total"
+        },
+        "BDS": {
+          "annual": 145000,
+          "total": 580000,
+          "duration_years": 4,
+          "note": "Govt college fee; private affiliated colleges range up to 9 lakh total"
+        },
+        "B.Sc Nursing": {
+          "annual": 150000,
+          "total": 600000,
+          "duration_years": 4,
+          "note": "Varies by affiliated college; range 1.8-9 lakh total"
+        },
+        "BPT": {
+          "annual": 90000,
+          "total": 360000,
+          "duration_years": 4,
+          "note": "Range 1.37-4.34 lakh total across colleges"
+        },
+        "MD": {
+          "annual": 200000,
+          "total": 600000,
+          "duration_years": 3,
+          "note": "Govt college; range 2.37-15.57 lakh across colleges"
+        },
+        "MS": {
+          "annual": 200000,
+          "total": 600000,
+          "duration_years": 3,
+          "note": "Govt college; range 2.37-15.57 lakh across colleges"
+        },
+        "MDS": {
+          "annual": 250000,
+          "total": 750000,
+          "duration_years": 3,
+          "note": "Range 2.37-15.57 lakh across colleges"
+        },
+        "M.Sc Nursing": {
+          "annual": 130000,
+          "total": 260000,
+          "duration_years": 2,
+          "note": "Range 1.97-5.39 lakh across colleges"
+        }
+      },
+      "nirf_ranking": "Not ranked",
+      "placement_rate": 70,
+      "average_package": 500000,
+      "highest_package": null,
+      "entrance_exams": [
+        "NEET-UG",
+        "NEET-PG",
+        "NEET-MDS"
+      ],
+      "facilities": [
+        "Teaching Hospitals",
+        "Library",
+        "Labs",
+        "Hostel",
+        "CCTV Security"
+      ],
+      "website": "https://hnbumu.ac.in",
+      "phone": null,
+      "email": null,
+      "hostel_available": true,
+      "hostel_fee_annual": 30000,
+      "notes": "Affiliating university for 16 medical/dental/nursing/paramedical colleges across Uttarakhand. Fees vary significantly by college (govt vs private). Govt college MBBS fee ~1.45 lakh/year.",
+      "naac_grade": "Not accredited"
+    },
+    {
+      "university_name": "Veer Chandra Singh Garhwali Uttarakhand University of Horticulture and Forestry",
+      "abbreviation": "VCSG UUHF",
+      "also_known_as": [
+        "UUHF Bharsar",
+        "VCSG UUHF",
+        "Uttarakhand Horticulture University"
+      ],
+      "city": "Bharsar",
+      "district": "Pauri Garhwal",
+      "institution_type": "Government",
+      "institution_subtype": "State University",
+      "established": 2011,
+      "courses_offered": [
+        "B.Sc Hons Horticulture",
+        "B.Sc Hons Forestry",
+        "B.Sc Agriculture",
+        "M.Sc Horticulture",
+        "M.Sc Forestry",
+        "M.Sc Floriculture",
+        "M.Sc Fruit Science",
+        "M.Sc Vegetable Science",
+        "M.Sc Entomology",
+        "M.Sc Plant Pathology",
+        "M.Sc Soil Science",
+        "PhD Horticulture",
+        "PhD Forestry"
+      ],
+      "fees": {
+        "B.Sc Horticulture": {
+          "annual": 25370,
+          "total": 101480,
+          "duration_years": 4,
+          "note": "Fee range 67,084-1,22,456 total depending on category"
+        },
+        "B.Sc Forestry": {
+          "annual": 25370,
+          "total": 101480,
+          "duration_years": 4,
+          "note": "Similar to B.Sc Horticulture"
+        },
+        "M.Sc Horticulture": {
+          "annual": 43287,
+          "total": 86574,
+          "duration_years": 2
+        },
+        "M.Sc Forestry": {
+          "annual": 43287,
+          "total": 86574,
+          "duration_years": 2
+        }
+      },
+      "nirf_ranking": "Not ranked",
+      "placement_rate": 50,
+      "average_package": 350000,
+      "highest_package": null,
+      "entrance_exams": [
+        "VCSG UUHF Entrance Test (UET)",
+        "ICAR AIEEA"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library",
+        "Farms",
+        "Labs",
+        "Nurseries",
+        "Research Stations"
+      ],
+      "website": "https://www.uuhf.ac.in",
+      "phone": "+91-7080448554",
+      "email": "uuhf.exam@gmail.com",
+      "hostel_available": true,
+      "hostel_fee_annual": 4690,
+      "notes": "Niche agricultural university with two campuses — Bharsar (Horticulture) and Ranichauri (Forestry). No centralized placements; alumni typically pursue govt jobs, banking, or cooperative sector. Fee structure is very affordable as a state government university.",
+      "naac_grade": "Not accredited"
+    },
+    {
+      "university_name": "University of Petroleum and Energy Studies",
+      "abbreviation": "UPES",
+      "also_known_as": [
+        "UPES Dehradun"
+      ],
+      "city": "Dehradun",
+      "district": "Dehradun",
+      "institution_type": "Private",
+      "institution_subtype": "Deemed University",
+      "established": 2003,
+      "courses_offered": [
+        "B.Tech Applied Petroleum Engineering",
+        "B.Tech Aerospace Engineering",
+        "B.Tech Automotive Engineering",
+        "B.Tech Chemical Engineering",
+        "B.Tech Civil Engineering",
+        "B.Tech Electrical Engineering",
+        "B.Tech Electronics & Computer Engineering",
+        "B.Tech Fire & Safety Engineering",
+        "B.Tech Mechanical Engineering",
+        "B.Tech Sustainability Engineering",
+        "B.Tech CSE",
+        "B.Tech CSE (Computer Science & Economics)",
+        "B.Tech CSE (Immersive Technology)",
+        "B.Tech Mathematics & Computing",
+        "B.Tech VLSI Design & Technology",
+        "BCA",
+        "B.Tech Bioinformatics",
+        "B.Tech Biomedical Engineering",
+        "B.Tech Biotechnology",
+        "B.Tech Food Technology",
+        "B.Pharm",
+        "B.Sc Hons Physics (3+1)",
+        "B.Sc Hons Chemistry (3+1)",
+        "B.Sc Hons Mathematics (3+1)",
+        "B.Sc Hons Geology (3+1)",
+        "B.Sc Hons Clinical Research (3+1)",
+        "B.Sc Hons Microbiology (3+1)",
+        "B.Sc Hons Food, Nutrition & Dietetics (3+1)",
+        "B.Sc Computer Science",
+        "B.Sc Hons Economics & Finance (3+1)",
+        "B.Sc Hons Economics with Data Science (3+1)",
+        "B.Sc Hons Psychology & Behaviour (3+1)",
+        "BA Hons Diplomacy & Foreign Policy (3+1)",
+        "BA Hons English (3+1)",
+        "BA Hons Environmental & Sustainability Studies (3+1)",
+        "BA Hons Governance & Public Administration (3+1)",
+        "BA Hons History (3+1)",
+        "BA Hons Philosophy (3+1)",
+        "BA Hons Political Science (3+1)",
+        "BA Hons Sociology (3+1)",
+        "BA Journalism & Mass Communication",
+        "BA Journalism & Mass Communication (Digital)",
+        "BA (AI and Law)",
+        "BBA",
+        "BBA (Analytics & Big Data)",
+        "BBA (Aviation Management)",
+        "BBA (Digital Business)",
+        "BBA (Events, PR & Corporate Communications)",
+        "BBA (Foreign Trade)",
+        "BBA (Green Energy & Sustainability)",
+        "BBA (Healthcare Management)",
+        "BBA (Logistics Management)",
+        "BBA (Marketing/HR/Finance/Operations)",
+        "BBA (Oil & Gas Marketing)",
+        "B.Com Hons",
+        "Integrated BBA-MBA",
+        "Integrated B.Com Hons-MBA",
+        "B.Des",
+        "BA LLB Hons",
+        "BBA LLB Hons",
+        "LLB (3 Years)",
+        "MBA",
+        "MBA (AI for Business) - with EY India",
+        "MBA (ESG) - with KPMG",
+        "MBA (FinTech) - with EY India",
+        "MBA (Investment Banking & Capital Markets) - with EY India",
+        "MBA (Metaverse & Web 3.0)",
+        "MBA (Aviation Management)",
+        "MBA (Business Analytics) - with KPMG",
+        "MBA (Digital Business)",
+        "MBA (International Business)",
+        "MBA (Logistics & Supply Chain Management)",
+        "MBA (Oil & Gas Management)",
+        "MBA (Power Management)",
+        "MBA (Strategic Financial Management) - with EY India",
+        "MBA (Strategy & Consulting) - with KPMG",
+        "M.Tech Chemical Engineering",
+        "M.Tech CSE",
+        "M.Tech Construction Technology & Management",
+        "M.Tech E-Mobility",
+        "M.Tech Health, Safety & Environment",
+        "M.Tech Petroleum Engineering",
+        "M.Tech Renewable Energy",
+        "M.Tech Robotics Engineering",
+        "M.Tech Sustainability Engineering",
+        "M.Tech Computational Fluid Dynamics",
+        "M.Sc Physics",
+        "M.Sc Chemistry",
+        "M.Sc Mathematics",
+        "M.Sc Microbiology",
+        "M.Sc Nutrition & Dietetics",
+        "M.Sc Hons Applied Geology",
+        "M.Sc Statistics & Data Science",
+        "MCA",
+        "M.Des",
+        "LLM",
+        "MA Digital & Mass Media (Broadcasting)",
+        "MA Journalism & Mass Communication (Digital)",
+        "PhD"
+      ],
+      "fees": {
+        "B.Tech": {
+          "annual": 480000,
+          "total": 1920000,
+          "duration_years": 4
+        },
+        "B.Tech CSE": {
+          "annual": 524000,
+          "total": 2095000,
+          "duration_years": 4
+        },
+        "BBA": {
+          "annual": 382000,
+          "total": 1146000,
+          "duration_years": 3
+        },
+        "BCA": {
+          "annual": 195000,
+          "total": 585000,
+          "duration_years": 3
+        },
+        "B.Sc Hons": {
+          "annual": 384000,
+          "total": 1536000,
+          "duration_years": 4
+        },
+        "BA Hons": {
+          "annual": 180000,
+          "total": 720000,
+          "duration_years": 4
+        },
+        "B.Com Hons": {
+          "annual": 165000,
+          "total": 660000,
+          "duration_years": 4
+        },
+        "B.Des": {
+          "annual": 350000,
+          "total": 1400000,
+          "duration_years": 4
+        },
+        "BA LLB Hons": {
+          "annual": 280000,
+          "total": 1400000,
+          "duration_years": 5
+        },
+        "BBA LLB Hons": {
+          "annual": 366000,
+          "total": 1830000,
+          "duration_years": 5
+        },
+        "LLB": {
+          "annual": 280000,
+          "total": 840000,
+          "duration_years": 3
+        },
+        "BJMC": {
+          "annual": 200000,
+          "total": 600000,
+          "duration_years": 3
+        },
+        "B.Pharm": {
+          "annual": 200000,
+          "total": 800000,
+          "duration_years": 4
+        },
+        "Integrated BBA-MBA": {
+          "annual": 350000,
+          "total": 1750000,
+          "duration_years": 5
+        },
+        "MBA": {
+          "annual": 842000,
+          "total": 1684000,
+          "duration_years": 2
+        },
+        "M.Tech": {
+          "annual": 370000,
+          "total": 740000,
+          "duration_years": 2
+        },
+        "MCA": {
+          "annual": 252000,
+          "total": 504000,
+          "duration_years": 2
+        },
+        "M.Sc": {
+          "annual": 80000,
+          "total": 160000,
+          "duration_years": 2
+        },
+        "M.Des": {
+          "annual": 634000,
+          "total": 1268000,
+          "duration_years": 2
+        },
+        "LLM": {
+          "annual": 293000,
+          "total": 293000,
+          "duration_years": 1
+        }
+      },
+      "nirf_ranking": "Overall #64, University #45, Engineering #43, Management #36, Law #18, Research #45",
+      "placement_rate": 92,
+      "average_package": 800000,
+      "highest_package": 5200000,
+      "entrance_exams": [
+        "UPESEAT",
+        "JEE Main",
+        "CUET",
+        "ULSAT",
+        "UPESMET",
+        "CAT"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library",
+        "Labs",
+        "Sports Complex",
+        "Placement Cell",
+        "Incubation Centre",
+        "WiFi"
+      ],
+      "website": "https://www.upes.ac.in",
+      "phone": "1800-102-8737",
+      "email": "enrollments@upes.ac.in",
+      "hostel_available": true,
+      "hostel_fee_annual": 195810,
+      "notes": "2025 placements: 92% placement rate, 2444 students placed, 800+ recruiters. Highest CTC 52 LPA (Computer Science). Top 10% avg in CS: 42 LPA. MBA peak: 29 LPA. Law highest: 22.5 LPA. Hostel fee 1.70L/year (regular); AC attached washroom: 2.13L/year.",
+      "naac_grade": "A"
+    },
+    {
+      "university_name": "Graphic Era Deemed to be University",
+      "abbreviation": "Graphic Era",
+      "also_known_as": [
+        "GEU",
+        "Graphic Era University"
+      ],
+      "city": "Dehradun",
+      "district": "Dehradun",
+      "institution_type": "Private",
+      "institution_subtype": "Deemed University",
+      "established": 1993,
+      "courses_offered": [
+        "B.Tech CSE",
+        "B.Tech CSE (AI & ML)",
+        "B.Tech CSE (Data Science)",
+        "B.Tech CSE (Cyber Security)",
+        "B.Tech CSE (IoT)",
+        "B.Tech ECE",
+        "B.Tech ME",
+        "B.Tech Civil",
+        "B.Tech EE",
+        "B.Tech Biotechnology",
+        "BBA",
+        "BBA (Digital Marketing)",
+        "BCA",
+        "BCA (AI & ML)",
+        "B.Com",
+        "B.Com Hons",
+        "B.Sc Physics",
+        "B.Sc Chemistry",
+        "B.Sc Mathematics",
+        "B.Sc Computer Science",
+        "B.Sc Nursing",
+        "B.Des",
+        "LLB",
+        "BA LLB",
+        "BBA LLB",
+        "BJMC",
+        "MBA",
+        "MBA (Business Analytics)",
+        "MCA",
+        "M.Tech",
+        "M.Sc",
+        "PhD"
+      ],
+      "fees": {
+        "B.Tech": {
+          "annual": 277500,
+          "total": 1110000,
+          "duration_years": 4
+        },
+        "B.Tech CSE": {
+          "annual": 464750,
+          "total": 1859000,
+          "duration_years": 4
+        },
+        "BBA": {
+          "annual": 145000,
+          "total": 435000,
+          "duration_years": 3,
+          "note": "Range 4.06L-5.82L total"
+        },
+        "BCA": {
+          "annual": 150000,
+          "total": 450000,
+          "duration_years": 3,
+          "note": "Range 4.31L-5.5L total"
+        },
+        "B.Com": {
+          "annual": 100000,
+          "total": 300000,
+          "duration_years": 3
+        },
+        "B.Sc": {
+          "annual": 80000,
+          "total": 240000,
+          "duration_years": 3
+        },
+        "MBA": {
+          "annual": 457500,
+          "total": 915000,
+          "duration_years": 2
+        },
+        "MCA": {
+          "annual": 175000,
+          "total": 350000,
+          "duration_years": 2,
+          "note": "Range 3L-3.8L total"
+        },
+        "M.Tech": {
+          "annual": 200000,
+          "total": 400000,
+          "duration_years": 2
+        },
+        "B.Sc Nursing": {
+          "annual": 150000,
+          "total": 600000,
+          "duration_years": 4
+        },
+        "LLB": {
+          "annual": 120000,
+          "total": 360000,
+          "duration_years": 3
+        },
+        "BA LLB": {
+          "annual": 120000,
+          "total": 600000,
+          "duration_years": 5
+        }
+      },
+      "nirf_ranking": "Overall #72, University #48, Engineering #52, Management #52",
+      "placement_rate": 82,
+      "average_package": 500000,
+      "highest_package": 6199000,
+      "entrance_exams": [
+        "JEE Main",
+        "CUET",
+        "CAT",
+        "MAT",
+        "University Entrance Test"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library",
+        "Labs",
+        "Sports",
+        "Placement Cell",
+        "WiFi"
+      ],
+      "website": "https://geu.ac.in",
+      "phone": "+91-1800-8906-027",
+      "email": "admissions@geu.ac.in",
+      "hostel_available": true,
+      "hostel_fee_annual": 125000,
+      "notes": "2025 placements: 655 of 916 B.Tech students placed. B.Tech CSE highest: 61.99 LPA, median: 6.5 LPA. Top recruiters: Amazon, Infosys, Oracle, TCS, Microsoft, Adobe. Hostel fee ranges 78K-2.14L depending on room type; boys 1.26L-2.14L, girls 1.10L-2.07L.",
+      "naac_grade": "A+"
+    },
+    {
+      "university_name": "DIT University",
+      "abbreviation": "DIT University",
+      "also_known_as": [
+        "DITU",
+        "Dehradun Institute of Technology University"
+      ],
+      "city": "Dehradun",
+      "district": "Dehradun",
+      "institution_type": "Private",
+      "institution_subtype": "Deemed University",
+      "established": 1998,
+      "courses_offered": [
+        "B.Tech CSE",
+        "B.Tech CSE (AI & ML)",
+        "B.Tech CSE (Data Science)",
+        "B.Tech ECE",
+        "B.Tech ME",
+        "B.Tech Civil",
+        "B.Tech EE",
+        "B.Tech Biotechnology",
+        "B.Arch",
+        "BBA",
+        "BCA",
+        "BCA (AI & ML)",
+        "B.Sc Physics",
+        "B.Sc Chemistry",
+        "B.Sc Mathematics",
+        "B.Sc Computer Science",
+        "B.Pharm",
+        "D.Pharm",
+        "MBA",
+        "MBA (Business Analytics)",
+        "MCA",
+        "M.Tech CSE",
+        "M.Tech ECE",
+        "M.Tech Structural",
+        "M.Pharm Pharmaceutics",
+        "M.Pharm Pharmacology",
+        "PhD"
+      ],
+      "fees": {
+        "B.Tech": {
+          "annual": 300000,
+          "total": 1200000,
+          "duration_years": 4,
+          "note": "Range 9.52L-16.02L total; CSE at 15.73L"
+        },
+        "B.Tech CSE": {
+          "annual": 393250,
+          "total": 1573000,
+          "duration_years": 4
+        },
+        "B.Arch": {
+          "annual": 281600,
+          "total": 1408000,
+          "duration_years": 5
+        },
+        "BBA": {
+          "annual": 200000,
+          "total": 600000,
+          "duration_years": 3
+        },
+        "BCA": {
+          "annual": 150667,
+          "total": 452000,
+          "duration_years": 3
+        },
+        "MBA": {
+          "annual": 423500,
+          "total": 847000,
+          "duration_years": 2
+        },
+        "MCA": {
+          "annual": 200000,
+          "total": 400000,
+          "duration_years": 2
+        },
+        "M.Tech": {
+          "annual": 200000,
+          "total": 400000,
+          "duration_years": 2
+        },
+        "B.Pharm": {
+          "annual": 203000,
+          "total": 813000,
+          "duration_years": 4
+        },
+        "D.Pharm": {
+          "annual": 110000,
+          "total": 220000,
+          "duration_years": 2
+        },
+        "B.Sc": {
+          "annual": 100000,
+          "total": 300000,
+          "duration_years": 3
+        }
+      },
+      "nirf_ranking": "Pharmacy #83, University 151-200 band",
+      "placement_rate": 64,
+      "average_package": 576000,
+      "highest_package": 4400000,
+      "entrance_exams": [
+        "JEE Main",
+        "CUET",
+        "DIT Entrance Exam",
+        "CAT",
+        "MAT",
+        "NATA"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library",
+        "Labs",
+        "Sports",
+        "Placement Cell"
+      ],
+      "website": "https://www.dituniversity.edu.in",
+      "phone": "1800-1210-41000",
+      "email": "admissions@dituniversity.edu.in",
+      "hostel_available": true,
+      "hostel_fee_annual": 148000,
+      "notes": "2023-24 placements: 69.3% rate, 1500+ offers, median salary 5.7 LPA. Highest: 58 LPA (B.Tech CSE). Top recruiters: Palo Alto, Amazon, Microsoft, Deloitte, KPMG, IBM. Hostel fee: boys ~1.43L, girls ~1.48L-1.63L (10 months, includes mess).",
+      "naac_grade": "A"
+    },
+    {
+      "university_name": "Gurukula Kangri Vishwavidyalaya",
+      "abbreviation": "GKV",
+      "also_known_as": [
+        "Gurukul Kangri",
+        "GKV Haridwar",
+        "Gurukul Kangri University"
+      ],
+      "city": "Haridwar",
+      "district": "Haridwar",
+      "institution_type": "Government",
+      "institution_subtype": "Deemed University",
+      "established": 1902,
+      "courses_offered": [
+        "BA Hindi",
+        "BA English",
+        "BA Sanskrit",
+        "BA History",
+        "BA Economics",
+        "BA Political Science",
+        "BA Hons Hindi",
+        "BA Hons English",
+        "BA Hons Sanskrit",
+        "B.Sc Physics",
+        "B.Sc Chemistry",
+        "B.Sc Mathematics",
+        "B.Sc Botany",
+        "B.Sc Zoology",
+        "B.Sc Computer Science",
+        "B.Sc Biotechnology",
+        "B.Sc Environmental Science",
+        "B.Tech CSE",
+        "B.Tech ECE",
+        "B.Tech ME",
+        "B.Ed",
+        "B.Pharm",
+        "D.Pharm",
+        "B.P.Ed",
+        "BBA",
+        "BCA",
+        "MA Hindi",
+        "MA English",
+        "MA Sanskrit",
+        "MA History",
+        "MA Economics",
+        "M.Sc Physics",
+        "M.Sc Chemistry",
+        "M.Sc Mathematics",
+        "M.Sc Botany",
+        "M.Sc Zoology",
+        "M.Sc Computer Science",
+        "M.Sc Biotechnology",
+        "M.Sc Environmental Science",
+        "M.Ed",
+        "M.Pharm",
+        "M.P.Ed",
+        "MBA",
+        "MCA",
+        "PGD Yoga",
+        "PGD Environmental Science",
+        "PhD"
+      ],
+      "fees": {
+        "BA": {
+          "annual": 15700,
+          "total": 47100,
+          "duration_years": 3,
+          "note": "Varies by specialization; some as low as 5,000/year"
+        },
+        "B.Sc": {
+          "annual": 20000,
+          "total": 60000,
+          "duration_years": 3
+        },
+        "B.Tech": {
+          "annual": 124500,
+          "total": 498000,
+          "duration_years": 4
+        },
+        "B.Ed": {
+          "annual": 36900,
+          "total": 73800,
+          "duration_years": 2
+        },
+        "B.Pharm": {
+          "annual": 98750,
+          "total": 395000,
+          "duration_years": 4
+        },
+        "B.P.Ed": {
+          "annual": 28700,
+          "total": 57400,
+          "duration_years": 2
+        },
+        "BBA": {
+          "annual": 30000,
+          "total": 90000,
+          "duration_years": 3
+        },
+        "MA": {
+          "annual": 20000,
+          "total": 40000,
+          "duration_years": 2
+        },
+        "M.Sc": {
+          "annual": 25000,
+          "total": 50000,
+          "duration_years": 2
+        },
+        "M.Pharm": {
+          "annual": 60000,
+          "total": 120000,
+          "duration_years": 2
+        },
+        "MBA": {
+          "annual": 115500,
+          "total": 231000,
+          "duration_years": 2
+        },
+        "MCA": {
+          "annual": 52500,
+          "total": 105000,
+          "duration_years": 2
+        }
+      },
+      "nirf_ranking": "University 151-200 band",
+      "placement_rate": 50,
+      "average_package": 390000,
+      "highest_package": 1200000,
+      "entrance_exams": [
+        "University Entrance Test",
+        "CUET",
+        "JEE Main",
+        "GATE"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library",
+        "Vedic Study Centre",
+        "Labs",
+        "Sports"
+      ],
+      "website": "https://www.gkv.ac.in",
+      "phone": null,
+      "email": "admin@gkv.ac.in",
+      "hostel_available": true,
+      "hostel_fee_annual": 58500,
+      "notes": "Historic Vedic institution founded 1902 by Swami Shraddhanandaji. NIRF 2025 data: 90 students placed, UG median 3.9 LPA, B.Tech highest 12 LPA (Stellaraa Edutech). Hostel 55K-62K/year. Government-funded deemed university with very affordable fees.",
+      "naac_grade": "B"
+    },
+    {
+      "university_name": "Dev Sanskriti Vishwavidyalaya",
+      "abbreviation": "DSVV",
+      "also_known_as": [
+        "DSVV Haridwar",
+        "Dev Sanskriti University"
+      ],
+      "city": "Haridwar",
+      "district": "Haridwar",
+      "institution_type": "Private",
+      "institution_subtype": "Deemed University",
+      "established": 2002,
+      "courses_offered": [
+        "BA English Hons",
+        "BA Hindi Hons",
+        "BA History Hons",
+        "BA Music Hons",
+        "BA Sanskrit Hons",
+        "BA Psychology Hons",
+        "BA Journalism & Mass Communication Hons",
+        "B.Sc Yogic Science Hons",
+        "B.Sc IT Hons",
+        "BCA Hons",
+        "BBA Tourism & Travel Hons",
+        "B.Voc 3D Animation & VFX Hons",
+        "Bachelor of Rural Studies Hons",
+        "MA Journalism & Mass Communication",
+        "MA/M.Sc Human Consciousness & Yogic Science",
+        "MCA Data Science",
+        "MA Music",
+        "MA Hindu Studies",
+        "MA Philosophy",
+        "M.Sc Yoga Therapy",
+        "MA Sanskrit",
+        "MBA Tourism & Travel Management",
+        "MA History & Indian Culture",
+        "MA Hindi",
+        "M.Sc Indigenous & Traditional Therapies",
+        "MA/M.Sc Counselling Psychology",
+        "PG Diploma Theology & Psychological Counseling",
+        "PG Diploma Guidance & Counseling",
+        "Diploma in Media Graphics & Video Editing",
+        "Certificate Programs",
+        "PhD"
+      ],
+      "fees": {
+        "BA Hons": {
+          "annual": 50000,
+          "total": 200000,
+          "duration_years": 4,
+          "note": "25,000/semester; varies 25K-35K/sem by specialization"
+        },
+        "BA Psychology Hons": {
+          "annual": 70000,
+          "total": 280000,
+          "duration_years": 4,
+          "note": "35,000/semester"
+        },
+        "BA Journalism Hons": {
+          "annual": 70000,
+          "total": 280000,
+          "duration_years": 4,
+          "note": "35,000/semester"
+        },
+        "B.Sc Yogic Science Hons": {
+          "annual": 70000,
+          "total": 280000,
+          "duration_years": 4,
+          "note": "35,000/semester"
+        },
+        "B.Sc IT Hons": {
+          "annual": 70000,
+          "total": 280000,
+          "duration_years": 4,
+          "note": "35,000/semester"
+        },
+        "BCA Hons": {
+          "annual": 120000,
+          "total": 480000,
+          "duration_years": 4,
+          "note": "60,000/semester"
+        },
+        "BBA Tourism Hons": {
+          "annual": 80000,
+          "total": 320000,
+          "duration_years": 4,
+          "note": "40,000/semester"
+        },
+        "B.Voc Animation Hons": {
+          "annual": 120000,
+          "total": 480000,
+          "duration_years": 4,
+          "note": "60,000/semester"
+        },
+        "MA/M.Sc Yogic Science": {
+          "annual": 70000,
+          "total": 140000,
+          "duration_years": 2,
+          "note": "35,000/semester"
+        },
+        "M.Sc Yoga Therapy": {
+          "annual": 70000,
+          "total": 140000,
+          "duration_years": 2,
+          "note": "35,000/semester"
+        },
+        "MCA Data Science": {
+          "annual": 120000,
+          "total": 240000,
+          "duration_years": 2,
+          "note": "60,000/semester"
+        },
+        "MBA Tourism": {
+          "annual": 100000,
+          "total": 200000,
+          "duration_years": 2,
+          "note": "50,000/semester"
+        },
+        "MA/M.Sc Counselling Psychology": {
+          "annual": 70000,
+          "total": 140000,
+          "duration_years": 2,
+          "note": "35,000/semester"
+        },
+        "MA General": {
+          "annual": 50000,
+          "total": 100000,
+          "duration_years": 2,
+          "note": "25,000/semester for Hindi/Sanskrit/History etc."
+        }
+      },
+      "nirf_ranking": "Not ranked",
+      "placement_rate": null,
+      "average_package": 300000,
+      "highest_package": null,
+      "entrance_exams": [
+        "Written Exam + Interview",
+        "CUET"
+      ],
+      "facilities": [
+        "Hostel",
+        "Yoga Centre",
+        "Library",
+        "Meditation Hall",
+        "Herbal Garden",
+        "Acupressure Park",
+        "International Hostel"
+      ],
+      "website": "https://www.dsvv.ac.in",
+      "phone": null,
+      "email": null,
+      "hostel_available": true,
+      "hostel_fee_annual": 72000,
+      "notes": "India's first yoga-focused deemed university, spread over 76.8 acres. Hostel fee bundled into course fee for some programs (18K-34K/semester including food and maintenance). 6 hostels including international hostel. NIRF 2025 median salary: 3 LPA. Recruiters include Wipro, Infosys, Tech Mahindra, Apollo Hospitals, MakeMyTrip. All UG programs are 4-year Hons; all fees are per semester.",
+      "naac_grade": "B+"
+    },
+    {
+      "university_name": "Uttaranchal University",
+      "abbreviation": "Uttaranchal University",
+      "also_known_as": [
+        "UU Dehradun"
+      ],
+      "city": "Dehradun",
+      "district": "Dehradun",
+      "institution_type": "Private",
+      "institution_subtype": "Private University",
+      "established": 2013,
+      "courses_offered": [
+        "B.Tech CSE",
+        "B.Tech CSE (AI & ML)",
+        "B.Tech CSE (Data Science)",
+        "B.Tech ECE",
+        "B.Tech ME",
+        "B.Tech Civil",
+        "B.Tech EE",
+        "BBA",
+        "BBA (Digital Marketing)",
+        "BCA",
+        "BCA (AI & ML)",
+        "B.Com",
+        "B.Com Hons",
+        "BA LLB",
+        "BBA LLB",
+        "LLB",
+        "B.Pharm",
+        "D.Pharm",
+        "B.Sc Agriculture",
+        "B.Sc Nursing",
+        "B.Sc Computer Science",
+        "B.Ed",
+        "BJMC",
+        "B.Des",
+        "MBA",
+        "MBA (Business Analytics)",
+        "MBA (Finance)",
+        "MCA",
+        "M.Tech",
+        "LLM",
+        "M.Pharm",
+        "M.Sc",
+        "PhD"
+      ],
+      "fees": {
+        "B.Tech": {
+          "annual": 200000,
+          "total": 800000,
+          "duration_years": 4
+        },
+        "MBA": {
+          "annual": 277500,
+          "total": 555000,
+          "duration_years": 2
+        },
+        "BA LLB": {
+          "annual": 125000,
+          "total": 625000,
+          "duration_years": 5
+        },
+        "B.Pharm": {
+          "annual": 125000,
+          "total": 500000,
+          "duration_years": 4
+        },
+        "BBA": {
+          "annual": 125000,
+          "total": 375000,
+          "duration_years": 3
+        },
+        "BCA": {
+          "annual": 125000,
+          "total": 375000,
+          "duration_years": 3
+        },
+        "B.Tech CSE": {
+          "annual": 271000,
+          "total": 1084000,
+          "duration_years": 4
+        },
+        "BBA LLB": {
+          "annual": 125000,
+          "total": 625000,
+          "duration_years": 5
+        },
+        "B.Sc Agriculture": {
+          "annual": 100000,
+          "total": 400000,
+          "duration_years": 4
+        },
+        "B.Sc Nursing": {
+          "annual": 100000,
+          "total": 400000,
+          "duration_years": 4
+        },
+        "B.Ed": {
+          "annual": 60000,
+          "total": 120000,
+          "duration_years": 2
+        },
+        "LLM": {
+          "annual": 100000,
+          "total": 200000,
+          "duration_years": 2
+        },
+        "D.Pharm": {
+          "annual": 75000,
+          "total": 150000,
+          "duration_years": 2
+        }
+      },
+      "nirf_ranking": "Pharmacy #75, University 151-200 band",
+      "placement_rate": 75,
+      "average_package": 425000,
+      "highest_package": 2640000,
+      "entrance_exams": [
+        "JEE Main",
+        "CUET",
+        "CLAT",
+        "CAT",
+        "MAT",
+        "University Entrance Test"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library",
+        "Labs",
+        "Moot Court",
+        "Sports",
+        "Placement Cell"
+      ],
+      "website": "https://www.uttaranchaluniversity.ac.in",
+      "phone": null,
+      "email": null,
+      "hostel_available": true,
+      "hostel_fee_annual": 85000,
+      "naac_grade": "A+"
+    },
+    {
+      "university_name": "Graphic Era Hill University",
+      "abbreviation": "GEHU",
+      "also_known_as": [
+        "GEHU Dehradun",
+        "GEHU Bhimtal"
+      ],
+      "city": "Dehradun",
+      "district": "Dehradun",
+      "institution_type": "Private",
+      "institution_subtype": "Private University",
+      "established": 2011,
+      "courses_offered": [
+        "B.Tech CSE",
+        "B.Tech CSE (AI & ML)",
+        "B.Tech CSE (Data Science)",
+        "B.Tech ECE",
+        "B.Tech ME",
+        "B.Tech Civil",
+        "BBA",
+        "BCA",
+        "B.Com",
+        "B.Com Hons",
+        "B.Sc Physics",
+        "B.Sc Chemistry",
+        "B.Sc Mathematics",
+        "B.Sc Computer Science",
+        "MBA",
+        "MCA",
+        "M.Tech",
+        "PhD"
+      ],
+      "fees": {
+        "B.Tech": {
+          "annual": 319000,
+          "total": 1276000,
+          "duration_years": 4
+        },
+        "MBA": {
+          "annual": 250000,
+          "total": 500000,
+          "duration_years": 2
+        },
+        "BCA": {
+          "annual": 162500,
+          "total": 487500,
+          "duration_years": 3
+        },
+        "BBA": {
+          "annual": 162500,
+          "total": 487500,
+          "duration_years": 3
+        },
+        "B.Tech CSE": {
+          "annual": 462750,
+          "total": 1851000,
+          "duration_years": 4
+        },
+        "B.Com": {
+          "annual": 100000,
+          "total": 300000,
+          "duration_years": 3
+        }
+      },
+      "nirf_ranking": "Not ranked",
+      "placement_rate": 78,
+      "average_package": 550000,
+      "highest_package": 4788000,
+      "entrance_exams": [
+        "JEE Main",
+        "CUET",
+        "University Entrance Test"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library",
+        "Labs",
+        "Sports",
+        "Placement Cell"
+      ],
+      "website": "https://www.gehu.ac.in",
+      "phone": null,
+      "email": null,
+      "hostel_available": true,
+      "hostel_fee_annual": 124000,
+      "naac_grade": "A+"
+    },
+    {
+      "university_name": "Swami Rama Himalayan University",
+      "abbreviation": "SRHU",
+      "also_known_as": [
+        "SRHU Dehradun",
+        "HIMS Dehradun"
+      ],
+      "city": "Dehradun",
+      "district": "Dehradun",
+      "institution_type": "Private",
+      "institution_subtype": "Private University",
+      "established": 2013,
+      "courses_offered": [
+        "MBBS",
+        "BDS",
+        "B.Sc Nursing",
+        "B.Sc OT Technology",
+        "BPT",
+        "B.Sc MLT",
+        "B.Sc Radiology",
+        "B.Pharm",
+        "D.Pharm",
+        "B.Tech CSE",
+        "B.Tech ECE",
+        "B.Tech ME",
+        "BBA",
+        "BCA",
+        "B.Com",
+        "MD Medicine",
+        "MD Paediatrics",
+        "MD Radiology",
+        "MD Anaesthesia",
+        "MD Pathology",
+        "MS Surgery",
+        "MS Orthopaedics",
+        "MS ENT",
+        "MS Ophthalmology",
+        "MS Obstetrics & Gynaecology",
+        "M.Ch",
+        "DM",
+        "MBA",
+        "MBA (Hospital Administration)",
+        "MCA",
+        "M.Sc Nursing",
+        "MPH",
+        "PhD"
+      ],
+      "fees": {
+        "MBBS": {
+          "annual": 2100000,
+          "total": 9313000,
+          "duration_years": 5
+        },
+        "BDS": {
+          "annual": 800000,
+          "total": 3200000,
+          "duration_years": 4
+        },
+        "B.Sc Nursing": {
+          "annual": 161000,
+          "total": 645000,
+          "duration_years": 4
+        },
+        "B.Tech": {
+          "annual": 200000,
+          "total": 800000,
+          "duration_years": 4
+        },
+        "BPT": {
+          "annual": 150000,
+          "total": 600000,
+          "duration_years": 4
+        },
+        "B.Pharm": {
+          "annual": 130000,
+          "total": 520000,
+          "duration_years": 4
+        },
+        "MBA": {
+          "annual": 200000,
+          "total": 400000,
+          "duration_years": 2
+        },
+        "MBA (Hospital Administration)": {
+          "annual": 200000,
+          "total": 400000,
+          "duration_years": 2
+        }
+      },
+      "nirf_ranking": "Overall 151-200 band",
+      "placement_rate": 65,
+      "average_package": 293000,
+      "highest_package": 800000,
+      "entrance_exams": [
+        "NEET",
+        "JEE Main",
+        "University Entrance Test"
+      ],
+      "facilities": [
+        "Teaching Hospital (HIMS)",
+        "Hostel",
+        "Library",
+        "Labs",
+        "Sports"
+      ],
+      "website": "https://www.srhu.edu.in",
+      "phone": null,
+      "email": null,
+      "hostel_available": true,
+      "hostel_fee_annual": 70000,
+      "naac_grade": "A"
+    },
+    {
+      "university_name": "Quantum University",
+      "abbreviation": "Quantum University",
+      "also_known_as": [
+        "QU Roorkee"
+      ],
+      "city": "Roorkee",
+      "district": "Haridwar",
+      "institution_type": "Private",
+      "institution_subtype": "Private University",
+      "established": 2017,
+      "courses_offered": [
+        "B.Tech CSE",
+        "B.Tech CSE (AI & ML)",
+        "B.Tech CSE (Data Science)",
+        "B.Tech CSE (Cyber Security)",
+        "B.Tech ECE",
+        "B.Tech ME",
+        "B.Tech Civil",
+        "B.Tech EE",
+        "BBA",
+        "BBA (Digital Marketing)",
+        "BCA",
+        "BCA (AI & ML)",
+        "B.Com",
+        "B.Com Hons",
+        "B.Sc Physics",
+        "B.Sc Chemistry",
+        "B.Sc Mathematics",
+        "B.Sc Computer Science",
+        "BJMC",
+        "B.Des",
+        "MBA",
+        "MBA (Business Analytics)",
+        "MCA",
+        "M.Tech",
+        "M.Sc",
+        "PhD"
+      ],
+      "fees": {
+        "B.Tech": {
+          "annual": 150000,
+          "total": 600000,
+          "duration_years": 4
+        },
+        "MBA": {
+          "annual": 180000,
+          "total": 360000,
+          "duration_years": 2
+        },
+        "BBA": {
+          "annual": 96000,
+          "total": 288000,
+          "duration_years": 3
+        },
+        "BCA": {
+          "annual": 96000,
+          "total": 288000,
+          "duration_years": 3
+        },
+        "B.Tech CSE": {
+          "annual": 189750,
+          "total": 759000,
+          "duration_years": 4
+        },
+        "B.Com": {
+          "annual": 80000,
+          "total": 240000,
+          "duration_years": 3
+        },
+        "MCA": {
+          "annual": 125000,
+          "total": 250000,
+          "duration_years": 2
+        }
+      },
+      "nirf_ranking": "Not ranked",
+      "placement_rate": 85,
+      "average_package": 720000,
+      "highest_package": 3350000,
+      "entrance_exams": [
+        "JEE Main",
+        "CUET",
+        "University Entrance Test"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library",
+        "Labs",
+        "Sports",
+        "Placement Cell"
+      ],
+      "website": "https://www.quantumuniversity.edu.in",
+      "phone": null,
+      "email": null,
+      "hostel_available": true,
+      "hostel_fee_annual": 85000,
+      "naac_grade": "Not accredited"
+    },
+    {
+      "university_name": "Dev Bhoomi Uttarakhand University",
+      "abbreviation": "DBUU",
+      "also_known_as": [
+        "Dev Bhoomi University Dehradun"
+      ],
+      "city": "Dehradun",
+      "district": "Dehradun",
+      "institution_type": "Private",
+      "institution_subtype": "Private University",
+      "established": 2017,
+      "courses_offered": [
+        "B.Tech CSE",
+        "B.Tech CSE (AI & ML)",
+        "B.Tech CSE (Data Science)",
+        "B.Tech ECE",
+        "B.Tech ME",
+        "B.Tech Civil",
+        "B.Tech EE",
+        "BBA",
+        "BCA",
+        "B.Com",
+        "B.Sc Agriculture",
+        "B.Sc Nursing",
+        "B.Sc Computer Science",
+        "B.Pharm",
+        "D.Pharm",
+        "BA LLB",
+        "BBA LLB",
+        "LLB",
+        "B.Ed",
+        "BJMC",
+        "MBA",
+        "MCA",
+        "M.Tech",
+        "M.Pharm",
+        "LLM",
+        "PhD"
+      ],
+      "fees": {
+        "B.Tech": {
+          "annual": 150000,
+          "total": 600000,
+          "duration_years": 4
+        },
+        "MBA": {
+          "annual": 150000,
+          "total": 300000,
+          "duration_years": 2
+        },
+        "B.Pharm": {
+          "annual": 115000,
+          "total": 460000,
+          "duration_years": 4
+        },
+        "BA LLB": {
+          "annual": 100000,
+          "total": 500000,
+          "duration_years": 5
+        },
+        "BBA": {
+          "annual": 100000,
+          "total": 300000,
+          "duration_years": 3
+        },
+        "B.Tech CSE": {
+          "annual": 180000,
+          "total": 720000,
+          "duration_years": 4
+        }
+      },
+      "nirf_ranking": "Not ranked",
+      "placement_rate": 68,
+      "average_package": 400000,
+      "highest_package": 1200000,
+      "entrance_exams": [
+        "JEE Main",
+        "CUET",
+        "University Entrance Test"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library",
+        "Labs",
+        "Moot Court",
+        "Placement Cell"
+      ],
+      "website": "https://www.dbuu.ac.in",
+      "phone": null,
+      "email": null,
+      "hostel_available": true,
+      "hostel_fee_annual": 75000,
+      "naac_grade": "Not accredited"
+    },
+    {
+      "university_name": "IMS Unison University",
+      "abbreviation": "IMS Unison",
+      "also_known_as": [
+        "IUU Dehradun"
+      ],
+      "city": "Dehradun",
+      "district": "Dehradun",
+      "institution_type": "Private",
+      "institution_subtype": "Private University",
+      "established": 2009,
+      "courses_offered": [
+        "BBA",
+        "BBA (Digital Marketing)",
+        "BBA (Business Analytics)",
+        "BCA",
+        "BCA (AI & ML)",
+        "B.Com Hons",
+        "B.Com Hons (Finance)",
+        "BA Hons Economics",
+        "BA Hons English",
+        "BJMC",
+        "BA LLB",
+        "BBA LLB",
+        "LLB",
+        "B.Sc Hospitality & Hotel Administration",
+        "MBA",
+        "MBA (Finance)",
+        "MBA (Marketing)",
+        "MBA (HR)",
+        "MBA (Business Analytics)",
+        "MBA (Digital Marketing)",
+        "MCA",
+        "LLM",
+        "MA Mass Communication",
+        "M.Sc",
+        "PhD"
+      ],
+      "fees": {
+        "BBA": {
+          "annual": 200000,
+          "total": 600000,
+          "duration_years": 3
+        },
+        "MBA": {
+          "annual": 350000,
+          "total": 700000,
+          "duration_years": 2
+        },
+        "BA LLB": {
+          "annual": 200000,
+          "total": 1000000,
+          "duration_years": 5
+        },
+        "BJMC": {
+          "annual": 150000,
+          "total": 450000,
+          "duration_years": 3
+        },
+        "B.Com Hons": {
+          "annual": 150000,
+          "total": 450000,
+          "duration_years": 3
+        }
+      },
+      "nirf_ranking": "Not ranked",
+      "placement_rate": 75,
+      "average_package": 500000,
+      "highest_package": 2000000,
+      "entrance_exams": [
+        "CUET",
+        "CLAT",
+        "CAT",
+        "MAT",
+        "XAT",
+        "University Entrance Test"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library",
+        "Moot Court",
+        "Media Lab",
+        "Placement Cell"
+      ],
+      "website": "https://www.iuu.ac",
+      "phone": null,
+      "email": null,
+      "hostel_available": true,
+      "hostel_fee_annual": 95000,
+      "naac_grade": "B+"
+    },
+    {
+      "university_name": "ICFAI University Dehradun",
+      "abbreviation": "ICFAI Dehradun",
+      "also_known_as": [
+        "ICFAI University Uttarakhand"
+      ],
+      "city": "Dehradun",
+      "district": "Dehradun",
+      "institution_type": "Private",
+      "institution_subtype": "Private University",
+      "established": 2003,
+      "courses_offered": [
+        "BBA",
+        "BBA (Finance)",
+        "BBA (Marketing)",
+        "BCA",
+        "BCA (AI & ML)",
+        "B.Com",
+        "B.Com Hons",
+        "B.Tech CSE",
+        "B.Tech CSE (AI & ML)",
+        "B.Tech ECE",
+        "MBA",
+        "MBA (Finance)",
+        "MBA (Marketing)",
+        "MBA (HR)",
+        "MCA",
+        "PhD"
+      ],
+      "fees": {
+        "BBA": {
+          "annual": 150000,
+          "total": 450000,
+          "duration_years": 3
+        },
+        "MBA": {
+          "annual": 250000,
+          "total": 500000,
+          "duration_years": 2
+        },
+        "B.Tech": {
+          "annual": 200000,
+          "total": 800000,
+          "duration_years": 4
+        },
+        "BCA": {
+          "annual": 125000,
+          "total": 375000,
+          "duration_years": 3
+        }
+      },
+      "nirf_ranking": "Not ranked",
+      "placement_rate": 65,
+      "average_package": 400000,
+      "highest_package": 1200000,
+      "entrance_exams": [
+        "IBSAT",
+        "JEE Main",
+        "CUET",
+        "University Entrance Test"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library",
+        "Labs",
+        "Placement Cell"
+      ],
+      "website": "https://www.iudehradun.edu.in",
+      "phone": null,
+      "email": null,
+      "hostel_available": true,
+      "hostel_fee_annual": 80000,
+      "naac_grade": "C"
+    },
+    {
+      "university_name": "Shri Guru Ram Rai University",
+      "abbreviation": "SGRRU",
+      "also_known_as": [
+        "SGRR University Dehradun"
+      ],
+      "city": "Dehradun",
+      "district": "Dehradun",
+      "institution_type": "Private",
+      "institution_subtype": "Private University",
+      "established": 2017,
+      "courses_offered": [
+        "B.Tech CSE",
+        "B.Tech CSE (AI & ML)",
+        "B.Tech ECE",
+        "B.Tech ME",
+        "B.Tech Civil",
+        "B.Tech EE",
+        "BBA",
+        "BCA",
+        "B.Com",
+        "B.Com Hons",
+        "B.Sc Physics",
+        "B.Sc Chemistry",
+        "B.Sc Mathematics",
+        "B.Sc Computer Science",
+        "B.Sc Nursing",
+        "B.Sc Nursing (Post Basic)",
+        "BPT",
+        "BMLT",
+        "B.Sc Radiology",
+        "B.Pharm",
+        "D.Pharm",
+        "BA LLB",
+        "BBA LLB",
+        "LLB",
+        "BJMC",
+        "B.Ed",
+        "MBA",
+        "MCA",
+        "M.Tech",
+        "M.Sc",
+        "M.Sc Nursing",
+        "LLM",
+        "M.Pharm",
+        "PhD"
+      ],
+      "fees": {
+        "B.Tech": {
+          "annual": 150000,
+          "total": 600000,
+          "duration_years": 4
+        },
+        "MBA": {
+          "annual": 150000,
+          "total": 300000,
+          "duration_years": 2
+        },
+        "B.Sc Nursing": {
+          "annual": 115000,
+          "total": 460000,
+          "duration_years": 4
+        },
+        "BA LLB": {
+          "annual": 100000,
+          "total": 500000,
+          "duration_years": 5
+        },
+        "B.Pharm": {
+          "annual": 100000,
+          "total": 400000,
+          "duration_years": 4
+        },
+        "B.Tech CSE": {
+          "annual": 175000,
+          "total": 700000,
+          "duration_years": 4
+        }
+      },
+      "nirf_ranking": "Not ranked",
+      "placement_rate": 65,
+      "average_package": 375000,
+      "highest_package": 1000000,
+      "entrance_exams": [
+        "JEE Main",
+        "CUET",
+        "NEET",
+        "University Entrance Test"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library",
+        "Labs",
+        "Hospital",
+        "Placement Cell"
+      ],
+      "website": "https://www.sgrru.ac.in",
+      "phone": null,
+      "email": null,
+      "hostel_available": true,
+      "hostel_fee_annual": 70000,
+      "naac_grade": "Not accredited"
+    },
+    {
+      "university_name": "Motherhood University",
+      "abbreviation": "Motherhood University",
+      "also_known_as": [
+        "MU Roorkee"
+      ],
+      "city": "Roorkee",
+      "district": "Haridwar",
+      "institution_type": "Private",
+      "institution_subtype": "Private University",
+      "established": 2013,
+      "courses_offered": [
+        "BA English",
+        "BA Hindi",
+        "BA Economics",
+        "B.Sc Physics",
+        "B.Sc Chemistry",
+        "B.Sc Mathematics",
+        "B.Sc Computer Science",
+        "B.Sc Biology",
+        "B.Com",
+        "BBA",
+        "BCA",
+        "B.Ed",
+        "D.El.Ed",
+        "MA English",
+        "MA Hindi",
+        "MA Economics",
+        "M.Sc Physics",
+        "M.Sc Chemistry",
+        "M.Sc Mathematics",
+        "M.Ed",
+        "MBA",
+        "PhD"
+      ],
+      "fees": {
+        "BA": {
+          "annual": 40000,
+          "total": 120000,
+          "duration_years": 3
+        },
+        "B.Sc": {
+          "annual": 50000,
+          "total": 150000,
+          "duration_years": 3
+        },
+        "BBA": {
+          "annual": 60000,
+          "total": 180000,
+          "duration_years": 3
+        },
+        "B.Ed": {
+          "annual": 50000,
+          "total": 100000,
+          "duration_years": 2
+        },
+        "MBA": {
+          "annual": 80000,
+          "total": 160000,
+          "duration_years": 2
+        }
+      },
+      "nirf_ranking": "Not ranked",
+      "placement_rate": 45,
+      "average_package": 250000,
+      "highest_package": null,
+      "entrance_exams": [
+        "University Entrance Test",
+        "CUET"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library",
+        "Labs"
+      ],
+      "website": "https://www.motherhooduniversity.edu.in",
+      "phone": null,
+      "email": null,
+      "hostel_available": true,
+      "hostel_fee_annual": 48000,
+      "naac_grade": "Not accredited"
+    },
+    {
+      "university_name": "University of Patanjali",
+      "abbreviation": "Patanjali University",
+      "also_known_as": [
+        "Patanjali Vishwavidyalaya"
+      ],
+      "city": "Haridwar",
+      "district": "Haridwar",
+      "institution_type": "Private",
+      "institution_subtype": "Private University",
+      "established": 2006,
+      "courses_offered": [
+        "BAMS",
+        "B.Sc Yoga",
+        "B.Pharm Ayurveda",
+        "BNYS",
+        "B.Sc Naturopathy",
+        "M.Sc Yoga",
+        "M.Sc Yoga Therapy",
+        "MD Ayurveda (Kayachikitsa)",
+        "MD Ayurveda (Panchakarma)",
+        "MD Ayurveda (Dravyaguna)",
+        "MS Ayurveda",
+        "PhD Ayurveda",
+        "PhD Yoga"
+      ],
+      "fees": {
+        "BAMS": {
+          "annual": 150000,
+          "total": 750000,
+          "duration_years": 5
+        },
+        "B.Sc Yoga": {
+          "annual": 45000,
+          "total": 135000,
+          "duration_years": 3
+        },
+        "B.Pharm Ayurveda": {
+          "annual": 75000,
+          "total": 300000,
+          "duration_years": 4
+        }
+      },
+      "nirf_ranking": "Not ranked",
+      "placement_rate": 40,
+      "average_package": 300000,
+      "highest_package": null,
+      "entrance_exams": [
+        "NEET",
+        "University Entrance Test"
+      ],
+      "facilities": [
+        "Hostel",
+        "Ayurveda Hospital",
+        "Yoga Centre",
+        "Herbal Garden",
+        "Library"
+      ],
+      "website": "https://www.universityofpatanjali.com",
+      "phone": null,
+      "email": null,
+      "hostel_available": true,
+      "hostel_fee_annual": 36000,
+      "naac_grade": "Not accredited"
+    },
+    {
+      "university_name": "Himalayan Garhwal University",
+      "abbreviation": "HGU",
+      "also_known_as": [
+        "Himalayan Garhwal University Pauri"
+      ],
+      "city": "Pauri Garhwal",
+      "district": "Pauri Garhwal",
+      "institution_type": "Private",
+      "institution_subtype": "Private University",
+      "established": 2016,
+      "courses_offered": [
+        "B.Tech CSE",
+        "B.Tech CSE (AI & ML)",
+        "B.Tech ECE",
+        "B.Tech ME",
+        "B.Tech Civil",
+        "BBA",
+        "BCA",
+        "B.Com",
+        "B.Sc Agriculture",
+        "B.Sc Nursing",
+        "B.Sc Computer Science",
+        "B.Ed",
+        "B.Pharm",
+        "D.Pharm",
+        "MBA",
+        "MCA",
+        "M.Tech",
+        "M.Sc",
+        "PhD"
+      ],
+      "fees": {
+        "B.Tech": {
+          "annual": 115000,
+          "total": 460000,
+          "duration_years": 4
+        },
+        "BBA": {
+          "annual": 65000,
+          "total": 195000,
+          "duration_years": 3
+        },
+        "BCA": {
+          "annual": 65000,
+          "total": 195000,
+          "duration_years": 3
+        },
+        "B.Pharm": {
+          "annual": 80000,
+          "total": 320000,
+          "duration_years": 4
+        }
+      },
+      "nirf_ranking": "Not ranked",
+      "placement_rate": 55,
+      "average_package": 300000,
+      "highest_package": null,
+      "entrance_exams": [
+        "JEE Main",
+        "University Entrance Test"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library",
+        "Labs"
+      ],
+      "website": "https://www.himgarhwaluniversity.com",
+      "phone": null,
+      "email": null,
+      "hostel_available": true,
+      "hostel_fee_annual": 55000,
+      "naac_grade": "Not accredited"
+    },
+    {
+      "university_name": "COER University",
+      "abbreviation": "COER University",
+      "also_known_as": [
+        "COER",
+        "College of Engineering Roorkee"
+      ],
+      "city": "Roorkee",
+      "district": "Haridwar",
+      "institution_type": "Private",
+      "institution_subtype": "Private University",
+      "established": 1998,
+      "courses_offered": [
+        "B.Tech CSE",
+        "B.Tech CSE (AI & ML)",
+        "B.Tech CSE (Data Science)",
+        "B.Tech ECE",
+        "B.Tech ME",
+        "B.Tech Civil",
+        "B.Tech EE",
+        "BCA",
+        "BBA",
+        "B.Com",
+        "MBA",
+        "M.Tech",
+        "Diploma Engineering (ME)",
+        "Diploma Engineering (Civil)",
+        "Diploma Engineering (ECE)",
+        "Diploma Engineering (EE)"
+      ],
+      "fees": {
+        "B.Tech": {
+          "annual": 147000,
+          "total": 588000,
+          "duration_years": 4
+        },
+        "BCA": {
+          "annual": 65500,
+          "total": 196500,
+          "duration_years": 3
+        },
+        "BBA": {
+          "annual": 65000,
+          "total": 195000,
+          "duration_years": 3
+        },
+        "MBA": {
+          "annual": 127000,
+          "total": 254000,
+          "duration_years": 2
+        },
+        "M.Tech": {
+          "annual": 100000,
+          "total": 200000,
+          "duration_years": 2
+        },
+        "Diploma Engineering": {
+          "annual": 56000,
+          "total": 168000,
+          "duration_years": 3
+        }
+      },
+      "nirf_ranking": "Not ranked",
+      "naac_grade": "B+",
+      "placement_rate": 95,
+      "average_package": 520000,
+      "highest_package": 4400000,
+      "entrance_exams": [
+        "JEE Main",
+        "CUET",
+        "Merit-based"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library",
+        "Labs",
+        "WiFi",
+        "Sports Complex",
+        "Placement Cell",
+        "Cafeteria",
+        "Transport"
+      ],
+      "website": "https://coeruniversity.ac.in",
+      "phone": null,
+      "email": null,
+      "hostel_available": true,
+      "hostel_fee_annual": 75000
+    },
+    {
+      "university_name": "Surajmal University",
+      "abbreviation": "SMU",
+      "also_known_as": [
+        "Surajmal University Kichha"
+      ],
+      "city": "Kichha",
+      "district": "Udham Singh Nagar",
+      "institution_type": "Private",
+      "institution_subtype": "Private University",
+      "established": 2021,
+      "courses_offered": [
+        "B.Tech CSE",
+        "B.Tech ECE",
+        "B.Tech ME",
+        "B.Tech Civil",
+        "BBA",
+        "BCA",
+        "B.Sc Physics",
+        "B.Sc Chemistry",
+        "B.Sc Mathematics",
+        "B.Sc Computer Science",
+        "B.Pharm",
+        "D.Pharm",
+        "MBA",
+        "MCA",
+        "M.Com"
+      ],
+      "fees": {
+        "B.Tech": {
+          "annual": 82500,
+          "total": 330000,
+          "duration_years": 4
+        },
+        "BBA": {
+          "annual": 45000,
+          "total": 135000,
+          "duration_years": 3
+        },
+        "BCA": {
+          "annual": 45000,
+          "total": 135000,
+          "duration_years": 3
+        },
+        "B.Sc": {
+          "annual": 40000,
+          "total": 120000,
+          "duration_years": 3
+        },
+        "MBA": {
+          "annual": 96000,
+          "total": 192000,
+          "duration_years": 2
+        },
+        "M.Com": {
+          "annual": 30000,
+          "total": 60000,
+          "duration_years": 2
+        }
+      },
+      "nirf_ranking": "Not ranked",
+      "naac_grade": "Not accredited",
+      "placement_rate": 65,
+      "average_package": 375000,
+      "highest_package": 750000,
+      "entrance_exams": [
+        "JEE Main",
+        "University Entrance",
+        "Merit-based"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library",
+        "Labs",
+        "Sports",
+        "WiFi",
+        "Canteen"
+      ],
+      "website": "http://www.smu.ac.in",
+      "phone": null,
+      "email": null,
+      "hostel_available": true,
+      "hostel_fee_annual": 56000
+    },
+    {
+      "university_name": "Sardar Bhagwan Singh University",
+      "abbreviation": "SBS University",
+      "also_known_as": [
+        "SBSU",
+        "SBS Dehradun"
+      ],
+      "city": "Balawala, Dehradun",
+      "district": "Dehradun",
+      "institution_type": "Private",
+      "institution_subtype": "Private University",
+      "established": 2018,
+      "courses_offered": [
+        "B.Pharm",
+        "D.Pharm",
+        "B.Tech CSE",
+        "B.Tech ECE",
+        "B.Tech ME",
+        "B.Sc Physics",
+        "B.Sc Chemistry",
+        "B.Sc Nursing",
+        "BPT",
+        "B.Sc MLT",
+        "B.Sc Radiology",
+        "M.Pharm Pharmaceutics",
+        "M.Pharm Pharmacology",
+        "MPT Orthopaedics",
+        "MPT Neurology",
+        "M.Sc Physics",
+        "M.Sc Chemistry",
+        "MBA"
+      ],
+      "fees": {
+        "B.Pharm": {
+          "annual": 172850,
+          "total": 691400,
+          "duration_years": 4
+        },
+        "B.Tech": {
+          "annual": 150000,
+          "total": 600000,
+          "duration_years": 4
+        },
+        "B.Sc": {
+          "annual": 68950,
+          "total": 206850,
+          "duration_years": 3
+        },
+        "BPT": {
+          "annual": 120000,
+          "total": 540000,
+          "duration_years": 4
+        },
+        "M.Pharm": {
+          "annual": 150000,
+          "total": 300000,
+          "duration_years": 2
+        },
+        "MPT": {
+          "annual": 185950,
+          "total": 371900,
+          "duration_years": 2
+        },
+        "M.Sc": {
+          "annual": 114050,
+          "total": 228100,
+          "duration_years": 2
+        }
+      },
+      "nirf_ranking": "Not ranked",
+      "naac_grade": "A",
+      "placement_rate": 90,
+      "average_package": 450000,
+      "highest_package": null,
+      "entrance_exams": [
+        "NEET",
+        "University Entrance"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library",
+        "Labs",
+        "Sports",
+        "Hospital",
+        "Placement Cell",
+        "Cafeteria"
+      ],
+      "website": "https://sbsuniversity.edu.in",
+      "phone": null,
+      "email": null,
+      "hostel_available": true,
+      "hostel_fee_annual": 104000
+    },
+    {
+      "university_name": "Ras Bihari Bose Subharti University",
+      "abbreviation": "RBBSU",
+      "also_known_as": [
+        "Subharti University Dehradun",
+        "RBBSU Dehradun"
+      ],
+      "city": "Dehradun",
+      "district": "Dehradun",
+      "institution_type": "Private",
+      "institution_subtype": "Private University",
+      "established": 2016,
+      "courses_offered": [
+        "B.Sc Nursing",
+        "B.Sc Nursing (Post Basic)",
+        "BPT",
+        "B.Sc MLT",
+        "B.Sc Radiology",
+        "B.Ed",
+        "D.El.Ed",
+        "BBA",
+        "BCA",
+        "B.Com",
+        "MBA",
+        "MCA",
+        "D.Pharm",
+        "BNYS",
+        "GNM (General Nursing & Midwifery)",
+        "ANM (Auxiliary Nursing)"
+      ],
+      "fees": {
+        "B.Sc Nursing": {
+          "annual": 108000,
+          "total": 432000,
+          "duration_years": 4
+        },
+        "BPT": {
+          "annual": 100000,
+          "total": 450000,
+          "duration_years": 4
+        },
+        "B.Ed": {
+          "annual": 64500,
+          "total": 129000,
+          "duration_years": 2
+        },
+        "BBA": {
+          "annual": 50000,
+          "total": 150000,
+          "duration_years": 3
+        },
+        "BCA": {
+          "annual": 50000,
+          "total": 150000,
+          "duration_years": 3
+        },
+        "B.Com": {
+          "annual": 35000,
+          "total": 105000,
+          "duration_years": 3
+        },
+        "MBA": {
+          "annual": 77000,
+          "total": 154000,
+          "duration_years": 2
+        },
+        "D.Pharm": {
+          "annual": 80000,
+          "total": 160000,
+          "duration_years": 2
+        }
+      },
+      "nirf_ranking": "Not ranked",
+      "naac_grade": "Not accredited",
+      "placement_rate": null,
+      "average_package": 425000,
+      "highest_package": null,
+      "entrance_exams": [
+        "NEET",
+        "University Entrance",
+        "Merit-based"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library",
+        "Labs",
+        "Sports",
+        "Placement Cell",
+        "Cafeteria",
+        "Transport"
+      ],
+      "website": "https://rbbsu.edu.in",
+      "phone": null,
+      "email": null,
+      "hostel_available": true,
+      "hostel_fee_annual": 100000
+    },
+    {
+      "university_name": "Bhagwant Global University",
+      "abbreviation": "BGU",
+      "also_known_as": [
+        "BGU Kotdwar",
+        "Bhagwant University"
+      ],
+      "city": "Kotdwar",
+      "district": "Pauri Garhwal",
+      "institution_type": "Private",
+      "institution_subtype": "Private University",
+      "established": 2016,
+      "courses_offered": [
+        "B.Tech CSE",
+        "B.Tech ECE",
+        "B.Tech ME",
+        "B.Tech Civil",
+        "BCA",
+        "BBA",
+        "B.Com",
+        "B.Sc Physics",
+        "B.Sc Chemistry",
+        "B.Sc Mathematics",
+        "B.Sc Computer Science",
+        "B.Sc Agriculture",
+        "B.Pharm",
+        "D.Pharm",
+        "MBA",
+        "MCA"
+      ],
+      "fees": {
+        "B.Tech": {
+          "annual": 95000,
+          "total": 380000,
+          "duration_years": 4
+        },
+        "BCA": {
+          "annual": 36000,
+          "total": 108000,
+          "duration_years": 3
+        },
+        "BBA": {
+          "annual": 45000,
+          "total": 135000,
+          "duration_years": 3
+        },
+        "B.Sc Agriculture": {
+          "annual": 77800,
+          "total": 311200,
+          "duration_years": 4
+        },
+        "D.Pharm": {
+          "annual": 80000,
+          "total": 160000,
+          "duration_years": 2
+        },
+        "MBA": {
+          "annual": 95000,
+          "total": 190000,
+          "duration_years": 2
+        },
+        "B.Sc": {
+          "annual": 40000,
+          "total": 120000,
+          "duration_years": 3
+        }
+      },
+      "nirf_ranking": "Not ranked",
+      "naac_grade": "Not accredited",
+      "placement_rate": 91,
+      "average_package": null,
+      "highest_package": null,
+      "entrance_exams": [
+        "BGU Entrance Exam",
+        "Merit-based"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library",
+        "Labs",
+        "Sports",
+        "Cafeteria",
+        "Transport",
+        "IT Infrastructure"
+      ],
+      "website": "https://www.bgukotdwar.ac.in",
+      "phone": null,
+      "email": null,
+      "hostel_available": true,
+      "hostel_fee_annual": null
+    }
+  ]
+}

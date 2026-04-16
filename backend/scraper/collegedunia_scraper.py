@@ -8,7 +8,8 @@ from bs4 import BeautifulSoup
 from tqdm import tqdm
 from scraper.base_scraper import BaseScraper
 from scraper.config import (
-    COLLEGEDUNIA_LISTING, COLLEGEDUNIA_CAREERS,
+    COLLEGEDUNIA_LISTING, COLLEGEDUNIA_EXTRA_LISTINGS,
+    COLLEGEDUNIA_CAREERS,
     COLLEGEDUNIA_EXAMS, COLLEGEDUNIA_SCHOLARSHIPS,
 )
 
@@ -78,47 +79,54 @@ class CollegeduniaScraper(BaseScraper):
 
     async def _collect_college_urls(self, page) -> list[str]:
         urls_set = set()
-        page_num = 1
-        while page_num <= 10:
-            listing_url = COLLEGEDUNIA_LISTING if page_num == 1 else f"{COLLEGEDUNIA_LISTING}?page={page_num}"
-            if not await self.safe_goto(page, listing_url):
-                break
 
-            # Try clicking "Load More" if present
-            for _ in range(5):
-                try:
-                    load_more = await page.query_selector("button:has-text('Load More'), a:has-text('Load More')")
-                    if load_more:
-                        await load_more.click()
-                        await page.wait_for_timeout(2000)
-                    else:
-                        break
-                except Exception:
+        # All listing URLs: main listing + category-specific pages
+        all_listings = [COLLEGEDUNIA_LISTING] + COLLEGEDUNIA_EXTRA_LISTINGS
+
+        for listing_base in all_listings:
+            page_num = 1
+            while page_num <= 8:  # up to 8 pages per listing
+                listing_url = listing_base if page_num == 1 else f"{listing_base}{'&' if '?' in listing_base else '?'}page={page_num}"
+                if not await self.safe_goto(page, listing_url):
                     break
 
-            html = await page.content()
-            soup = BeautifulSoup(html, "lxml")
+                # Try clicking "Load More" if present
+                for _ in range(2):
+                    try:
+                        load_more = await page.query_selector("button:has-text('Load More'), a:has-text('Load More')")
+                        if load_more:
+                            await load_more.click()
+                            await page.wait_for_timeout(1500)
+                        else:
+                            break
+                    except Exception:
+                        break
 
-            links = set()
-            for a in soup.select("a[href*='/college/']"):
-                href = a.get("href", "")
-                if href and "/college/" in href and "uttarakhand" not in href.split("/college/")[1][:20]:
-                    if not href.startswith("http"):
-                        href = f"https://collegedunia.com{href}"
-                    # Normalize to base college URL (strip /fees, /reviews, etc.)
-                    base_url = self._normalize_college_url(href)
-                    links.add(base_url)
+                html = await page.content()
+                soup = BeautifulSoup(html, "lxml")
 
-            if not links:
-                break
+                links = set()
+                for a in soup.select("a[href*='/college/']"):
+                    href = a.get("href", "")
+                    if href and "/college/" in href:
+                        if not href.startswith("http"):
+                            href = f"https://collegedunia.com{href}"
+                        base_url = self._normalize_college_url(href)
+                        links.add(base_url)
 
-            before = len(urls_set)
-            urls_set.update(links)
-            if len(urls_set) == before:
-                break
-            page_num += 1
+                if not links:
+                    break
 
-        logger.info(f"[collegedunia] Deduplicated to {len(urls_set)} unique college URLs")
+                before = len(urls_set)
+                urls_set.update(links)
+                # No new URLs found on this page — stop paginating this listing
+                if len(urls_set) == before:
+                    break
+                page_num += 1
+
+            logger.info(f"[collegedunia] After {listing_base.split('/')[-1] or 'main'}: {len(urls_set)} unique URLs")
+
+        logger.info(f"[collegedunia] Total deduplicated: {len(urls_set)} unique college URLs")
         return list(urls_set)
 
     async def _extract_college(self, page, url: str) -> dict:
@@ -142,8 +150,22 @@ class CollegeduniaScraper(BaseScraper):
         city = self._extract_city(soup, url=url, name=name)
         inst_type, ownership, subtype = self._extract_type_full(soup)
         courses, fees = self._extract_courses_fees(soup)
+        # Try extracting total fees from the main page
+        total_fees = self._extract_total_fees(soup)
+        if total_fees:
+            for course, amount in total_fees.items():
+                fees[course] = amount
+
         placement_rate, avg_pkg, high_pkg = self._extract_placements(soup)
         ranking = self._extract_ranking(soup)
+
+        # If no valid ranking found, try the /ranking sub-page (quick check, no retry)
+        if ranking == "Not Available":
+            ranking_url = url.rstrip("/") + "/ranking"
+            if await self.safe_goto_once(page, ranking_url):
+                ranking_html = await page.content()
+                ranking_soup = BeautifulSoup(ranking_html, "lxml")
+                ranking = self._extract_ranking(ranking_soup)
         exams = self._extract_exams(soup)
         facilities = self._extract_facilities(soup)
         website = self._extract_website(soup)
@@ -151,7 +173,7 @@ class CollegeduniaScraper(BaseScraper):
         # If no phone/email found, try visiting the /contact sub-page
         if not phone or not email:
             contact_url = url.rstrip("/") + "/contact"
-            if await self.safe_goto(page, contact_url):
+            if await self.safe_goto_once(page, contact_url):
                 contact_html = await page.content()
                 contact_soup = BeautifulSoup(contact_html, "lxml")
                 cp, ce = self._extract_contact(contact_soup)
@@ -168,25 +190,25 @@ class CollegeduniaScraper(BaseScraper):
 
         return {
             "college_name": name,
-            "city": city,
-            "institution_type": inst_type,
-            "institution_subtype": subtype,
-            "ownership": ownership,
-            "courses_offered": courses,
-            "fees": fees,
-            "eligibility": eligibility,
-            "admission_process": admission_process,
-            "entrance_exam": exams,
+            "city": city or "Not Available",
+            "institution_type": inst_type or "Not Available",
+            "institution_subtype": subtype or "Not Available",
+            "ownership": ownership or "Not Available",
+            "courses_offered": courses if courses else [],
+            "fees": fees if fees else {},
+            "eligibility": eligibility or "Not Available",
+            "admission_process": admission_process or "Not Available",
+            "entrance_exam": exams if exams else [],
             "placement_rate": placement_rate,
             "average_package": avg_pkg,
             "highest_package": high_pkg,
-            "ranking": ranking,
-            "facilities": facilities,
-            "website": website,
-            "phone_number": phone,
-            "email": email,
-            "admission_open_date": admission_open,
-            "application_deadline": deadline,
+            "ranking": ranking or "Not Available",
+            "facilities": facilities if facilities else [],
+            "website": website or "Not Available",
+            "phone_number": phone or "Not Available",
+            "email": email or "Not Available",
+            "admission_open_date": admission_open or "Not Available",
+            "application_deadline": deadline or "Not Available",
         }
 
     @staticmethod
@@ -398,6 +420,74 @@ class CollegeduniaScraper(BaseScraper):
 
         return list(courses), fees
 
+    def _extract_total_fees(self, soup: BeautifulSoup) -> dict:
+        """Extract total course fees from the /courses-fees page.
+        Collegedunia shows tables with 'Total Fees' or 'Course Fee' columns.
+        We look for the highest fee per course (total > annual).
+        """
+        total_fees = {}
+        known_courses = [
+            "B.Tech", "M.Tech", "MBA", "BBA", "BCA", "MCA", "MBBS", "BDS",
+            "B.Sc", "M.Sc", "B.Com", "M.Com", "B.Arch", "LLB", "B.Pharm",
+            "M.Pharm", "Ph.D", "BA", "MA", "B.Ed", "BPT", "B.Sc Nursing",
+        ]
+
+        # Strategy 1: Look for rows with "Total Fees" or "Total Course Fee" text
+        for row in soup.select("tr, .fee-row, [class*='feeRow'], [class*='course-fee'], [class*='courseFee']"):
+            row_text = row.get_text(" ", strip=True)
+            # Check if this row mentions "total" fees
+            has_total = bool(re.search(r'total\s*(?:fee|course\s*fee)', row_text, re.IGNORECASE))
+
+            for course in known_courses:
+                if course.lower() in row_text.lower():
+                    # Find ALL fee values in this row
+                    fee_matches = re.findall(
+                        r'(?:INR|Rs\.?|₹)\s*([\d,\.]+)\s*(lakh|lac|L|crore|cr|K)?',
+                        row_text, re.IGNORECASE
+                    )
+                    if not fee_matches:
+                        # Also try plain number patterns like "4,50,000"
+                        fee_matches = re.findall(
+                            r'([\d,]+(?:\.\d+)?)\s*(lakh|lac|L|crore|cr|K)?',
+                            row_text, re.IGNORECASE
+                        )
+
+                    best_fee = 0
+                    for amount_str, unit in fee_matches:
+                        try:
+                            amount = float(amount_str.replace(",", ""))
+                            unit_lower = (unit or "").lower()
+                            if unit_lower in ("lakh", "lac", "l"):
+                                amount *= 100_000
+                            elif unit_lower in ("crore", "cr"):
+                                amount *= 10_000_000
+                            elif unit_lower == "k":
+                                amount *= 1_000
+                            # Valid fee range: 1K to 1 crore
+                            if 1000 <= amount <= 10_000_000:
+                                # If row mentions "total", take the largest value
+                                # Otherwise take the largest as it's likely total
+                                if amount > best_fee:
+                                    best_fee = int(amount)
+                        except ValueError:
+                            continue
+
+                    if best_fee > 0:
+                        # Only update if this is larger than existing (total > annual)
+                        if course not in total_fees or best_fee > total_fees[course]:
+                            total_fees[course] = best_fee
+
+        # Strategy 2: Look for specific "Total Fees" labeled elements
+        for el in soup.select("[class*='totalFee'], [class*='total-fee'], .total_fees"):
+            text = el.get_text(" ", strip=True)
+            for course in known_courses:
+                if course.lower() in text.lower():
+                    fee_val = self._parse_fee_from_text(text)
+                    if fee_val and (course not in total_fees or fee_val > total_fees[course]):
+                        total_fees[course] = fee_val
+
+        return total_fees
+
     def _parse_fee_from_text(self, text: str) -> int | None:
         match = re.search(
             r'(?:INR|Rs\.?|₹)\s*([\d,\.]+)\s*(lakh|lac|L|LPA|crore|cr|K)?',
@@ -485,16 +575,24 @@ class CollegeduniaScraper(BaseScraper):
     def _extract_ranking(self, soup: BeautifulSoup) -> str:
         text = soup.get_text()
 
-        # NIRF patterns
+        # NIRF patterns — must capture actual rank (1-500), NOT a year (2019-2030)
         nirf_patterns = [
+            # "NIRF Ranking #45" or "NIRF Rank: 45"
             r'NIRF\s*(?:ranking|rank|rated?)?\s*[:\-#]?\s*#?\s*(\d+)',
+            # "Ranked #45 by NIRF" or "Ranked 45 in NIRF"
             r'(?:ranked?|#)\s*(\d+)\s*(?:by|in)\s*NIRF',
-            r'NIRF\s*\d{4}\s*[:\-]?\s*#?\s*(\d+)',
+            # "NIRF 2024: #45" or "NIRF 2025 Rank 45"
+            r'NIRF\s*\d{4}\s*[:\-]?\s*(?:rank(?:ing)?\s*)?#?\s*(\d+)',
+            # "NIRF 2024 Ranking: 45th"
+            r'NIRF\s*\d{4}\s*ranking\s*[:\-]?\s*(\d+)',
         ]
         for pattern in nirf_patterns:
             match = re.search(pattern, text, re.IGNORECASE)
             if match:
-                return f"NIRF #{match.group(1)}"
+                rank_num = int(match.group(1))
+                # Filter out years (2000-2030) — real NIRF ranks are 1-500
+                if 1 <= rank_num <= 500 and not (2000 <= rank_num <= 2030):
+                    return f"NIRF #{rank_num}"
 
         # NAAC grade
         naac_match = re.search(r'NAAC\s*(?:grade|accredit(?:ed|ation))?\s*[:\-]?\s*([A-Za-z+]+(?:\+\+?)?)', text, re.IGNORECASE)
@@ -507,7 +605,7 @@ class CollegeduniaScraper(BaseScraper):
         if re.search(r'\bNBA\s+accredit', text, re.IGNORECASE):
             return "NBA Accredited"
 
-        return ""
+        return "Not Available"
 
     def _extract_exams(self, soup: BeautifulSoup) -> list[str]:
         exams = set()

@@ -8,6 +8,7 @@ import { Target, ArrowRight } from 'lucide-react'
 
 // Stream options vary based on class selection
 const STREAM_OPTIONS_SCHOOL = ['PCM', 'PCB', 'Commerce', 'Arts', 'Not decided yet']
+const STREAM_OPTIONS_EARLY = ['Science interests me', 'Commerce interests me', 'Arts interests me', 'Not sure yet — help me decide!']
 const STREAM_OPTIONS_GRADUATE = [
   'Engineering / B.Tech',
   'Medical / MBBS / BDS',
@@ -18,6 +19,13 @@ const STREAM_OPTIONS_GRADUATE = [
   'Commerce / CA / CS',
   'Science / M.Sc',
   'Education / B.Ed',
+  'Other',
+]
+const STREAM_OPTIONS_PROFESSIONAL = [
+  'Career change',
+  'Higher studies (MBA / M.Tech / etc.)',
+  'Government exams (UPSC / State PCS)',
+  'Skill upgrade / Certifications',
   'Other',
 ]
 
@@ -31,7 +39,7 @@ const STEPS = [
   {
     id: 'class',
     question: 'Aap abhi kaunsi class mein ho?',
-    options: ['10th', '12th', 'Graduate', 'Other'],
+    options: ['8th', '9th', '10th', '12th', 'Graduate', 'Working Professional'],
     key: 'current_class',
   },
   {
@@ -81,9 +89,17 @@ export default function OnboardingPage() {
           question:
             userProfile.current_class === 'Graduate'
               ? 'Aapka field of study kya hai?'
+              : userProfile.current_class === 'Working Professional'
+              ? 'Aap kya explore karna chahte ho?'
+              : userProfile.current_class === '8th' || userProfile.current_class === '9th'
+              ? 'Kaunsa subject area aapko zyada pasand hai?'
               : rawStep.question,
           options:
-            userProfile.current_class === 'Graduate' || userProfile.current_class === 'Other'
+            userProfile.current_class === '8th' || userProfile.current_class === '9th'
+              ? STREAM_OPTIONS_EARLY
+              : userProfile.current_class === 'Working Professional'
+              ? STREAM_OPTIONS_PROFESSIONAL
+              : userProfile.current_class === 'Graduate'
               ? STREAM_OPTIONS_GRADUATE
               : STREAM_OPTIONS_SCHOOL,
         }

@@ -1,3 +1,238 @@
 {
-  "scholarships": []
+  "scholarships": [
+    {
+      "name": "National Scholarship Portal (NSP) - Post Matric Scholarship for SC Students",
+      "type": "Government (Central)",
+      "category": "SC (Scheduled Caste) students studying in Class 11 and above including UG, PG, Professional courses",
+      "amount": "Maintenance allowance INR 3,500-13,500/year + full tuition fees (for family income below INR 2.5 lakh/year)",
+      "eligibility": "SC category student. Family annual income below INR 2,50,000. Secured 50% or more in previous exam. Must be studying in a recognized institution.",
+      "apply_at": "https://scholarships.gov.in (National Scholarship Portal)",
+      "deadline": "Usually October-November every year. Check NSP portal for exact dates."
+    },
+    {
+      "name": "National Scholarship Portal (NSP) - Post Matric Scholarship for ST Students",
+      "type": "Government (Central)",
+      "category": "ST (Scheduled Tribe) students studying in Class 11 and above including UG, PG, Professional courses",
+      "amount": "Maintenance allowance INR 3,500-13,500/year + full tuition fees + book grant (for family income below INR 2.5 lakh/year). Hostellers get higher maintenance allowance.",
+      "eligibility": "ST category student. Family annual income below INR 2,50,000. Secured 50% or more in previous exam. Must be studying in a recognized institution.",
+      "apply_at": "https://scholarships.gov.in (National Scholarship Portal)",
+      "deadline": "Usually October-November every year. Check NSP portal for exact dates."
+    },
+    {
+      "name": "National Scholarship Portal (NSP) - Post Matric Scholarship for OBC Students",
+      "type": "Government (Central)",
+      "category": "OBC (Other Backward Classes) students studying in Class 11 and above",
+      "amount": "Maintenance allowance up to INR 1,000/month for hostellers + tuition fees (for family income below INR 1.5 lakh/year)",
+      "eligibility": "OBC (Non-Creamy Layer) student. Family annual income below INR 1,50,000. Must have passed previous exam. Studying in recognized institution.",
+      "apply_at": "https://scholarships.gov.in (National Scholarship Portal)",
+      "deadline": "Usually September-November every year."
+    },
+    {
+      "name": "Central Sector Scheme of Scholarship for College & University Students",
+      "type": "Government (Central)",
+      "category": "Meritorious students from families with income below INR 8 lakh/year pursuing UG and PG courses",
+      "amount": "INR 12,000/year for UG (first 3 years), INR 20,000/year for PG. Total: up to INR 56,000 over UG+PG. Increased amount for professional courses.",
+      "eligibility": "Must be in top 20% of 12th board results. Family annual income below INR 8,00,000. Not receiving any other scholarship. Admitted to recognized UG/PG college.",
+      "apply_at": "https://scholarships.gov.in (National Scholarship Portal)",
+      "deadline": "Usually October-November every year."
+    },
+    {
+      "name": "Prime Minister's Scholarship Scheme (PMSS) for Central Armed Police Forces & Assam Rifles",
+      "type": "Government (Central)",
+      "category": "Children/widows of CAPF & Assam Rifles personnel (martyred/disabled/ex-servicemen) pursuing professional degree courses",
+      "amount": "INR 3,000/month for boys, INR 3,600/month for girls (for professional UG courses like MBBS, B.Tech, BBA, BCA, B.Pharm, Nursing etc.)",
+      "eligibility": "Ward/widow of CAPF/AR personnel. Minimum 60% in 12th or graduation (for PG courses). Pursuing professional degree from recognized institution. Age below 25 years.",
+      "apply_at": "https://scholarships.gov.in (National Scholarship Portal) or KSB (Kendriya Sainik Board) portal",
+      "deadline": "Usually October-December every year."
+    },
+    {
+      "name": "Uttarakhand State Merit Scholarship",
+      "type": "Government (State - Uttarakhand)",
+      "category": "Meritorious students of Uttarakhand domicile studying in Class 11 onwards and higher education",
+      "amount": "INR 6,000-12,000/year depending on course level (UG/PG). Additional hostel allowance for students from hill districts.",
+      "eligibility": "Uttarakhand domicile. Passed 10th/12th with 80%+ marks from Uttarakhand Board or CBSE. Family income below INR 3,60,000/year. Admitted to recognized institution.",
+      "apply_at": "https://scholarships.uk.gov.in (Uttarakhand Scholarship Portal) or through college",
+      "deadline": "Varies by year. Usually September-November. Check state portal."
+    },
+    {
+      "name": "Uttarakhand SC/ST/OBC Scholarship",
+      "type": "Government (State - Uttarakhand)",
+      "category": "SC/ST/OBC students of Uttarakhand domicile pursuing education from Class 11 to Post-Graduation",
+      "amount": "Full tuition fee reimbursement + maintenance allowance INR 2,000-5,000/month for hostellers. Book and stationery grant included.",
+      "eligibility": "Uttarakhand domicile with SC/ST/OBC certificate. Family income criteria varies by category (below INR 2-2.5 lakh/year). Must be pursuing regular full-time course.",
+      "apply_at": "https://scholarships.uk.gov.in or Social Welfare Department, Uttarakhand",
+      "deadline": "Varies by year. Apply as soon as admission is confirmed."
+    },
+    {
+      "name": "Uttarakhand Chief Minister's Medhavi Chhatra Protsahan Yojana",
+      "type": "Government (State - Uttarakhand)",
+      "category": "Brilliant students from economically weaker families in Uttarakhand pursuing higher education",
+      "amount": "INR 12,000-50,000/year depending on course (higher for professional courses like MBBS, B.Tech, MBA). Covers tuition and books.",
+      "eligibility": "Uttarakhand domicile. Scored 80%+ in 12th board exam. Family income below INR 4,80,000/year. Must be admitted to a recognized UG/PG program. No arrears/backlogs.",
+      "apply_at": "https://scholarships.uk.gov.in or Higher Education Department, Uttarakhand",
+      "deadline": "Usually October-November every year."
+    },
+    {
+      "name": "INSPIRE Scholarship (Innovation in Science Pursuit for Inspired Research)",
+      "type": "Government (Central - DST)",
+      "category": "Students pursuing B.Sc / B.S. / Integrated M.Sc in Natural & Basic Sciences who are top 1% in 12th board exams",
+      "amount": "INR 80,000/year for 5 years (INR 60,000 scholarship + INR 20,000 summer research project). Total: up to INR 4,00,000.",
+      "eligibility": "Must be in top 1% of Class 12 board exam OR scored 60%+ in KVPY/JEE Advanced/NEET. Pursuing B.Sc/BS/Integrated M.Sc in Natural Sciences (Physics, Chemistry, Mathematics, Biology, Statistics, Geology, Astrophysics, etc.) at a recognized university.",
+      "apply_at": "https://online-inspire.gov.in (DST INSPIRE Portal)",
+      "deadline": "Usually September-October every year."
+    },
+    {
+      "name": "AICTE Pragati Scholarship for Girls",
+      "type": "Government (Central - AICTE)",
+      "category": "Girl students admitted to AICTE-approved technical courses (B.Tech, B.Pharm, B.Arch, MBA, MCA etc.)",
+      "amount": "INR 50,000/year for up to 4 years (covers tuition fees, books, laptops, etc.)",
+      "eligibility": "Girl student admitted to AICTE-approved 1st year technical course. Family income below INR 8,00,000/year. Only 2 girl children per family can avail. Must not be receiving any other scholarship.",
+      "apply_at": "https://scholarships.gov.in (National Scholarship Portal — under AICTE schemes)",
+      "deadline": "Usually November-December every year."
+    },
+    {
+      "name": "AICTE Saksham Scholarship for Differently Abled Students",
+      "type": "Government (Central - AICTE)",
+      "category": "Differently abled students admitted to AICTE-approved technical degree/diploma programs",
+      "amount": "INR 50,000/year for up to 4 years",
+      "eligibility": "Differently abled student (minimum 40% disability) admitted to AICTE-approved degree/diploma program. Family income below INR 8,00,000/year.",
+      "apply_at": "https://scholarships.gov.in (National Scholarship Portal — under AICTE schemes)",
+      "deadline": "Usually November-December every year."
+    },
+    {
+      "name": "KVPY Fellowship (now merged with INSPIRE)",
+      "type": "Government (Central - DST/IISc)",
+      "category": "Students pursuing basic science courses (B.Sc/BS/Integrated M.Sc) at recognized institutions",
+      "amount": "INR 5,000-7,000/month fellowship + annual contingency grant of INR 20,000-28,000. Valid up to pre-PhD level.",
+      "eligibility": "Now part of INSPIRE SHE scheme. Top performers in 12th board (top 1% in Science stream) pursuing basic sciences. Earlier KVPY exam is discontinued — eligibility now through board exam marks.",
+      "apply_at": "https://online-inspire.gov.in (merged with INSPIRE scheme)",
+      "deadline": "Check INSPIRE portal for current deadlines."
+    },
+    {
+      "name": "Aam Aadmi Bima Yojana (AABY) Scholarship",
+      "type": "Government (Central)",
+      "category": "Children of rural landless households studying in Class 9-12",
+      "amount": "INR 1,200/year for Class 9-12 students (2 children per family)",
+      "eligibility": "Parent must be a member of AABY (below poverty line, rural landless household). Student in Class 9-12 in recognized school.",
+      "apply_at": "Through LIC office or State Nodal Agency. Also available on NSP.",
+      "deadline": "Rolling basis. Apply through LIC district office."
+    },
+    {
+      "name": "Begum Hazrat Mahal National Scholarship for Minority Girls",
+      "type": "Government (Central - MOMA)",
+      "category": "Muslim, Christian, Sikh, Buddhist, Jain, Parsi girl students studying in Class 9-12",
+      "amount": "INR 5,000/year for Class 9-10, INR 6,000/year for Class 11-12",
+      "eligibility": "Girl student from notified minority community. Studying in Class 9-12 in government or recognized school. Scored 50%+ in previous exam. Family annual income below INR 2,00,000.",
+      "apply_at": "https://scholarships.gov.in (National Scholarship Portal) or Maulana Azad Education Foundation website",
+      "deadline": "Usually September-November every year."
+    },
+    {
+      "name": "Pre-Matric Scholarship for Minority Students",
+      "type": "Government (Central - Ministry of Minority Affairs)",
+      "category": "Minority community students (Muslim, Christian, Sikh, Buddhist, Jain, Parsi) studying in Class 1-10",
+      "amount": "INR 1,000-10,700/year (Class 1-5: INR 1,000/year, Class 6-10: maintenance + admission fee + tuition fee)",
+      "eligibility": "Student from notified minority community. Family income below INR 1,00,000/year. Minimum 50% marks in previous exam. Must not be receiving any other scholarship.",
+      "apply_at": "https://scholarships.gov.in (National Scholarship Portal)",
+      "deadline": "Usually September-November every year."
+    },
+    {
+      "name": "Post-Matric Scholarship for Minority Students",
+      "type": "Government (Central - Ministry of Minority Affairs)",
+      "category": "Minority community students studying in Class 11 to PhD level",
+      "amount": "Maintenance allowance INR 5,500-13,500/year + full tuition/course fee (up to INR 3,00,000 for professional courses)",
+      "eligibility": "Student from notified minority community. Family income below INR 2,00,000/year. Secured 50%+ in previous exam. Studying in recognized institution in India.",
+      "apply_at": "https://scholarships.gov.in (National Scholarship Portal)",
+      "deadline": "Usually September-November every year."
+    },
+    {
+      "name": "NMMS (National Means-cum-Merit Scholarship)",
+      "type": "Government (Central - Ministry of Education)",
+      "category": "Economically weaker students studying in Class 9 in government schools to continue education up to Class 12",
+      "amount": "INR 12,000/year (INR 1,000/month) for 4 years (Class 9 to 12)",
+      "eligibility": "Student studying in Class 8 in government/government-aided/local body school. Scored 55%+ in Class 7 (50% for SC/ST). Family income below INR 3,50,000/year. Must clear NMMS selection exam.",
+      "apply_at": "https://scholarships.gov.in or through state education department (SCERT Uttarakhand)",
+      "deadline": "Exam usually conducted in November. Registration through school in August-September."
+    },
+    {
+      "name": "Reliance Foundation Scholarship",
+      "type": "Private (Corporate)",
+      "category": "UG students in STEM (Science, Technology, Engineering, Mathematics), Humanities, and Arts at recognized Indian universities",
+      "amount": "Up to INR 2,00,000/year covering tuition fees, hostel, books, and living expenses. Also includes mentoring and career guidance.",
+      "eligibility": "Indian citizen. Annual family income below INR 15,00,000. Must be admitted to/studying in 1st or 2nd year of UG program at a recognized university. Based on merit + financial need.",
+      "apply_at": "https://www.reliancefoundation.org/scholarships",
+      "deadline": "Usually June-August every year."
+    },
+    {
+      "name": "Tata Trusts Scholarship",
+      "type": "Private (Corporate - Tata Group)",
+      "category": "Economically disadvantaged students pursuing professional UG and PG courses across India",
+      "amount": "Up to INR 50,000-1,50,000/year depending on course and institution. Covers tuition, books, and maintenance.",
+      "eligibility": "Indian student pursuing professional degree (Engineering, Medical, Law, Management, etc.). Family income below INR 2,50,000/year. Must have secured admission to a recognized institution.",
+      "apply_at": "https://tatatrusts.org/our-work/individual-grants-programme or Buddy4Study platform",
+      "deadline": "Rolling basis through the year. Apply after securing admission."
+    },
+    {
+      "name": "Sitaram Jindal Foundation Scholarship",
+      "type": "Private (Corporate - Jindal Group)",
+      "category": "Meritorious students from low-income families pursuing education from Class 1 to Post-Graduation and Professional courses",
+      "amount": "INR 1,500-30,000/year depending on course level (higher for medical, engineering, MBA)",
+      "eligibility": "Indian student. Family income below INR 2,00,000/year. Secured 60%+ in previous exam. Pursuing regular full-time course.",
+      "apply_at": "https://www.sitaramjindalfoundation.org/scholarship-eligibility.php",
+      "deadline": "Usually August-September every year."
+    },
+    {
+      "name": "LIC Golden Jubilee Scholarship",
+      "type": "Private (Corporate - LIC)",
+      "category": "Students from economically weaker sections who have passed 10th/12th and pursuing higher studies",
+      "amount": "INR 20,000/year for students pursuing professional courses (Engineering, Medical, etc.). INR 10,000/year for other courses.",
+      "eligibility": "Family income below INR 1,50,000/year (INR 2,50,000 for special category students). Scored 60%+ in 10th/12th. Admitted to recognized institution.",
+      "apply_at": "https://www.licindia.in/bottom-links/golden-jubilee-scholarship or Buddy4Study",
+      "deadline": "Usually December-January every year."
+    },
+    {
+      "name": "Kishore Vaigyanik Protsahan Yojana (KVPY) — Now part of INSPIRE",
+      "type": "Government (Central - DST)",
+      "category": "Students with aptitude for scientific research pursuing B.Sc/BS/Integrated M.Sc",
+      "amount": "INR 5,000-7,000/month during UG + annual contingency grant. Can be continued during M.Sc and PhD with higher amounts.",
+      "eligibility": "Now integrated into INSPIRE SHE scheme. Students in top 1% of 12th board in science stream and enrolled in basic science UG course. Check INSPIRE portal for updated eligibility.",
+      "apply_at": "https://online-inspire.gov.in",
+      "deadline": "Check INSPIRE portal for annual deadlines."
+    },
+    {
+      "name": "AICTE PG Scholarship (GATE/GPAT Qualified)",
+      "type": "Government (Central - AICTE)",
+      "category": "GATE/GPAT qualified students admitted to AICTE-approved M.Tech/M.E./M.Pharm programs",
+      "amount": "INR 12,400/month for 24 months (M.Tech/M.E./M.Pharm). Total: up to INR 2,97,600 over 2 years.",
+      "eligibility": "Valid GATE/GPAT score. Admitted to AICTE-approved M.Tech/M.E./M.Pharm full-time program. Must maintain minimum attendance and academic performance.",
+      "apply_at": "Through the admitting institution. AICTE disburses directly to student's bank account.",
+      "deadline": "Automatic upon admission with valid GATE/GPAT score."
+    },
+    {
+      "name": "Uttarakhand Girl Child Incentive Scheme (Nanda Gaura Devi Kanya Dhan Yojana)",
+      "type": "Government (State - Uttarakhand)",
+      "category": "Girl students from BPL families in Uttarakhand who pass 12th board exam",
+      "amount": "INR 51,000 as one-time grant after passing Class 12. Some revisions may increase amount.",
+      "eligibility": "Girl student of Uttarakhand domicile. From BPL (Below Poverty Line) family. Passed 12th board exam from Uttarakhand Board. SC/ST girls have additional benefits. Must be unmarried.",
+      "apply_at": "Through school/college or District Social Welfare Office. Also available on Uttarakhand e-District portal.",
+      "deadline": "Within 6 months of passing 12th board exam."
+    },
+    {
+      "name": "HDFC Bank Parivartan ECS Scholarship",
+      "type": "Private (Corporate - HDFC Bank)",
+      "category": "Students from underprivileged backgrounds pursuing school education (Class 1-12), UG, PG, diploma, and professional courses",
+      "amount": "Up to INR 75,000/year for school students. Up to INR 1,20,000/year for UG/PG students. Up to INR 1,50,000/year for professional course students.",
+      "eligibility": "Indian citizen. Family income below INR 8,00,000/year. Scored 55%+ in previous exam (50% for Class 6-12). Not receiving any other scholarship. Preference to women, differently abled, and marginalized communities.",
+      "apply_at": "https://www.buddy4study.com/page/hdfc-bank-parivartan-ecs-scholarship",
+      "deadline": "Usually August-October every year."
+    },
+    {
+      "name": "MCM Scholarship (Merit cum Means Scholarship - UGC)",
+      "type": "Government (Central - UGC)",
+      "category": "Meritorious students from economically weaker sections pursuing professional & technical courses at UGC-recognized universities",
+      "amount": "Full tuition fee reimbursement + INR 1,000/month maintenance (hostellers: INR 2,000/month). Maximum INR 2,00,000/year.",
+      "eligibility": "Admitted to UGC-recognized university in professional course. Family income below INR 4,50,000/year. Must have scored 50%+ in qualifying exam. Admission through merit-based selection.",
+      "apply_at": "Through university/college. UGC allocates slots to universities.",
+      "deadline": "Usually October-November every year."
+    }
+  ]
 }
